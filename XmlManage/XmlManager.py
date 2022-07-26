@@ -36,4 +36,4 @@ class XmlManager:
         Verify if the xml file is the write one for the usecase
         :return:
         """
-        raise "Check xml file not implemented"
+        raise NotImplementedError("Check xml file not implemented")
