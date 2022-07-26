@@ -31,3 +31,11 @@ class XmlManager:
         :return:
         """
         self.get_root().find(name)
+
+
+    def check_xml_file(self):
+        """
+        Verify if the xml file is the write one for the usecase
+        :return:
+        """
+        raise "Check xml file not implemented"
