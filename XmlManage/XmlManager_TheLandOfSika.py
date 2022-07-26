@@ -4,8 +4,9 @@ from XmlManage.XmlManager import XmlManager
 
 class XmlManagerTheLandOfSika(XmlManager):
     manager_name = "TheLandOfSika"
-    def __init__(self,file_path):
-       XmlManager.__init__(self,file_path)
+
+    def __init__(self, file_path):
+        XmlManager.__init__(self, file_path)
 
     def check_xml_file(self):
         if not self.get_nodes("strings"):
