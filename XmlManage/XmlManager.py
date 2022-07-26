@@ -24,12 +24,12 @@ class XmlManager:
         """
         return self.xml_object_parse.getroot()
 
-    def get_nodes(self, name):
+    def get_nodes(self, name) -> ET.Element:
         """
         Return the nodes specify by name
         :return:
         """
-        self.get_root().find(name)
+        return self.get_root().find(name)
 
     def check_xml_file(self):
         """
