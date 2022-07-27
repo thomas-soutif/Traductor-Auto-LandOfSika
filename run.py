@@ -1,7 +1,8 @@
 import json
 import logging
+import os.path
 from json import JSONDecodeError
-
+from source.FileManager.DynamicVariablesFileManager import DynamicVariablesFileManager
 import click
 
 from config import BASE_DIR
@@ -27,7 +28,7 @@ def run(file_path: str):
             print(f"{variable} ==> ")
             value_enter_by_user = input()
             dynamic_variables_and_value_enter.update({variable: value_enter_by_user})
-
+        DynamicVariablesFileManager(file_path=BASE_DIR)
     print(dynamic_variables_and_value_enter)
     exit()
     for node in xml_manager.get_all_translate_nodes():
