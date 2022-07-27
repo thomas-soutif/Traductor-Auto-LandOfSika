@@ -1,4 +1,6 @@
+import io
 import xml.etree.ElementTree as ET
+from io import BytesIO
 
 
 class XmlManager:
@@ -7,15 +9,18 @@ class XmlManager:
 
     def __init__(self, file_path: str):
         self.file_path = file_path
+        self._register_all_namespaces()
         self._load_xml_from_file_path(self.file_path)
+
+    def _register_all_namespaces(self):
+        namespaces = dict([node for _, node in ET.iterparse(self.file_path, events=['start-ns'])])
+        for ns in namespaces:
+            ET.register_namespace(ns, namespaces[ns])
 
     def _load_xml_from_file_path(self, file_path):
         self.xml_object_parse = ET.parse(
             file_path
         )
-
-    def write_xml_to_file_path(self):
-        pass
 
     def get_root(self) -> ET.Element:
         """
@@ -30,6 +35,20 @@ class XmlManager:
         :return:
         """
         return self.get_root().find(name)
+
+    def save_file(self, path) -> io.BytesIO:
+        """
+        Save the xml file to the path specified
+        :param path:
+        :return: The plan file
+        """
+        bytes_object = None
+        with BytesIO() as f:
+            self.xml_object_parse.write(f, encoding="utf-8", xml_declaration=True)
+            bytes_object = BytesIO(f.getvalue())
+        with open(path, "wb") as f:
+            f.write(bytes_object.getbuffer())
+            return
 
     def check_xml_file(self):
         """
