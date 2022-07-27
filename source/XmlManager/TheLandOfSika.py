@@ -107,9 +107,24 @@ class XmlManagerTheLandOfSika(XmlManager):
         :return: The node with the text changed
         :
         """
+        if variable == "SETTLEMENT":
+            pass
         text = self.get_text_translate_node(node)
-        text = text.replace("{" + variable + "}", " {" + variable + "} ")
-        text = text.replace("{" + variable + "}", value)
+        accept_ponctuation = [",",".","?","!"," "]
+        variable_braket = "{" + variable + "}"
+        pos_variable_bracket = text.find(variable_braket)
+        if pos_variable_bracket > 0:
+            if text[pos_variable_bracket - 1] not in accept_ponctuation:
+                variable_braket_space = " {" + variable
+            else:
+                variable_braket_space = "{" + variable
+            if pos_variable_bracket + 1 <= len(text) and text[pos_variable_bracket + len(variable_braket)] not in accept_ponctuation:
+                variable_braket_space += "} "
+            else:
+                variable_braket_space += "}"
+                text = text.replace(variable_braket, variable_braket_space)
+
+        text = text.replace(variable_braket, value)
         return self.set_text_translate_node(node, text)
 
     def reverse_dynamic_variable_for_node(self, node: ET.Element, value: str, variable: str):
