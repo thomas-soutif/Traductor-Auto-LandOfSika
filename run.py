@@ -55,7 +55,32 @@ def run(file_path: str):
     for node in xml_manager.get_all_translate_nodes():
         if not xml_manager.check_if_is_correct_translate_node(node):
             continue
-        xml_manager.set_text_translate_node(node, "ceci est un test")
+        list_dynamic_variable_node = xml_manager.get_dynamic_variable_of_node(node)
+        if list_dynamic_variable_node:
+            file_manager = DynamicVariablesFileManager(file_path=DYNAMIC_VARIABLES_FILE_PATH)
+            dynamic_variables_of_file_json = file_manager.get_json_data()
+            all_key_found = True
+            for key in list_dynamic_variable_node:
+                if not dynamic_variables_of_file_json.get(key):
+                    # We don't have the equivalent for the dynamic variable, cannot translate because it will not be accurage, ignore
+                    logging.warning(
+                        f"Could not translate  the text because the dynamic variable {key} was not set : {xml_manager.get_text_translate_node(node)}")
+                    all_key_found = False
+                node = xml_manager.set_dynamic_variable_for_node(node=node, variable=key,
+                                                                 value=dynamic_variables_of_file_json.get(key))
+            if not all_key_found:
+                continue
+        # translate
+        # not implemented yet
+
+        # reverse the dynamic variable replacement
+        if list_dynamic_variable_node:
+            file_manager = DynamicVariablesFileManager(file_path=DYNAMIC_VARIABLES_FILE_PATH)
+            dynamic_variables_of_file_json = file_manager.get_json_data()
+            for key in list_dynamic_variable_node:
+                node = xml_manager.reverse_dynamic_variable_for_node(node=node,
+                                                                     value=dynamic_variables_of_file_json.get(key),variable=key)
+
 
     xml_manager.save_file(file_path.replace(".xml", "") + "COPY.xml")
 
