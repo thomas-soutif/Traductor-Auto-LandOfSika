@@ -1,6 +1,10 @@
+import json
 import logging
+from json import JSONDecodeError
 
 import click
+
+from config import BASE_DIR
 from source.XmlManager.TheLandOfSika import XmlManagerTheLandOfSika
 
 
@@ -32,6 +36,8 @@ def run(file_path: str):
         xml_manager.set_text_translate_node(node, "ceci est un test")
 
     xml_manager.save_file(file_path.replace(".xml", "") + "COPY.xml")
+
+
 
 
 if __name__ == "__main__":
