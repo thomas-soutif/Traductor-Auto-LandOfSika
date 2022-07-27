@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ET
+import lxml.etree as ET
 from . import XmlManager
 from source.Exceptions import CheckFileXMLException
 
@@ -22,14 +22,14 @@ class XmlManagerTheLandOfSika(XmlManager):
 
     def get_all_translate_nodes(self) -> ET.Element:
         """
-        Get all the strings nodes
+        Get all the "strings" nodes
         :return:
         """
         return self.get_nodes("strings")
 
     def save_all_translate_nodes(self, nodes_string):
         """
-        Save all the nodes strings to the xml file
+        Save all the nodes "strings" to the xml file
         :param nodes_string:
         :return:
         """
@@ -40,7 +40,7 @@ class XmlManagerTheLandOfSika(XmlManager):
 
     def get_text_translate_node(self, node) -> str:
         """
-        Get the text content of a string node
+        Get the text content of a "string" node
         :param node:
         :return: The text of the node
         """
@@ -48,10 +48,20 @@ class XmlManagerTheLandOfSika(XmlManager):
 
     def set_text_translate_node(self, node, text) -> ET.Element:
         """
-        Set the text content of a string node
+        Set the text content of a "string" node
         :param node:
         :param text:
         :return: The new node
         """
         node.set("text", text)
         return node
+
+    def check_if_is_correct_translate_node(self, node):
+        """
+        Check if the node is a valid "string" node
+        :param node:
+        :return: True if the node is valid
+        """
+        if not node.items() or not node.get("text"):
+            return False
+        return True
