@@ -56,7 +56,7 @@ class XmlManagerTheLandOfSika(XmlManager):
         node.set("text", text)
         return node
 
-    def check_if_is_correct_translate_node(self, node):
+    def check_if_is_correct_translate_node(self, node) -> bool:
         """
         Check if the node is a valid "string" node
         :param node:
