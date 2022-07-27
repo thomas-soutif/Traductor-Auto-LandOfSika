@@ -1,3 +1,3 @@
-import os
+import pathlib
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = str(pathlib.Path(__file__).parent.resolve())
