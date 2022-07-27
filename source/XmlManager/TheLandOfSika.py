@@ -1,3 +1,5 @@
+import re
+
 import lxml.etree as ET
 from . import XmlManager
 from source.Exceptions import CheckFileXMLException
@@ -65,3 +67,32 @@ class XmlManagerTheLandOfSika(XmlManager):
         if not node.items() or not node.get("text"):
             return False
         return True
+
+    def get_list_dynamic_variable(self) -> [str]:
+        """
+        Get a list of the dynamic variable in the xml file, for example {PLAYER.NAME} , they should not be translate directly
+        :return: A list of string items
+        """
+        final_list = []
+        for node in self.get_all_translate_nodes():
+            match_result = self.get_dynamic_variable_of_node(node)
+            if not match_result:
+                continue
+            for match in match_result:
+                if match not in final_list:
+                    final_list.append(match)
+
+        return final_list
+
+
+    def get_dynamic_variable_of_node(self,node):
+        """
+        Return a list of dynamic variable of the node, for example {PLAYER.NAME}, they should not be translate directly
+        :param node:
+        :return: A list of string items
+        """
+        text = self.get_text_translate_node(node)
+        if not self.check_if_is_correct_translate_node(node):
+            return None
+        match_result = re.findall("\{(.*?)\}", text)
+        return match_result
