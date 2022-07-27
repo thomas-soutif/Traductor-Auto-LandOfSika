@@ -7,6 +7,7 @@ import click
 
 from config import BASE_DIR, DYNAMIC_VARIABLES_FILE_PATH
 from source.XmlManager.TheLandOfSika import XmlManagerTheLandOfSika
+from source.APITranslator.DeepL import DeepLTranslator
 
 
 @click.command(no_args_is_help=True)
@@ -15,6 +16,7 @@ def run(file_path: str):
     if not file_path:
         raise Exception("You must pass a xml file as first argument")
     xml_manager = XmlManagerTheLandOfSika(file_path=file_path)
+    deepL_translator = DeepLTranslator()
     # We check first if there is some dynamic variable to setup
 
     dynamic_variables = xml_manager.get_list_dynamic_variable()
@@ -51,7 +53,7 @@ def run(file_path: str):
             dynamic_variables_of_file = {}
         dynamic_variables_of_file.update(dynamic_variables_and_value_enter)
         file_manager.write_json_data(dynamic_variables_of_file)
-
+    print("\n Start to translate to your language")
     for node in xml_manager.get_all_translate_nodes():
         if not xml_manager.check_if_is_correct_translate_node(node):
             continue
@@ -71,6 +73,8 @@ def run(file_path: str):
             if not all_key_found:
                 continue
         # translate
+        translate_text = deepL_translator.translate_to_french(xml_manager.get_text_translate_node(node))
+        node = xml_manager.set_text_translate_node(node, translate_text)
         # not implemented yet
 
         # reverse the dynamic variable replacement
