@@ -79,8 +79,8 @@ def run(file_path: str):
             dynamic_variables_of_file_json = file_manager.get_json_data()
             for key in list_dynamic_variable_node:
                 node = xml_manager.reverse_dynamic_variable_for_node(node=node,
-                                                                     value=dynamic_variables_of_file_json.get(key),variable=key)
-
+                                                                     value=dynamic_variables_of_file_json.get(key),
+                                                                     variable=key)
 
     xml_manager.save_file(file_path.replace(".xml", "") + "COPY.xml")
 

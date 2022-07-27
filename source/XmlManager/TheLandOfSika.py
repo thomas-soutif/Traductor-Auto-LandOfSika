@@ -110,7 +110,7 @@ class XmlManagerTheLandOfSika(XmlManager):
         if variable == "SETTLEMENT":
             pass
         text = self.get_text_translate_node(node)
-        accept_ponctuation = [",",".","?","!"," "]
+        accept_ponctuation = [",", ".", "?", "!", " "]
         variable_braket = "{" + variable + "}"
         pos_variable_bracket = text.find(variable_braket)
         if pos_variable_bracket > 0:
@@ -118,7 +118,8 @@ class XmlManagerTheLandOfSika(XmlManager):
                 variable_braket_space = " {" + variable
             else:
                 variable_braket_space = "{" + variable
-            if pos_variable_bracket + 1 <= len(text) and text[pos_variable_bracket + len(variable_braket)] not in accept_ponctuation:
+            if pos_variable_bracket + 1 <= len(text) and text[
+                pos_variable_bracket + len(variable_braket)] not in accept_ponctuation:
                 variable_braket_space += "} "
             else:
                 variable_braket_space += "}"
@@ -139,4 +140,4 @@ class XmlManagerTheLandOfSika(XmlManager):
         """
         text = self.get_text_translate_node(node)
         text = text.replace(value, "{" + variable + "}")
-        return self.set_text_translate_node(node,text)
+        return self.set_text_translate_node(node, text)
