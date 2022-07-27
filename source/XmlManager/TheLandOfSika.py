@@ -1,6 +1,6 @@
-from source.Exceptions.XmlManage.Exceptions_XmlManage import CheckFileXMLException
-from source.XmlManage.XmlManager import XmlManager
 import xml.etree.ElementTree as ET
+from . import XmlManager
+from source.Exceptions import CheckFileXMLException
 
 
 class XmlManagerTheLandOfSika(XmlManager):
