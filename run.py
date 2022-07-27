@@ -1,10 +1,13 @@
+from gevent import monkey
+monkey.patch_all()
 import json
 import logging
 import os.path
 from json import JSONDecodeError
 from source.FileManager.DynamicVariablesFileManager import DynamicVariablesFileManager
 import click
-
+import gevent
+from gevent.pool import Pool
 from config import BASE_DIR, DYNAMIC_VARIABLES_FILE_PATH
 from source.XmlManager.TheLandOfSika import XmlManagerTheLandOfSika
 from source.APITranslator.DeepL import DeepLTranslator
@@ -53,39 +56,13 @@ def run(file_path: str):
             dynamic_variables_of_file = {}
         dynamic_variables_of_file.update(dynamic_variables_and_value_enter)
         file_manager.write_json_data(dynamic_variables_of_file)
+
     print("\n Start to translate to your language")
-    for node in xml_manager.get_all_translate_nodes():
-        if not xml_manager.check_if_is_correct_translate_node(node):
-            continue
-        list_dynamic_variable_node = xml_manager.get_dynamic_variable_of_node(node)
-        if list_dynamic_variable_node:
-            file_manager = DynamicVariablesFileManager(file_path=DYNAMIC_VARIABLES_FILE_PATH)
-            dynamic_variables_of_file_json = file_manager.get_json_data()
-            all_key_found = True
-            for key in list_dynamic_variable_node:
-                if not dynamic_variables_of_file_json.get(key):
-                    # We don't have the equivalent for the dynamic variable, cannot translate because it will not be accurage, ignore
-                    logging.warning(
-                        f"Could not translate  the text because the dynamic variable {key} was not set : {xml_manager.get_text_translate_node(node)}")
-                    all_key_found = False
-                node = xml_manager.set_dynamic_variable_for_node(node=node, variable=key,
-                                                                 value=dynamic_variables_of_file_json.get(key))
-            if not all_key_found:
-                continue
-        # translate
-        translate_text = deepL_translator.translate_to_french(xml_manager.get_text_translate_node(node))
-        node = xml_manager.set_text_translate_node(node, translate_text)
-        # not implemented yet
-
-        # reverse the dynamic variable replacement
-        if list_dynamic_variable_node:
-            file_manager = DynamicVariablesFileManager(file_path=DYNAMIC_VARIABLES_FILE_PATH)
-            dynamic_variables_of_file_json = file_manager.get_json_data()
-            for key in list_dynamic_variable_node:
-                node = xml_manager.reverse_dynamic_variable_for_node(node=node,
-                                                                     value=dynamic_variables_of_file_json.get(key),
-                                                                     variable=key)
-
+    CONCURRENCY = 10
+    pool = Pool(CONCURRENCY)
+    threads = [pool.spawn(multithreading_translate_node, xml_manager, deepL_translator, node) for node in
+               xml_manager.get_all_translate_nodes()]
+    pool.join()
     xml_manager.save_file(file_path.replace(".xml", "") + "COPY.xml")
 
 
@@ -97,6 +74,41 @@ def user_input_dynamic_variable(dynamic_variables) -> dict:
         dynamic_variables_and_value_enter.update({variable: value_enter_by_user})
 
     return dynamic_variables_and_value_enter
+
+
+def multithreading_translate_node(xml_manager, deepL_translator, node):
+    if not xml_manager.check_if_is_correct_translate_node(node):
+        return node
+    list_dynamic_variable_node = xml_manager.get_dynamic_variable_of_node(node)
+    if list_dynamic_variable_node:
+        file_manager = DynamicVariablesFileManager(file_path=DYNAMIC_VARIABLES_FILE_PATH)
+        dynamic_variables_of_file_json = file_manager.get_json_data()
+        all_key_found = True
+        for key in list_dynamic_variable_node:
+            if not dynamic_variables_of_file_json.get(key):
+                # We don't have the equivalent for the dynamic variable, cannot translate because it will not be accurage, ignore
+                logging.warning(
+                    f"Could not translate  the text because the dynamic variable {key} was not set : {xml_manager.get_text_translate_node(node)}")
+                all_key_found = False
+            node = xml_manager.set_dynamic_variable_for_node(node=node, variable=key,
+                                                             value=dynamic_variables_of_file_json.get(key))
+        if not all_key_found:
+            return node
+    # translate
+    translate_text = deepL_translator.translate_to_french(xml_manager.get_text_translate_node(node))
+    node = xml_manager.set_text_translate_node(node, translate_text)
+    # not implemented yet
+
+    # reverse the dynamic variable replacement
+    if list_dynamic_variable_node:
+        file_manager = DynamicVariablesFileManager(file_path=DYNAMIC_VARIABLES_FILE_PATH)
+        dynamic_variables_of_file_json = file_manager.get_json_data()
+        for key in list_dynamic_variable_node:
+            node = xml_manager.reverse_dynamic_variable_for_node(node=node,
+                                                                 value=dynamic_variables_of_file_json.get(key),
+                                                                 variable=key)
+
+    return node
 
 
 if __name__ == "__main__":
