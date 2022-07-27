@@ -42,7 +42,13 @@ class XmlManager:
         :param path:
         :return: The plan file
         """
-        self.xml_object_parse.write(path)
+        bytes_object = None
+        with BytesIO() as f:
+            self.xml_object_parse.write(f, encoding="utf-8", xml_declaration=False)
+            bytes_object = BytesIO(f.getvalue())
+        with open(path, "wb") as f:
+            f.write(bytes_object.getbuffer())
+            return bytes_object
 
     def check_xml_file(self):
         """
