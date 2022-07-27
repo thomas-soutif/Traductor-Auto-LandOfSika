@@ -1,5 +1,5 @@
-from Exceptions.XmlManage.Exceptions_XmlManage import CheckFileXMLException
-from XmlManage.XmlManager import XmlManager
+from source.Exceptions.XmlManage.Exceptions_XmlManage import CheckFileXMLException
+from source.XmlManage.XmlManager import XmlManager
 import xml.etree.ElementTree as ET
 
 
