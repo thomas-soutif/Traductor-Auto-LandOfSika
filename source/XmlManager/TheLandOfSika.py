@@ -84,8 +84,7 @@ class XmlManagerTheLandOfSika(XmlManager):
 
         return final_list
 
-
-    def get_dynamic_variable_of_node(self,node):
+    def get_dynamic_variable_of_node(self, node):
         """
         Return a list of dynamic variable of the node, for example {PLAYER.NAME}, they should not be translate directly
         :param node:
@@ -96,3 +95,33 @@ class XmlManagerTheLandOfSika(XmlManager):
             return None
         match_result = re.findall("\{(.*?)\}", text)
         return match_result
+
+    def set_dynamic_variable_for_node(self, node: ET.Element, variable: str, value: str):
+        """
+        Set the dynamic variable for a node
+        Example :
+             For the string "Hello {PLAYER.NAME}" with variable= PLAYER.NAME and value "JOHN", the result will be "Hello JOHN"
+        :param node:
+        :param variable:
+        :param value:
+        :return: The node with the text changed
+        :
+        """
+        text = self.get_text_translate_node(node)
+        text = text.replace("{" + variable + "}", " {" + variable + "} ")
+        text = text.replace("{" + variable + "}", value)
+        return self.set_text_translate_node(node, text)
+
+    def reverse_dynamic_variable_for_node(self, node: ET.Element, value: str, variable: str):
+        """
+        Reverse the action of set dynamic variable for the node
+        Example:
+            For the string "Hello JOHN" with value=JOHN and variable= PLAYER.NAME, the result will be "Hello {PLAYER.NAME}"
+        :param node:
+        :param value:
+        :param variable:
+        :return: The node with the text changed
+        """
+        text = self.get_text_translate_node(node)
+        text = text.replace(value, "{" + variable + "}")
+        return self.set_text_translate_node(node,text)
