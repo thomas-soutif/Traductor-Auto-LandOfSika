@@ -30,8 +30,8 @@ class DynamicVariablesFileManager:
         :param json_data:
         :return: True if it was write, else False
         """
-        file = open(self.file_path, "w")
-        file.write(str(json_data))
+        with open(self.file_path, "w") as outfile:
+            json.dump(json_data, outfile)
         self.json_data = json_data
         return True
 
