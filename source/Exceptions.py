@@ -3,3 +3,10 @@ class CheckFileXMLException(Exception):
         self.file_path = file_path
         self.manager_name = manager_name
         super().__init__(*args, **kwargs)
+
+
+class DeepLAuthKeyNotSetException(Exception):
+    ...
+
+class DeepLAuthKeyWrongException(Exception):
+    ...
