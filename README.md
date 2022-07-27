@@ -15,7 +15,7 @@ You should have at least **poetry** and **git** install, the project is install 
 
 First, clone the project to the directory you want.
 
-```
+```bash
 git clone https://github.com/thomas-soutif/Traductor-Auto-LandOfSika.git
 ```
 
