@@ -128,6 +128,7 @@ Explanations : This script will list all of the xml files and ask you if you wan
 Here, the xml files sources we try to translate are in the subfolder EN/ , and the new folder that will be create is the subfolder FR/
 
 - This is a screen shot of what you got **before** executing this script :
+- 
 ![image](https://user-images.githubusercontent.com/23268707/181644506-7a4f586e-63fa-4170-b54a-9834eadd4add.png)
 
 - **After** executing this script
