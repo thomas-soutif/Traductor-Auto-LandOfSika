@@ -68,11 +68,12 @@ source [Path of the bin virtual env]
 
 Go to the project directory, and run :
 ```python
-python translate_xml_file.py --file_path={Your XML File Path} --target_language="FRENCH" --module_api="DEEPL"
+python translate_xml_file.py --file_path={Your XML File Path} --target_language="FRENCH" --module_api="DEEPL" --file_name_destination="{Your file name destination path}"
 ```
-- file_path : Should be the xml file path (with the .xml) include
-- target_language : One of the following list ` ['FRENCH', 'ENGLISH', 'SPANISH', 'RUSSIAN', 'GERMAN', 'FINNISH', 'ITALIAN', 'DUTCH', 'POLISH', 'TURKISH', 'SWEDISH', 'BULGARIAN', 'GREEK', 'CZECH']`
-- module_api : For now, only DEEPL supported
+- **file_path** : Should be the xml file path (with the .xml) include
+- **target_language** : One of the following list ` ['FRENCH', 'ENGLISH', 'SPANISH', 'RUSSIAN', 'GERMAN', 'FINNISH', 'ITALIAN', 'DUTCH', 'POLISH', 'TURKISH', 'SWEDISH', 'BULGARIAN', 'GREEK', 'CZECH']`. If nothing specify the default value use will be English
+- **module_api** : For now, only DEEPL supported
+- **file_name_destination** : The path (with the .xml) where you want to store the new xml file. By default, it will use the file_path and add "-COPY-{target_language}"
 
 Warning : Not all language available give a good result, especially for the languages that are not roman (like GREEK), I didn't test all of them yet
 
