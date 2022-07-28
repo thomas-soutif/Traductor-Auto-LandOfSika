@@ -1,8 +1,8 @@
 import sys
 
-from gevent import monkey
-
-monkey.patch_all()
+# from gevent import monkey
+#
+# monkey.patch_all()
 import json
 import logging
 import os.path
@@ -41,24 +41,28 @@ def run(file_path: str, module_api: str, target_language: str):
             "Some dynamic variables have been found in the XML file, please fill for each one a word that fit it correctly, to be able to translate the sentence. You can left it empty and the sentence associated will be ignored and not translated.")
 
         if dynamic_variables_of_file:
+
             use_config_data = False
             logging.info(
                 "A configuration file have been found for the dynamic variable, would you like to use it to automatically fill the translation ?(By Default No) [Yes, No]")
-            value_user = input()
+            value_user =input()
             if value_user.lower() == "yes":
                 use_config_data = True
             elif value_user.lower() == "no":
                 use_config_data = False
             else:
                 logging.info("We was waiting for Yes or No, use of the default value (No)")
-
             if use_config_data:
+                new_dynamic_variables_to_set = []
                 for key in dynamic_variables:
-                    if dynamic_variables_of_file.get(key):
-                        dynamic_variables.remove(key)
-
-        if dynamic_variables:
-            dynamic_variables_and_value_enter: dict = user_input_dynamic_variable(dynamic_variables)
+                    if not dynamic_variables_of_file.get(key):
+                        new_dynamic_variables_to_set.append(key)
+            else:
+                new_dynamic_variables_to_set = dynamic_variables
+        else:
+            new_dynamic_variables_to_set = dynamic_variables
+        if new_dynamic_variables_to_set:
+            dynamic_variables_and_value_enter: dict = user_input_dynamic_variable(new_dynamic_variables_to_set)
 
         # We save to a file the values, to be used again
 
