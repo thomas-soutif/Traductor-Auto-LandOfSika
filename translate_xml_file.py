@@ -1,17 +1,10 @@
 import sys
-
-# from gevent import monkey
-#
-# monkey.patch_all()
-import json
 import logging
-import os.path
-from json import JSONDecodeError
 from source.FileManager.DynamicVariablesFileManager import DynamicVariablesFileManager
 import click
-import gevent
+
 from gevent.pool import Pool
-from config import BASE_DIR, DYNAMIC_VARIABLES_FILE_PATH
+from config import DYNAMIC_VARIABLES_FILE_PATH
 from source.XmlManager.TheLandOfSika import XmlManagerTheLandOfSika
 from source.APITranslator.DeepL import DeepLTranslator
 
@@ -124,7 +117,6 @@ def multithreading_translate_node(xml_manager, module_traductor, node):
             node = xml_manager.reverse_dynamic_variable_for_node(node=node,
                                                                  value=dynamic_variables_of_file_json.get(key),
                                                                  variable=key)
-
     return node
 
 
