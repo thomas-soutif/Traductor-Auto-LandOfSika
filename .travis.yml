@@ -1,9 +1,0 @@
-language: python
-python:
-  - "3.8"
-before_install:
-  - pip install poetry
-install:
-  - poetry install
-
-script: python translate_xml_file.py --file_path="source/test/xml_generic_the_land_of_sika.xml" --target_language="FRENCH" --module_api="DEEPL"
