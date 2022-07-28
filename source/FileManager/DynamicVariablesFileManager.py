@@ -20,7 +20,7 @@ class DynamicVariablesFileManager:
         except FileNotFoundError:
             with open(self.file_path,"w") as f:
                 f.write("{}")
-                file = f.read()
+                file = open(self.file_path, "r").read()
         try:
             json_data = json.loads(file)
             self.json_data = json_data
