@@ -1,6 +1,7 @@
 # Traductor-Auto-LandOfSika
 
-A tool to translate all the XML files of the mod project The Land Of Sika
+A tool to translate all the XML files language of the mod project **The Land Of Sika** by translating with an API Translator
+Translate also the sentence with dynamic variables as {PLAYER.NAME} without changing the meaning of the sentence.
 
 **The tool is now released !**
 
