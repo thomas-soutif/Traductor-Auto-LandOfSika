@@ -118,9 +118,12 @@ class XmlManagerTheLandOfSika(XmlManager):
                 variable_braket_space = " {" + variable
             else:
                 variable_braket_space = "{" + variable
-            if pos_variable_bracket + 1 <= len(text) and text[
-                pos_variable_bracket + len(variable_braket)] not in accept_ponctuation:
-                variable_braket_space += "} "
+            try:
+                if pos_variable_bracket + 1 <= len(text) and text[
+                    pos_variable_bracket + len(variable_braket)] not in accept_ponctuation:
+                    variable_braket_space += "} "
+            except IndexError:
+                return node
             else:
                 variable_braket_space += "}"
                 text = text.replace(variable_braket, variable_braket_space)
