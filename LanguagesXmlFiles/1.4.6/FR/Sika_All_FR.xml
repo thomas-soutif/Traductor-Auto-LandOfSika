@@ -1,0 +1,9 @@
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<tags>
+<tag language="English"/>
+</tags>
+<strings>
+<!--  Generic Sandbox Text  -->
+<string id="TWOCstrAnm001" text="Vous esssayez d'échapper à l'obscurité"/>
+</strings>
+</base>

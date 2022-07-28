@@ -1,0 +1,257 @@
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English"/>
+  </tags>
+  <strings>
+    <!-- ProgrammeTranslate_CN文件夹内皆是程序上的string翻译-->
+    <!-- StoryCamera_All_CNs是StoryCamera这个模块的翻译文件-->
+
+  <!-- 文件FirstScenePreset.cs开始 -->
+    
+    <string id="strFirstNightWindow001" text="Vous êtes à terre"/>
+    <string id="strFirstNightWindow002" text="Vous vous battez jusqu'à la mort, mais les attaquants continuent d'arriver. Vous soutenez à peine pendant un certain temps et êtes finalement renversé sur le sol."/>
+    <string id="strFirstNightWindow003" text="Pass Out"/>
+
+    <string id="strFirstNightTalk001" text="Ha ha ha, {PLAYER.NAME}, arrête d'écouter sa vieille et ennuyeuse histoire. C'est plein d'histoires ennuyeuses. Viens prendre un verre avec nous. Quand on arrivera en ville dans deux jours, je t'emmènerai dans un endroit génial et je m'assurerai qu'il y ait toutes sortes d'anecdotes. Venez prendre un verre."/>
+    <string id="strFirstNightTalk002" text="A la vôtre !"/>
+    <string id="strFirstNightTalk003" text="Tout le monde, chargez !"/>
+    <string id="strFirstNightTalk004" text="Voleur ! Voilà le voleur. Défends-toi, défends-toi !"/>
+
+    <string id="strFirstNightTip001" text="Veuillez continuer"/>
+    <string id="strFirstNightTip002" text="Vous avez résisté à une vague d'attaque, mais ils ont continué à venir, et finalement vous avez été renversé au sol."/>
+    <string id="strFirstNightTip003" text="Vous êtes encerclés et il n'y a aucun moyen de battre en retraite."/>
+
+  <!-- 文件FirstScenePreset.cs结束 -->
+
+  <!-- 文件CreateMyWarband.xml开始 -->
+        
+    <string id="strXmlText001" text="Sélection des bras"/>
+    <string id="strXmlText002" text="Niveau :"/>
+    <string id="strXmlText003" text="Nom :"/>
+    <string id="strXmlText004" text="Terminé"/>
+    <string id="strXmlText005" text="Recrutez"/>
+    <string id="strXmlText006" text="Armes"/>
+    <string id="strXmlText007" text="Changement"/>
+    <string id="strXmlText008" text="Le Mont"/>
+    <string id="strXmlText009" text="Armure"/>
+    <string id="strXmlText010" text="Augmenter"/>
+    <string id="strXmlText011" text="Réduire"/>
+    <string id="strXmlText012" text="SkillPoint :"/>
+
+  <!-- 文件CreateMyWarband.xml结束 -->
+
+  <!-- 文件CreateMyWarbandBaseVM.cs开始 -->
+    
+    <string id="strCustomTroopSystemVM001" text="Changer le nom des troupes"/>
+    <string id="strCustomTroopSystemVM002" text="Terminé"/>
+    <string id="strCustomTroopSystemVM003" text="Annuler"/>
+
+    <!-- 以下三项需要重新录入程序中 -->
+    <string id="strCustomTroopSystemVM004" text="Équipement"/>
+    <string id="strCustomTroopSystemVM005" text="Compétences"/>
+    <string id="strCustomTroopSystemVM006" text="Attribut"/>
+
+    <string id="strCustomTroopSystemVM007" text="Arme 1 :"/>
+    <string id="strCustomTroopSystemVM008" text="Arme 2 :"/>
+    <string id="strCustomTroopSystemVM009" text="Arme 3 :"/>
+    <string id="strCustomTroopSystemVM010" text="Arme 4 :"/>
+    <string id="strCustomTroopSystemVM011" text="Mont :"/>
+    <string id="strCustomTroopSystemVM012" text="Armure de tête :"/>
+    <string id="strCustomTroopSystemVM013" text="Le Cap :"/>
+    <string id="strCustomTroopSystemVM014" text="Gilet pare-balles :"/>
+    <string id="strCustomTroopSystemVM015" text="Armure de la main :"/>
+    <string id="strCustomTroopSystemVM016" text="Armure de pied :"/>
+    <string id="strCustomTroopSystemVM017" text="Harnais pour chevaux"/>
+    <string id="strCustomTroopSystemVM018" text="Rien"/>
+
+    <string id="strCustomTroopSystemVM019" text="Veuillez indiquer le nombre de troupes dont vous avez besoin"/>
+    <string id="strCustomTroopSystemVM020" text="Quantité de conscription restante"/>
+    <string id="strCustomTroopSystemVM021" text="; dinars que chaque soldat coûte"/>
+    <string id="strCustomTroopSystemVM022" text="Terminé"/>
+    <string id="strCustomTroopSystemVM023" text="Annuler"/>
+
+    <string id="strCustomTroopSystemVM024" text="Le recrutement a réussi. Vous avez recruté"/>
+    <string id="strCustomTroopSystemVM025" text="soldat"/>
+    <string id="strCustomTroopSystemVM026" text="Coût"/>
+    <string id="strCustomTroopSystemVM027" text="Dinar."/>
+
+    <string id="strCustomTroopSystemVM028" text="Le nombre de conscrits que vous recrutez est supérieur à la capacité maximale de votre armée actuelle."/>
+    <string id="strCustomTroopSystemVM029" text="L'argent est trop faible pour recruter autant de soldats."/>
+    <string id="strCustomTroopSystemVM030" text="Dinars restants :"/>
+    <string id="strCustomTroopSystemVM031" text=";Nombre de soldats que les dinars restants peuvent recruter :"/>
+
+    <string id="strCustomTroopSystemVM032" text="Veuillez taper un numéro"/>
+    <string id="strCustomTroopSystemVM033" text="Vos troupes ont atteint la limite maximale de recrutement."/>
+
+  <!-- 文件CreateMyWarbandBaseVM.cs开始 -->
+
+  <!-- 文件MyUpgradeGear.cs开始 -->
+    
+    <string id="strCustomTroopSystemVM034" text="Rien"/>
+    <string id="strCustomTroopSystemVM035" text="Veuillez sélectionner l'équipement à modifier."/>
+    <string id="strCustomTroopSystemVM036" text="Étape suivante"/>
+
+    <string id="strCustomTroopSystemVM053" text="Sélectionnez le type d'équipement"/>
+    <string id="strCustomTroopSystemVM054" text="Épée à deux mains"/>
+    <string id="strCustomTroopSystemVM055" text="Hache à deux mains"/>
+
+    <string id="strCustomTroopSystemVM056" text="Choisir Nouveau"/>
+    <string id="strCustomTroopSystemVM057" text="Étape suivante"/>
+    <string id="strCustomTroopSystemVM058" text="Aucun équipement,"/>
+    <string id="strCustomTroopSystemVM059" text="Confirmer le remplacement par un nouvel équipement"/>
+    <string id="strCustomTroopSystemVM060" text="forme :"/>
+    <string id="strCustomTroopSystemVM061" text="A :"/>
+    <string id="strCustomTroopSystemVM062" text="{newline}The team equipment replacement cost is:"/>
+    <string id="strCustomTroopSystemVM063" text="dinar."/>
+    <string id="strCustomTroopSystemVM064" text="Terminé"/>
+    <string id="strCustomTroopSystemVM065" text="Annuler"/>
+    <string id="strCustomTroopSystemVM066" text="Remplacé avec succès,"/>
+    <string id="strCustomTroopSystemVM067" text="Argent restant :"/>
+    <string id="strCustomTroopSystemVM068" text="Vous n'avez pas assez d'argent pour remplacer les nouveaux équipements,"/>
+    <string id="strCustomTroopSystemVM069" text="Stop Remplacer l'équipement"/>
+    <string id="strCustomTroopSystemVM070" text="Remplacé avec succès"/>
+
+  <!-- 文件MyUpgradeGear.cs结束 -->
+
+  <!-- 文件MistyForestStartLoadBehavior.cs开始 -->
+    <string id="strMistyForest001" text="Vous êtes entré dans la Terre des Bannis."/>
+  <!-- 文件MistyForestStartLoadBehavior.cs结束 -->
+
+  <!-- 文件InitializationMissionLogic.cs开始 -->
+    <string id="strMistyForest002" text="Le pouvoir du bracelet est toujours là, continuez à éliminer ces démons dévorants."/>
+  <!-- 文件InitializationMissionLogic.cs结束 -->
+
+  <!-- 文件夹DropSystemPackage开始 -->
+    <string id="strMistyForest003" text="Vous obtenez"/>
+    <string id="strMistyForest004" text="la roche agrégée."/>
+    <string id="strMistyForest005" text="ingrédient."/>
+    <string id="strMistyForest006" text="bois."/>
+  <!-- 文件夹DropSystemPackage结束 -->
+
+  <!-- 文件InstanceZones.cs开始 -->
+    <string id="strMistyForest007" text="Élimination terminée !"/>
+    <string id="strMistyForest008" text="En suivant ce puissant leader, les démons dévoreurs les plus proches sont éliminés, il est temps de quitter cet endroit."/>
+    <string id="strMistyForest009" text="Laissez"/>
+    
+    <string id="strMistyForest010" text="Les démons dévoreurs environnants devraient être nettoyés pour le moment, il est temps de partir."/>
+
+    <string id="strMistyForest011" text="Blessés graves et retraite"/>
+    <string id="strMistyForest012" text="Vous découvrez que les démons dévoreurs environnants deviennent de plus en plus nombreux, c'est trop dangereux, il est temps de battre en retraite."/>
+    <string id="strMistyForest013" text="Confirmer la retraite"/>
+
+    <string id="strMistyForest014" text="Vous êtes gravement blessé."/>
+  <!-- 文件InstanceZones.cs结束 -->
+
+  <!-- 文件InstanceZonesMonster.cs开始 -->
+    <string id="strMistyForest015" text="You Killed"/>
+  <!-- 文件InstanceZonesMonster.cs结束 -->
+
+  <!-- 文件LordDecisionBehavior.cs开始 -->
+    <string id="strRandomEvents1001" text="Obtenez 30 :"/>
+    <string id="strRandomEvents1002" text="est blessé dans la chasse."/>
+    <string id="strRandomEvents1003" text="Votre homme ne reçoit rien..."/>
+    <string id="strRandomEvents1004" text="sont morts pendant la chasse."/>
+    <string id="strRandomEvents1005" text=":réduire 2"/>
+    <string id="strRandomEvents1006" text="Il ne s'est rien passé."/>
+    <string id="strRandomEvents1007" text="Baisse de 5 du moral."/>
+    <string id="strRandomEvents1008" text="Vous dépensez un peu de temps, et vous vous retrouvez sans rien."/>
+    <string id="strRandomEvents1009" text="Votre groupe a perdu 10 points de moral."/>
+    <string id="strRandomEvents1010" text="Obtenir un trésor"/>
+    <string id="strRandomEvents1011" text="Vous avez gagné 800 dinars."/>
+    <string id="strRandomEvents1012" text="Vous avez gagné 2000 dinars."/>
+    <string id="strRandomEvents1013" text="Vous avez gagné 5000 dinars."/>
+    <string id="strRandomEvents1014" text="Vous avez gagné 800 dinars."/>
+    <string id="strRandomEvents1015" text="Vous avez gagné 800 dinars."/>
+    <string id="strRandomEvents1016" text="Vous avez gagné 800 dinars."/>
+
+    <string id="strRandomEvents1017" text="Des soldats blessés, voilà l'argument."/>
+    <string id="strRandomEvents1018" text="Des soldats sont morts et blessés, voilà l'argument."/>
+    <string id="strRandomEvents1019" text="Certains soldats sont blessés, c'est l'argument, d'autres ont la chance d'avoir plus d'expérience."/>
+
+    <string id="strRandomEvents1020" text="Vous obtenez :"/>
+    <string id="strRandomEvents1021" text=" "/>
+    <string id="strRandomEvents1022" text="des faveurs."/>
+    <string id="strRandomEvents1023" text="toutes les faveurs des notables."/>
+    <string id="strRandomEvents1024" text="toutes les faveurs du Seigneur."/>
+
+    <string id="strRandomEvents1025" text="Vous avez aidé le vagabond solitaire."/>
+    <string id="strRandomEvents1026" text="Des vagabonds solitaires ont rejoint votre équipe."/>
+
+    <string id="strRandomEvents1027" text="L'histoire de vous se répand dans le monde. (renommée du clan +5)"/>
+    <string id="strRandomEvents1028" text="Les enfants du village fredonnent votre histoire, intentionnellement ou non. (renommée du clan +10)"/>
+    <string id="strRandomEvents1029" text="Je ne sais pas à quelle distance de chez moi, mais je peux encore entendre des chansons familières. (renommée du clan +15)"/>
+    <string id="strRandomEvents1030" text="De temps en temps, je vais au pub, je commande un pot de vin, j'arrive devant plusieurs piles de plats et j'écoute les autres raconter leurs propres histoires. (renommée du clan +20)"/>
+    <string id="strRandomEvents1031" text="Pourquoi ai-je l'impression que quelqu'un m'a regardé récemment ? (renommée du clan -5)"/>
+
+    <string id="strRandomEvents1032" text="Vous invitez les soldats à prendre un grand repas, les soldats sont très heureux."/>
+    <string id="strRandomEvents1033" text="Non seulement votre discours n'a pas calmé les choses, mais il les a empirées."/>
+  <!-- 文件LordDecisionBehavior.cs结束 -->
+
+  <!-- 文件GlobalText.cs开始 -->
+   <!-- GlobalText弹出事件信息开始 -->
+    <string id="strRandomEvents1201" text="Événements aléatoires"/>
+    <string id="strRandomEvents1202" text="Degré de risque"/>
+    <string id="strRandomEvents1203" text="Wilderness"/>
+
+    <string id="strRandomEvents1204" text="Forêt"/>
+    <string id="strRandomEvents1205" text="Les aliments dans la forêt"/>
+    <string id="strRandomEvents1206" text="Vos troupes marchent dans la forêt. Vos hommes ont trouvé des traces d'animaux sauvages à proximité. Il a dit qu'il pouvait aller chasser dans les environs pour trouver de la viande."/>
+    <string id="strRandomEvents1207" text="Vous décidez de laisser vos hommes aller chasser dans les environs"/>
+    <string id="strRandomEvents1208" text="Vous pensez que l'armée a beaucoup de nourriture"/>
+
+    <string id="strRandomEvents1209" text="Armée"/>
+    <string id="strRandomEvents1210" text="Émeute de l'armée"/>
+    <string id="strRandomEvents1211" text="Vos troupes se sont disputées sur la Marche, et elles étaient sur le point de partir."/>
+    <string id="strRandomEvents1212" text="Vous décidez de les laisser se débrouiller seuls"/>
+    <string id="strRandomEvents1213" text="Vous avez décidé d'arbitrer vous-même la querelle dans l'armée."/>
+
+    <string id="strRandomEvents1214" text="Le vagabond solitaire"/>
+    <string id="strRandomEvents1215" text="Sur le chemin de la marche, votre armée a rencontré un clochard qui marchait seul. Il était en haillons et vous regardait avec des yeux vides, espérant que vous pourriez lui donner de la nourriture et de l'eau."/>
+    <string id="strRandomEvents1216" text="Vous décidez de lui donner de la nourriture et de l'eau"/>
+    <string id="strRandomEvents1217" text="Vous décidez de ne pas l'aider"/>
+
+    <string id="strRandomEvents1218" text="Camp abandonné"/>
+    <string id="strRandomEvents1219" text="Camp abandonné"/>
+    <string id="strRandomEvents1220" text="Vos éclaireurs ont trouvé un camp abandonné à proximité."/>
+    <string id="strRandomEvents1221" text="Vous décidez d'explorer"/>
+    <string id="strRandomEvents1222" text="Vous décidez de ne pas explorer"/>
+
+    <string id="strRandomEvents1223" text="Noble messager"/>
+    <string id="strRandomEvents1224" text="Votre armée a rencontré un noble Messager, qui a dit que si vous le souhaitez, vous pouvez vous aider à gérer certaines relations, juste un peu d'argent."/>
+    <string id="strRandomEvents1225" text="Vous avez décidé de lui demander de vous aider"/>
+    <string id="strRandomEvents1226" text="Vous décidez de le laisser tranquille"/>
+
+    <string id="strRandomEvents1227" text="Un poète vagabond"/>
+    <string id="strRandomEvents1228" text="Le monde est en conflit et les gens sont dans le chaos, mais je suis indifférent et chaleureux. Osez demander la guerre future, parlez et riez du vent et des nuages, et laissez une histoire parfumée. Un barde au loin est venu vers votre armée en appréciant et en chantant. Il a dit que si vous êtes prêt à le récompenser avec quelques pièces d'or, il peut chanter votre histoire sur tout le continent."/>
+    <string id="strRandomEvents1229" text="Vous décidez de le récompenser et de lui raconter votre histoire."/>
+    <string id="strRandomEvents1230" text="Vous décidez de ne pas le récompenser"/>
+   <!-- GlobalText弹出事件信息结束 -->
+  <!-- 文件GlobalText.cs结束 -->
+
+  <!-- 文件Spawn.cs开始 -->
+    <string id="strNewBanditSystem1001" text="L'armée des bandits"/>
+    <string id="strNewBanditSystem1002" text="Entendre parler de ça"/>
+    <string id="strNewBanditSystem1003" text="rester dans le coin"/>
+  <!-- 文件Spawn.cs结束 -->
+
+  <!-- 文件Achieve.cs开始 -->
+    <string id="strFullScreenSceneUISystem1001" text="La vibration de la terre au loin se rapprochait de plus en plus, jusqu'à ce qu'une silhouette apparaisse derrière la colline. La lumière du soleil se déversait du pied de la colline au sommet de la colline, jusqu'à la silhouette."/>
+    <string id="strFullScreenSceneUISystem1002" text="Des destriers blancs, des vestes argentées et des casques de chevaux dorés, avec des plumes rouges qui s'agitent doucement au gré du vent. L'énorme silhouette sur le cheval est finalement apparue avec le soleil. L'armure d'argent, le casque d'argent et l'énorme lance dans la main étaient suffisants pour faire peur à n'importe qui."/>
+    <string id="strFullScreenSceneUISystem1003" text="L'homme sur le cheval leva haut sa lance, comme s'il avait donné l'ordre de charger de sa bouche. Puis d'innombrables cavaliers d'argent se sont précipités de derrière la pente ascendante et se sont dirigés directement vers le régiment d'esclaves."/>
+    <string id="strFullScreenSceneUISystem1004" text="Avec la charge de la cavalerie, les troupes des deux camps ont rapidement formé un régiment. Au début, la guerre est écrasée par la cavalerie, mais le régiment d'esclaves fait encore preuve d'une certaine puissance de combat et organise constamment une contre-attaque. Mais ce groupe de chevaliers entièrement armés est non seulement bien équipé, mais aussi extrêmement puissant en matière de compétences de combat, de coopération d'équipe, de formation, etc."/>
+    <string id="strFullScreenSceneUISystem1005" text="Les fourmis causent des problèmes et le ciel fait aussi du mal"/>
+    <string id="strFullScreenSceneUISystem1006" text="Le chevalier Sika se montre et le vent se lève"/>
+    <string id="strFullScreenSceneUISystem1007" text="Le pistolet d'argent tourne cent fois, et le bord est comme une lumière."/>
+    <string id="strFullScreenSceneUISystem1008" text="Sauver tous les gens, et la nuit devient si lumineuse"/>
+    <string id="strFullScreenSceneUISystem1009" text="Cliquez à gauche pour continuer"/>
+  <!-- 文件Achieve.cs结束 -->
+
+  <!-- 文件HarmonyPatchRelevantSkill.cs开始 -->
+    <string id="strStoryCameraOthersText1001" text="Résistance :"/>
+    <string id="strStoryCameraOthersText1002" text="Dégâts de charge :"/>
+    <string id="strStoryCameraOthersText1003" text="Vitesse :"/>
+    <string id="strStoryCameraOthersText1004" text="contrôle :"/>
+  <!-- 文件HarmonyPatchRelevantSkill.cs结束 -->
+
+  </strings>
+</base>

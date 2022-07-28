@@ -1,0 +1,60 @@
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English"/>
+  </tags>
+  <strings>
+    <!-- ProgrammeTranslate_CN文件夹内皆是程序上的string翻译-->
+    <!-- SettlementSelfBuild_All_CNs是SettlementSelfBuild这个模块的翻译文件-->
+
+    <string id="strPreSettlementSelf000" text="Vous commencez la construction de votre propre colonie, peut-être pouvez-vous aider vos ouvriers à rassembler des ressources."/>
+    <string id="strPreSettlementSelf001" text="Allez dans les environs sauvages"/>
+    <string id="strPreSettlementSelf002" text="Sortie"/>
+
+    <string id="strSettlementSelf000" text="Voici votre installation, tant de travaux doivent être réalisés, continuez."/>
+    <string id="strSettlementSelf001" text="Allez au centre de règlement"/>
+    <string id="strSettlementSelf002" text="Gestion des règlements"/>
+    <string id="strSettlementSelf003" text="Stockage"/>
+    <string id="strSettlementSelf004" text="Sortie"/>
+    <string id="strSettlementSelf005" text="Le règlement de l'affaire"/>
+    <string id="strSettlementSelf006" text="Commerce"/>
+    <string id="strSettlementSelf007" text="Allez à votre manoir"/>
+
+    <string id="strSettlementSelf010" text="Testez le nouveau règlement"/>
+
+    <string id="strSettlementSelf011" text="Lord Hall"/>
+    <string id="strSettlementSelf012" text="Construction de la ville"/>
+    <string id="strSettlementSelf013" text="Manage Garrsion"/>
+    <string id="strSettlementSelf014" text="Troupe personnalisée"/>
+    <string id="strSettlementSelf015" text="Dépôt de ressources"/>
+    <string id="strSettlementSelf016" text="Construction de l'établissement"/>
+    <string id="strSettlementSelf017" text="Hôpital"/>
+
+    <string id="strSettlementSelf018" text="Hôpital, vous pouvez vous soigner ici, (affecte seulement le joueur)"/>
+    <string id="strSettlementSelf019" text="Guérir"/>
+    <string id="strSettlementSelf020" text="Sortie"/>
+    <string id="strSettlementSelf021" text="État de santé"/>
+    <string id="strSettlementSelf022" text="Pas besoin de guérir pour l'instant."/>
+    <string id="strSettlementSelf023" text="Pas besoin de guérir"/>
+    <string id="strSettlementSelf024" text="Vernis : Dinars"/>
+    <string id="strSettlementSelf025" text="Pas assez de dinars (moins de 200) pour se soigner."/>
+    <string id="strSettlementSelf026" text="Ne peut pas guérir"/>
+    <string id="strSettlementSelf026a" text="Thérapie"/>
+    <string id="strSettlementSelf027" text="Vous allez dépenser 200 dinars pour vous soigner"/>
+    <string id="strSettlementSelf028" text="HP"/>
+    <string id="strSettlementSelf029" text="confirmer"/>
+    <string id="strSettlementSelf030" text="annuler"/>
+
+    <string id="strSettlementSelf031" text="Vous guérissez à l'hôpital, vous récupérez"/>
+    <string id="strSettlementSelf032" text="HP"/>
+
+    <string id="strSettlementSelf033" text="Continuer la lecture"/>
+    <string id="strSettlementSelf034" text="Vous vous reposez dans votre établissement..."/>
+
+    <string id="strElfSettlement000" text="You arrive a village!"/>
+    <string id="strElfSettlement001" text="Entrez dans le village d'Elin"/>
+    <string id="strElfSettlement002" text="Lordhall"/>
+    <string id="strElfSettlement003" text="Commerce"/>
+    <string id="strElfSettlement004" text="Laissez"/>
+
+  </strings>
+</base>

@@ -1,0 +1,872 @@
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English"/>
+  </tags>
+  <strings>
+    <!--新添加已修改-->
+    <string id="Settlements.Settlement.name.Atown_M1" text="Merill Lynch"/>
+    <string id="Settlements.Settlement.name.Avillage_M1_1" text="Village de Merill Lynch"/>
+    <string id="Settlements.Settlement.name.Avillage_M1_2" text="Village de Rabia"/>
+    <!--新添加已修改-->
+    
+    <!--已修改-->
+   <!-- 城堡 -->
+	<string id="Settlements.Settlement.name.Acastle_A1" text="Château de Commer"/>
+    <string id="Settlements.Settlement.name.Acastle_A2" text="Château d'Acaste"/>
+    <string id="Settlements.Settlement.name.Acastle_A3" text="Fort Froker"/>
+    <string id="Settlements.Settlement.name.Acastle_A4" text="L'Acaste"/>
+    <string id="Settlements.Settlement.name.Acastle_A5" text="Château de Zibutan"/>
+    <string id="Settlements.Settlement.name.Acastle_A6" text="Château de Sunsfdland"/>
+    <string id="Settlements.Settlement.name.Acastle_A7" text="Fort Langley"/>
+    <string id="Settlements.Settlement.name.Acastle_A8" text="Château de Forim"/>
+    <string id="Settlements.Settlement.name.Acastle_A9" text="Château"/>
+    <string id="Settlements.Settlement.name.Acastle_B1" text="Langabourg"/>
+    <string id="Settlements.Settlement.name.Acastle_B2" text="Château de Naga"/>
+    <string id="Settlements.Settlement.name.Acastle_B3" text="Fort Tatter"/>
+    <string id="Settlements.Settlement.name.Acastle_B4" text="Saint Narcos"/>
+    <string id="Settlements.Settlement.name.Acastle_B5" text="Fort Burger"/>
+    <string id="Settlements.Settlement.name.Acastle_B6" text="Sendiburg"/>
+    <string id="Settlements.Settlement.name.Acastle_B7" text="Château de Silico"/>
+    <string id="Settlements.Settlement.name.Acastle_B8" text="Château de juin"/>
+    <string id="Settlements.Settlement.name.Acastle_EN1" text="Wu Gebao"/>
+    <string id="Settlements.Settlement.name.Acastle_EN2" text="Château des Pins"/>
+    <string id="Settlements.Settlement.name.Acastle_EN3" text="Château Savelica"/>
+    <string id="Settlements.Settlement.name.Acastle_EN4" text="Fort MacKeek"/>
+    <string id="Settlements.Settlement.name.Acastle_EN5" text="Château de Loveville"/>
+    <string id="Settlements.Settlement.name.Acastle_EN6" text="Château de Polentny"/>
+    <string id="Settlements.Settlement.name.Acastle_EN7" text="Cakameco Fort"/>
+    <string id="Settlements.Settlement.name.Acastle_EN8" text="Fort Garland"/>
+    <string id="Settlements.Settlement.name.Acastle_EN9" text="Château de Range Maue"/>
+    <string id="Settlements.Settlement.name.Acastle_ES1" text="Château de FengXiang"/>
+    <string id="Settlements.Settlement.name.Acastle_ES2" text="Château de ChengYin"/>
+    <string id="Settlements.Settlement.name.Acastle_ES3" text="Château de TaiYou"/>
+    <string id="Settlements.Settlement.name.Acastle_ES4" text="Château d'AnYuan"/>
+    <string id="Settlements.Settlement.name.Acastle_ES5" text="Château de ZhouGuan"/>
+    <string id="Settlements.Settlement.name.Acastle_ES6" text="Château de TaiFeng"/>
+    <string id="Settlements.Settlement.name.Acastle_ES7" text="Château de LinSu"/>
+    <string id="Settlements.Settlement.name.Acastle_ES8" text="Château de YanShan"/>
+    <string id="Settlements.Settlement.name.Acastle_EW1" text="Château de LanLing"/>
+	<string id="Settlements.Settlement.name.Acastle_EW2" text="Château de la Montagne Sincère"/>
+    <string id="Settlements.Settlement.name.Acastle_EW3" text="Ville de Shaojiang"/>
+    <string id="Settlements.Settlement.name.Acastle_EW4" text="Château d'Acastle"/>
+    <string id="Settlements.Settlement.name.Acastle_EW5" text="Ville de Biheshan"/>
+    <string id="Settlements.Settlement.name.Acastle_EW6" text="Musen City"/>
+    <string id="Settlements.Settlement.name.Acastle_EW7" text="Hé Xuecheng"/>
+    <string id="Settlements.Settlement.name.Acastle_EW8" text="Château de Kamikawa"/>
+    <string id="Settlements.Settlement.name.Acastle_K1" text="Sacastle"/>
+    <string id="Settlements.Settlement.name.Acastle_K2" text="Zemarburg"/>
+    <string id="Settlements.Settlement.name.Acastle_K3" text="Gurbamba"/>
+    <string id="Settlements.Settlement.name.Acastle_K4" text="Fort Tararum"/>
+    <string id="Settlements.Settlement.name.Acastle_K5" text="Hala et Limbourg"/>
+    <string id="Settlements.Settlement.name.Acastle_K6" text="Château de Hargay"/>
+    <string id="Settlements.Settlement.name.Acastle_K7" text="Mme Castle"/>
+    <string id="Settlements.Settlement.name.Acastle_K8" text="Fort de Mandalay"/>
+    <string id="Settlements.Settlement.name.Acastle_K9" text="Château de Harir"/>
+    <string id="Settlements.Settlement.name.Acastle_S1" text="Château de Paperan"/>
+    <string id="Settlements.Settlement.name.Acastle_S2" text="Château de Kolvan"/>
+    <string id="Settlements.Settlement.name.Acastle_S3" text="Fort de Zhivao"/>
+    <string id="Settlements.Settlement.name.Acastle_S4" text="Château d'Antle"/>
+    <string id="Settlements.Settlement.name.Acastle_S5" text="Château de Trebil"/>
+    <string id="Settlements.Settlement.name.Acastle_S6" text="Château de Betniem"/>
+    <string id="Settlements.Settlement.name.Acastle_S7" text="Château de Mojwar"/>
+    <string id="Settlements.Settlement.name.Acastle_S8" text="Château de Debutland"/>
+    <string id="Settlements.Settlement.name.Acastle_V1" text="Château d'Acastle"/>
+    <string id="Settlements.Settlement.name.Acastle_V2" text="Sebdan Warburg"/>
+    <string id="Settlements.Settlement.name.Acastle_V3" text="Fort Wacob"/>
+    <string id="Settlements.Settlement.name.Acastle_V4" text="Château Chieri"/>
+    <string id="Settlements.Settlement.name.Acastle_V5" text="Batfaberg"/>
+    <string id="Settlements.Settlement.name.Acastle_V6" text="Joasburg"/>
+    <string id="Settlements.Settlement.name.Acastle_V7" text="Lequeburg"/>
+    <string id="Settlements.Settlement.name.Acastle_V8" text="Fort Bolleich"/>
+
+    <!-- 已修改 -->
+   <!-- 城堡下属村庄 -->
+	<string id="Settlements.Settlement.name.Acastle_village_A1_1" text="Srockenstein"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A1_2" text="Pays du rasage"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A2_1" text="Bajijan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A2_2" text="Tahasaida"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A3_1" text="Hong Valkyra"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A3_2" text="Dunda"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A4_1" text="Maiweimu"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A4_2" text="Berkushken"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A5_1" text="Cthul"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A5_2" text="Fickemara"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A6_1" text="Gallois"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A6_2" text="Mattal"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A7_1" text="Shrejeku"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A7_2" text="Turner"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A8_1" text="Château Stan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A8_2" text="Anna"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A9_1" text="Panamar"/>
+    <string id="Settlements.Settlement.name.Acastle_village_A9_2" text="Carmelt"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B1_1" text="Valerygrad"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B1_2" text="Sabrin"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B2_1" text="Pic d'alerte"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B2_2" text="Jersk"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B3_1" text="Perf"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B3_2" text="Onoch"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B4_1" text="Gnotkov"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B4_2" text="Bergner"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B5_1" text="Télécharger"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B5_2" text="Arlovsk"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B6_1" text="Lushetov"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B6_2" text="Korlachenko"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B7_1" text="Becca"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B7_2" text="Chichilask"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B8_1" text="Taylor Ural"/>
+    <string id="Settlements.Settlement.name.Acastle_village_B8_2" text="Ripov"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN1_1" text="Rumpole"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN1_2" text="Ferim"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN2_1" text="Lamba"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN2_2" text="Nebu"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN3_1" text="Raju Semaia"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN3_2" text="Rogoni"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN4_1" text="Snyder Corner"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN4_2" text="Negab"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN5_1" text="Lund"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN5_2" text="Bisenet"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN6_1" text="Tanner Rollinger"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN6_2" text="Reposez-vous Anja"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN7_1" text="Saloper"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN7_2" text="Tenama"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN8_1" text="Dab Apin"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN8_2" text="Maurerton"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN9_1" text="Bossa purdienne"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EN9_2" text="Piscine de Calance"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES1_1" text="BeiLiu"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES1_2" text="YuanShou"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES2_1" text="WangShan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES2_2" text="BianLin"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES3_1" text="HuaiRen"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES3_2" text="JiGao"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES4_1" text="ChengJi"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES4_2" text="JinCui"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES5_1" text="JinZhong"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES5_2" text="HeZhou"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES6_1" text="FengNan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES6_2" text="AnXin"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES7_1" text="TaiChong"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES7_2" text="YiShui"/>
+    <string id="Settlements.Settlement.name.Acastle_village_ES8_1" text="YanQiu"/>
+	<string id="Settlements.Settlement.name.Acastle_village_ES8_2" text="Tunan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW1_1" text="L'œil de l'oiseau"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW1_2" text="Naga"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW2_1" text="Yada"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW2_2" text="Saikifu"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW3_1" text="Pinggu"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW3_2" text="Narita"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW4_1" text="Redwood"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW4_2" text="Red Rock"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW5_1" text="Kimoto"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW5_2" text="Yamazaki"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW6_1" text="Wan He"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW6_2" text="Ishicho"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW7_1" text="Racine"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW7_2" text="Shirakawa"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW8_1" text="Yokatsu"/>
+    <string id="Settlements.Settlement.name.Acastle_village_EW8_2" text="Tomino"/>
+	<string id="Settlements.Settlement.name.Acastle_village_K1_1" text="Altaï"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K1_2" text="Tour des chiens"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K2_1" text="Zeller"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K2_2" text="Ulabayan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K3_1" text="Tunnel"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K3_2" text="Sek Duran"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K4_1" text="Bayanga Golan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K4_2" text="Darkhan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K5_1" text="Tumensat"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K5_2" text="Dash Barba"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K6_1" text="Bogdo"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K6_2" text="Busagan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K7_1" text="Tehir"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K7_2" text="Huckabode"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K8_1" text="Sibayan Ulan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K8_2" text="Noyan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K9_1" text="Hulmen"/>
+    <string id="Settlements.Settlement.name.Acastle_village_K9_2" text="Kusugul"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S1_1" text="Lisbury"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S1_2" text="Village"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S2_1" text="Rudland"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S2_2" text="Aram"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S3_1" text="Ziva Olan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S3_2" text="Zettgen"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S4_1" text="Kepega"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S4_2" text="Bisseland"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S5_1" text="Derain"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S5_2" text="Panlunga"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S6_1" text="Ugren"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S6_2" text="Marodiga"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S7_1" text="Corinthe"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S7_2" text="Ozebu Atlanta"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S8_1" text="Forêt de Jortgen"/>
+    <string id="Settlements.Settlement.name.Acastle_village_S8_2" text="Sihan"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V1_1" text="Messamo"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V2_1" text="Pierre"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V2_2" text="Acastle_village"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V3_1" text="Miot"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V3_2" text="Saint Lal"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V4_1" text="Bulia"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V5_1" text="Mantesde"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V5_2" text="Je veux dire"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V6_1" text="Semilania"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V6_2" text="Kamodo"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V7_1" text="Zeffenenberg"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V7_2" text="Barholdela"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V8_1" text="Malthus"/>
+    <string id="Settlements.Settlement.name.Acastle_village_V8_2" text="Farondo"/>
+
+   <!-- 藏身处 -->
+    <string id="Settlements.Settlement.name.Ahideout_desert_1" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_10" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_11" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_12" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_13" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_14" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_15" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_16" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_17" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_18" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_19" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_2" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_20" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_3" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_4" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_5" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_6" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_7" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_8" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_desert_9" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_1" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_10" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_11" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_12" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_13" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_14" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_15" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_16" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_17" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_18" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_19" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_2" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_3" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_4" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_5" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_6" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_7" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_8" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_forest_9" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_1" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_10" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_11" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_12" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_13" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_14" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_15" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_16" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_17" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_18" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_19" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_2" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_20" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_3" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_4" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_5" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_6" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_7" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_8" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_mountain_9" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_1" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_10" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_11" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_12" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_13" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_14" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_15" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_16" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_17" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_18" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_19" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_2" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_20" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_3" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_4" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_5" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_6" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_7" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_8" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_seaside_9" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_1" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_10" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_11" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_12" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_13" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_14" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_15" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_16" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_17" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_18" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_19" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_2" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_20" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_3" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_4" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_5" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_6" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_7" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_8" text="Hideout"/>
+    <string id="Settlements.Settlement.name.Ahideout_steppe_9" text="Hideout"/>
+
+    <!-- 已修改 -->
+   <!-- 城镇 -->
+    <string id="Settlements.Settlement.name.Atown_A1" text="Shurbyas"/>
+    <string id="Settlements.Settlement.name.Atown_A2" text="Hethshelis"/>
+    <string id="Settlements.Settlement.name.Atown_A3" text="Marahan"/>
+    <string id="Settlements.Settlement.name.Atown_A4" text="Lupsium"/>
+    <string id="Settlements.Settlement.name.Atown_A5" text="Kamtic"/>
+    <string id="Settlements.Settlement.name.Atown_A6" text="Femmes"/>
+    <string id="Settlements.Settlement.name.Atown_A7" text="Kibroha"/>
+    <string id="Settlements.Settlement.name.Atown_A8" text="Jekushen"/>
+
+    <string id="Settlements.Settlement.name.Atown_B1" text="Mokebo"/>
+    <string id="Settlements.Settlement.name.Atown_B2" text="Vidrudny"/>
+    <string id="Settlements.Settlement.name.Atown_B3" text="Wislaver"/>
+    <string id="Settlements.Settlement.name.Atown_B4" text="Lskmos"/>
+    <string id="Settlements.Settlement.name.Atown_B5" text="Volgonoye"/>
+
+    <string id="Settlements.Settlement.name.Atown_EN1" text="Côte"/>
+    <string id="Settlements.Settlement.name.Atown_EN2" text="Chiteno"/>
+    <string id="Settlements.Settlement.name.Atown_EN3" text="Kalti"/>
+    <string id="Settlements.Settlement.name.Atown_EN4" text="Zocuk"/>
+    <string id="Settlements.Settlement.name.Atown_EN5" text="Paclu"/>
+    <string id="Settlements.Settlement.name.Atown_EN6" text="Yalunha"/>
+
+    <string id="Settlements.Settlement.name.Atown_ES1" text="Tian Long"/>
+    <string id="Settlements.Settlement.name.Atown_ES2" text="Bei Yang"/>
+    <string id="Settlements.Settlement.name.Atown_ES3" text="Hai Quan"/>
+    <string id="Settlements.Settlement.name.Atown_ES4" text="Dong Zhou"/>
+    <string id="Settlements.Settlement.name.Atown_ES5" text="Xi Jiang"/>
+    <string id="Settlements.Settlement.name.Atown_ES6" text="Zhen Nan"/>
+    <string id="Settlements.Settlement.name.Atown_ES7" text="Luo An"/>
+
+    <string id="Settlements.Settlement.name.Atown_EW1" text="Koyamaha"/>
+    <string id="Settlements.Settlement.name.Atown_EW2" text="Edote"/>
+    <string id="Settlements.Settlement.name.Atown_EW3" text="Nakera"/>
+    <string id="Settlements.Settlement.name.Atown_EW4" text="Wasaki"/>
+    <string id="Settlements.Settlement.name.Atown_EW5" text="Sakasi"/>
+    <string id="Settlements.Settlement.name.Atown_EW6" text="Nayota"/>
+
+    <string id="Settlements.Settlement.name.Atown_K1" text="Bayancoulomb"/>
+    <string id="Settlements.Settlement.name.Atown_K2" text="Keshkirin"/>
+    <string id="Settlements.Settlement.name.Atown_K3" text="Iqbalhaot"/>
+    <string id="Settlements.Settlement.name.Atown_K4" text="Ulaanbari"/>
+    <string id="Settlements.Settlement.name.Atown_K5" text="Batelhada"/>
+    <string id="Settlements.Settlement.name.Atown_K6" text="Arubalin"/>
+    
+    <string id="Settlements.Settlement.name.Atown_S1" text="Aosslott"/>
+    <string id="Settlements.Settlement.name.Atown_S2" text="Goteskog"/>
+    <string id="Settlements.Settlement.name.Atown_S3" text="Pilstrand"/>
+    <string id="Settlements.Settlement.name.Atown_S4" text="Aarhjden"/>
+    <string id="Settlements.Settlement.name.Atown_S5" text="Kobenstad"/>
+    <string id="Settlements.Settlement.name.Atown_S6" text="Stockdalen"/>
+    <string id="Settlements.Settlement.name.Atown_S7" text="Helgen"/>
+
+    <string id="Settlements.Settlement.name.Atown_V1" text="Separa"/>
+    <string id="Settlements.Settlement.name.Atown_V2" text="Ursalia"/>
+    <string id="Settlements.Settlement.name.Atown_V3" text="Jintal"/>
+    <string id="Settlements.Settlement.name.Atown_V5" text="Navia"/>
+    <string id="Settlements.Settlement.name.Atown_V6" text="Denuim"/>
+    <string id="Settlements.Settlement.name.Atown_V7" text="Remus"/>
+    <string id="Settlements.Settlement.name.Atown_V8" text="Siverpol"/>
+    <string id="Settlements.Settlement.name.Atown_V9" text="Consulté sur"/>
+
+    <!-- 已修改 -->
+   <!-- 下属村庄 -->
+	<string id="Settlements.Settlement.name.Avillage_A1_1" text="Hulia"/>
+    <string id="Settlements.Settlement.name.Avillage_A1_2" text="Ekayam"/>
+    <string id="Settlements.Settlement.name.Avillage_A1_4" text="Natoni"/>
+    <string id="Settlements.Settlement.name.Avillage_A2_2" text="Archim"/>
+    <string id="Settlements.Settlement.name.Avillage_A2_3" text="Pierre angulaire"/>
+    <string id="Settlements.Settlement.name.Avillage_A3_1" text="Maipu Luo"/>
+    <string id="Settlements.Settlement.name.Avillage_A3_3" text="Galango"/>
+    <string id="Settlements.Settlement.name.Avillage_A4_1" text="Village"/>
+    <string id="Settlements.Settlement.name.Avillage_A4_2" text="Bircombe"/>
+    <string id="Settlements.Settlement.name.Avillage_A4_4" text="Sacupes"/>
+    <string id="Settlements.Settlement.name.Avillage_A5_1" text="Métaux"/>
+    <string id="Settlements.Settlement.name.Avillage_A5_2" text="Sapo"/>
+    <string id="Settlements.Settlement.name.Avillage_A5_3" text="Bibliothèque du Geshe"/>
+    <string id="Settlements.Settlement.name.Avillage_A6_1" text="Linumat"/>
+    <string id="Settlements.Settlement.name.Avillage_A6_2" text="Lacion"/>
+    <string id="Settlements.Settlement.name.Avillage_A6_3" text="Trakurgan"/>
+    <string id="Settlements.Settlement.name.Avillage_A6_4" text="Salekay"/>
+    <string id="Settlements.Settlement.name.Avillage_A7_2" text="Acheter Lach"/>
+    <string id="Settlements.Settlement.name.Avillage_A7_3" text="Obtenez-le"/>
+    <string id="Settlements.Settlement.name.Avillage_A7_4" text="Yasingu"/>
+    <string id="Settlements.Settlement.name.Avillage_A8_1" text="Avillage"/>
+    <string id="Settlements.Settlement.name.Avillage_A8_2" text="Byakek"/>
+	<string id="Settlements.Settlement.name.Avillage_B1_1" text="Anchar"/>
+    <string id="Settlements.Settlement.name.Avillage_B1_2" text="Patamirski"/>
+    <string id="Settlements.Settlement.name.Avillage_B1_3" text="Besso"/>
+    <string id="Settlements.Settlement.name.Avillage_B1_4" text="Pavlogro"/>
+    <string id="Settlements.Settlement.name.Avillage_B2_1" text="Tapamirsk"/>
+    <string id="Settlements.Settlement.name.Avillage_B2_2" text="Focorleurda"/>
+    <string id="Settlements.Settlement.name.Avillage_B2_3" text="Discjo"/>
+    <string id="Settlements.Settlement.name.Avillage_B3_1" text="Don't Willow"/>
+    <string id="Settlements.Settlement.name.Avillage_B3_2" text="Laverie"/>
+    <string id="Settlements.Settlement.name.Avillage_B3_3" text="Andreyev"/>
+    <string id="Settlements.Settlement.name.Avillage_B4_1" text="Vitodsk"/>
+    <string id="Settlements.Settlement.name.Avillage_B4_2" text="Ilgin"/>
+    <string id="Settlements.Settlement.name.Avillage_B4_3" text="Balkatanev"/>
+    <string id="Settlements.Settlement.name.Avillage_B4_4" text="Naviski"/>
+    <string id="Settlements.Settlement.name.Avillage_B5_1" text="Hoplov Roka"/>
+    <string id="Settlements.Settlement.name.Avillage_B5_2" text="Langkasusk"/>
+    <string id="Settlements.Settlement.name.Avillage_B5_3" text="Kabuochovka"/>
+    <string id="Settlements.Settlement.name.Avillage_EN1_1" text="Aokexingu"/>
+    <string id="Settlements.Settlement.name.Avillage_EN1_2" text="Gonvoda"/>
+    <string id="Settlements.Settlement.name.Avillage_EN1_3" text="Lucidine"/>
+    <string id="Settlements.Settlement.name.Avillage_EN2_1" text="Herskan Chihi"/>
+    <string id="Settlements.Settlement.name.Avillage_EN2_2" text="Pulcatine"/>
+    <string id="Settlements.Settlement.name.Avillage_EN3_1" text="Pager"/>
+    <string id="Settlements.Settlement.name.Avillage_EN3_3" text="Hakoro"/>
+    <string id="Settlements.Settlement.name.Avillage_EN4_2" text="Formakoma"/>
+    <string id="Settlements.Settlement.name.Avillage_EN4_4" text="Goxbil"/>
+    <string id="Settlements.Settlement.name.Avillage_EN5_1" text="Gukar"/>
+    <string id="Settlements.Settlement.name.Avillage_EN5_2" text="Tibumo Yavin"/>
+    <string id="Settlements.Settlement.name.Avillage_EN5_4" text="Imrippi"/>
+    <string id="Settlements.Settlement.name.Avillage_EN6_1" text="Vivillage"/>
+    <string id="Settlements.Settlement.name.Avillage_EN6_2" text="Yunsa"/>
+    <string id="Settlements.Settlement.name.Avillage_ES1_2" text="Nanze"/>
+    <string id="Settlements.Settlement.name.Avillage_ES1_3" text="Chaoping"/>
+    <string id="Settlements.Settlement.name.Avillage_ES1_4" text="Qingyun"/>
+    <string id="Settlements.Settlement.name.Avillage_ES2_2" text="Fengjiang"/>
+    <string id="Settlements.Settlement.name.Avillage_ES2_3" text="Shang Yong"/>
+    <string id="Settlements.Settlement.name.Avillage_ES2_4" text="Joaquin"/>
+    <string id="Settlements.Settlement.name.Avillage_ES3_1" text="Sea Head"/>
+    <string id="Settlements.Settlement.name.Avillage_ES3_2" text="Danhan"/>
+    <string id="Settlements.Settlement.name.Avillage_ES3_3" text="Poster"/>
+    <string id="Settlements.Settlement.name.Avillage_ES4_1" text="Shuoyu"/>
+    <string id="Settlements.Settlement.name.Avillage_ES4_3" text="San Yin"/>
+    <string id="Settlements.Settlement.name.Avillage_ES5_1" text="Chute d'eau"/>
+    <string id="Settlements.Settlement.name.Avillage_ES5_2" text="Hanbin"/>
+    <string id="Settlements.Settlement.name.Avillage_ES5_3" text="Dongyang"/>
+    <string id="Settlements.Settlement.name.Avillage_ES6_1" text="Escalade"/>
+    <string id="Settlements.Settlement.name.Avillage_ES6_2" text="Fourche à vent"/>
+    <string id="Settlements.Settlement.name.Avillage_ES7_1" text="Lening"/>
+    <string id="Settlements.Settlement.name.Avillage_ES7_2" text="Lichang"/>
+    <string id="Settlements.Settlement.name.Avillage_EW1_1" text="Chang He"/>
+    <string id="Settlements.Settlement.name.Avillage_EW1_2" text="Piscine Arai"/>
+    <string id="Settlements.Settlement.name.Avillage_EW2_2" text="Île d'Okino"/>
+    <string id="Settlements.Settlement.name.Avillage_EW2_3" text="Avillage"/>
+    <string id="Settlements.Settlement.name.Avillage_EW2_4" text="Ishii"/>
+    <string id="Settlements.Settlement.name.Avillage_EW3_2" text="Sanye"/>
+    <string id="Settlements.Settlement.name.Avillage_EW3_3" text="Takakawa"/>
+    <string id="Settlements.Settlement.name.Avillage_EW4_1" text="Xixian"/>
+    <string id="Settlements.Settlement.name.Avillage_EW4_3" text="Statue"/>
+    <string id="Settlements.Settlement.name.Avillage_EW4_4" text="Hamado"/>
+    <string id="Settlements.Settlement.name.Avillage_EW5_1" text="Tian Li"/>
+    <string id="Settlements.Settlement.name.Avillage_EW5_2" text="Neuf bouches"/>
+    <string id="Settlements.Settlement.name.Avillage_EW6_1" text="Fuzhige"/>
+    <string id="Settlements.Settlement.name.Avillage_EW6_3" text="Kataoka"/>
+    <string id="Settlements.Settlement.name.Avillage_EW6_4" text="Mythe"/>
+	<string id="Settlements.Settlement.name.Avillage_K1_1" text="Ili Gol"/>
+    <string id="Settlements.Settlement.name.Avillage_K1_2" text="Ergen"/>
+    <string id="Settlements.Settlement.name.Avillage_K1_4" text="Avillage"/>
+    <string id="Settlements.Settlement.name.Avillage_K2_1" text="Shiwuguwei"/>
+    <string id="Settlements.Settlement.name.Avillage_K2_2" text="Jaggert"/>
+    <string id="Settlements.Settlement.name.Avillage_K3_1" text="Harlembol"/>
+    <string id="Settlements.Settlement.name.Avillage_K3_2" text="Sainsanda"/>
+    <string id="Settlements.Settlement.name.Avillage_K3_3" text="Hackgar"/>
+    <string id="Settlements.Settlement.name.Avillage_K4_2" text="Bayingacha"/>
+    <string id="Settlements.Settlement.name.Avillage_K4_3" text="Youtu"/>
+    <string id="Settlements.Settlement.name.Avillage_K4_4" text="Ikhur"/>
+    <string id="Settlements.Settlement.name.Avillage_K5_2" text="Mrsnaoer"/>
+    <string id="Settlements.Settlement.name.Avillage_K5_3" text="Bortara"/>
+    <string id="Settlements.Settlement.name.Avillage_K5_4" text="Bayandong"/>
+    <string id="Settlements.Settlement.name.Avillage_K6_1" text="Bain Windur"/>
+    <string id="Settlements.Settlement.name.Avillage_K6_2" text="Idel"/>
+    <string id="Settlements.Settlement.name.Avillage_K6_3" text="Arda"/>
+    <string id="Settlements.Settlement.name.Avillage_S1_1" text="Offigen"/>
+    <string id="Settlements.Settlement.name.Avillage_S1_3" text="Péage"/>
+    <string id="Settlements.Settlement.name.Avillage_S2_1" text="Rifaga"/>
+    <string id="Settlements.Settlement.name.Avillage_S2_2" text="Crivar"/>
+    <string id="Settlements.Settlement.name.Avillage_S3_1" text="Bidlansger"/>
+    <string id="Settlements.Settlement.name.Avillage_S3_2" text="Rocalland"/>
+    <string id="Settlements.Settlement.name.Avillage_S4_1" text="Bêta"/>
+    <string id="Settlements.Settlement.name.Avillage_S4_3" text="Gleigaugan"/>
+    <string id="Settlements.Settlement.name.Avillage_S4_4" text="Creeden"/>
+    <string id="Settlements.Settlement.name.Avillage_S5_1" text="Yorva"/>
+    <string id="Settlements.Settlement.name.Avillage_S5_2" text="Talwa"/>
+    <string id="Settlements.Settlement.name.Avillage_S6_1" text="Honesia"/>
+    <string id="Settlements.Settlement.name.Avillage_S6_2" text="Narva"/>
+    <string id="Settlements.Settlement.name.Avillage_S6_3" text="Tekland"/>
+    <string id="Settlements.Settlement.name.Avillage_S7_1" text="Règlements"/>
+    <string id="Settlements.Settlement.name.Avillage_S7_2" text="Falbergs"/>
+	<string id="Settlements.Settlement.name.Avillage_V1_1" text="Coyne"/>
+    <string id="Settlements.Settlement.name.Avillage_V1_2" text="Avec Crow"/>
+    <string id="Settlements.Settlement.name.Avillage_V2_1" text="Adalcia"/>
+    <string id="Settlements.Settlement.name.Avillage_V2_2" text="Nuffila"/>
+    <string id="Settlements.Settlement.name.Avillage_V2_3" text="Marov"/>
+    <string id="Settlements.Settlement.name.Avillage_V3_2" text="Zintleskin"/>
+    <string id="Settlements.Settlement.name.Avillage_V3_3" text="Sebas"/>
+    <string id="Settlements.Settlement.name.Avillage_V3_4" text="Lanfield Laponie"/>
+    <string id="Settlements.Settlement.name.Avillage_V5_1" text="East Si Anrol"/>
+    <string id="Settlements.Settlement.name.Avillage_V5_2" text="Ed Marberg"/>
+    <string id="Settlements.Settlement.name.Avillage_V5_3" text="Heckheim"/>
+    <string id="Settlements.Settlement.name.Avillage_V6_1" text="Lanstalia"/>
+    <string id="Settlements.Settlement.name.Avillage_V6_2" text="Frenia"/>
+    <string id="Settlements.Settlement.name.Avillage_V6_3" text="Lanolan"/>
+    <string id="Settlements.Settlement.name.Avillage_V6_4" text="Epicilia"/>
+    <string id="Settlements.Settlement.name.Avillage_V7_1" text="Ledrapolis"/>
+    <string id="Settlements.Settlement.name.Avillage_V7_2" text="Journée de la Lira"/>
+    <string id="Settlements.Settlement.name.Avillage_V8_1" text="Morrowberg"/>
+    <string id="Settlements.Settlement.name.Avillage_V8_2" text="Stade de Jade"/>
+    <string id="Settlements.Settlement.name.Avillage_V8_3" text="Mollyheim"/>
+    <string id="Settlements.Settlement.name.Avillage_V9_1" text="Gidans"/>
+    <string id="Settlements.Settlement.name.Avillage_V9_2" text="Zone"/>
+    <!-- 已修改 -->
+    
+    <!-- 新介绍开始 -->
+    <string id="CityIntroductionJDY06" text="Le comté de la ville de Zhen Nan est situé dans le sud-est de la dynastie Yan et au pied sud des montagnes Qinling. C'est la plus grande ville du sud de la dynastie Yan. Son terrain est élevé au nord-ouest, plat, avec beaucoup de terres arables, et bas au sud-est, avec des terrains bas et de nombreuses forêts. Les marchands de Yan qui voyageaient vers le sud le long des monts Qinling s'arrêtaient souvent ici, et favorisaient par la même occasion la prospérité locale. Lorsque les vagues noires ont frappé, cette ville a été la première à être touchée. Plus tard, elle a été nommée 'Zhennan' pour commémorer la résistance aux vagues noires ici. La Fédération a dû abandonner l'idée d'attaquer la dynastie Yan par le sud."/>
+    <string id="CityIntroductionJDY07" text="La ville de Luo'an est située au nord de la ville de Tianlong, en écho à la ville de Tianlong. La ville de Luo'an fait face à Luoshui au nord et à la montagne Weiran à l'est. Elle garde la route des céréales vers le nord de l'empire. C'est aussi la dernière ligne de défense au nord de la ville de Tianlong. L'empereur de la dynastie Yan a un jour vaincu les forces de la coalition des cinq nations qui avaient envahi le Luoshui. Selon la légende, le dieu du Luoshui est venu apprendre aux ancêtres du peuple Yan à pêcher avec des filets, à élever du bétail, à cultiver sur brûlis, à cultiver du mûrier et à tisser, à produire et à vivre, et a construit la première ville Yan, &quot;Luocheng&quot;. Le Luoshui a été inondé plusieurs fois, les ancêtres de la tribu Yan se sont déplacés vers le sud, et la plupart des gens ont migré vers la ville de Tianlong. Après l'attaque des vagues noires, ils ont reconstruit la ville du nord de l'empire et l'ont nommée &quot;Luoan&quot;, ce qui signifie : &quot;Luoshui est en sécurité, le monde est en sécurité&quot;."/>
+    <string id="CityIntroductionNKN04" text="La ville d'Aarhus, qui signifie le lieu de la pêche et de la chasse, est située au bord de la mer, dans les montagnes de la partie sud de la péninsule de Nakan. Le pays du nord a un climat très froid et des rendements agricoles extrêmement faibles. Avant le début de l'activité des pirates, les habitants du pays du nord vivaient principalement de la pêche et de la chasse. Grâce à sa situation géographique exceptionnelle, Sefrag, qui était à l'origine un port de pêche, est devenu un important centre de commerce de fourrures et de bois."/>
+    <string id="CityIntroductionNKN07" text="Helenger City, autrefois la ville du légendaire pirate Ragnar et de la fille du bouclier Lagatha, est située dans la vallée de la falaise à la frontière sud-ouest de la péninsule de Nakan, un port naturel du Northland avec une période de gel très courte. Ragnar en a fait une forteresse pirate grâce aux immenses richesses qu'il a pillées, où des guerriers nordiques assoiffés de sang se réunissaient pour piller tout ce qui se trouvait dans le monde connu par bateau. Mais Ragnar a été vaincu par l'Empire du Dragon de la dynastie Yan à l'apogée de sa carrière de pirate, et ses restes ont finalement été enterrés là."/>
+    <string id="CityIntroductionRBL03" text="Mara Séoul, lotus blanc du désert. Une ville de commerce maritime et terrestre située en profondeur sur la rive sud de la mer de Mapo, une ville oasis du désert au climat sec, ses bâtiments blancs sont cachés à l'ombre des dattiers, des palmiers et des oliviers, comme un lotus blanc flottant dans la mer de Mapo."/>
+    <string id="CityIntroductionRBL07" text="Kiroha, la ville blanche. Elle est proche de la rive sud de la mer de Marbo et subit l'influence du courant chaud de l'océan occidental. Le climat est doux et les arbres sont à feuilles persistantes. C'est une perle dans le vaste désert de la partie sud du continent. La générosité d'Allah envers le peuple Ebramon, le peuple Ebramon est un homme d'affaires avisé. Avec les bonnes relations avec la dynastie Yan sur la côte nord et l'excellente situation géographique, le développement du commerce maritime et de la pêche a accumulé beaucoup pour la ville de Sias. Richesse, et a fait de brillantes réalisations artistiques et culturelles."/>
+    <string id="CityIntroductionPRU05" text="Navia, une terre vallonnée de champs de blé. Située sur les collines au milieu du continent. Le centre commercial de la cité-état de Pruoyoun, la ville natale de l'actuel roi Pruoyoun, pendant la guerre avec la dynastie Yan, parce que les villes de l'intérieur étaient sur la ligne de front de la guerre contre la dynastie Yan pendant longtemps ou étaient assiégées, la puissante armée de la cité-état de Gasmachu a fait Les avantages des montagnes ont été pleinement exercés, et la puissance financière et militaire de la cité-état a été grandement améliorée pendant la guerre, qui a finalement dominé toute la Fédération de Pruoyoun."/>
+    <string id="CityIntroductionPRU08" text="Swinpool, la ville de la Sainte Lumière. Elle est située à l'ouest de Puruoyoun, adossée à une vaste plaine, avec des saisons à feuilles persistantes, un climat agréable et une agriculture extrêmement développée. C'est le premier grenier à blé de la partie occidentale du continent. Les Puryoung croient que c'est l'endroit que Dieu leur a donné, l'endroit où le soleil brille en dernier. La cathédrale gothique qui se dresse dans la ville représente la ferme croyance du peuple Pruoyoun. Dans la longue guerre entre la dynastie Yan et les Pruoyoun, l'Empire du Dragon n'a jamais conquis cette ville qui représente la force et le courage du peuple Pruoyoun."/>
+    <string id="CityIntroductionWLT01" text="La ville de Merkel, la forteresse militaire de la Légion d'Urasovi dans la région de la forêt marécageuse, le peuple d'Urasovi est toujours sur la voie de la migration continue, les faibles sont éliminés, et seuls les guerriers forts et les femmes courageuses qui les suivaient ont survécu. De cette façon, ils se sont développés en une race forte et tenace, formant un système de légion où tous les gens sont des soldats. Ils ne se soucient guère des choses belles et délicates de la vie, et de ce qu'ils considèrent comme féminin dans l'apprentissage. Ainsi, ce que vous voyez à Siwumu City est une barrière de pierre et de bois sans beauté, qui symbolise la force militaire tyrannique de la Légion."/>
+    <string id="CityIntroductionWLT04" text="Le site sacré d'Urassovi sur les rives du lac Luna, comté de Linhix. Les Ulasoviens vivent dans les forêts, les montagnes, les marécages et autres zones sauvages au fin fond du continent Xijue. Ils sont sauvages et robustes. Ils détestent rester sur leurs pieds par nature, et aspirent à un mode de vie libre et pionnier. Ils continuent d'avancer jusqu'à ce qu'ils atteignent la rive du lac Luna. La légende veut que le dieu de la lune soit venu au monde et ait lavé les cœurs maniaques du peuple Urasovi avec l'eau profonde et tranquille du lac. Ils ont vécu au bord du lac et ont créé la première colonie de l'histoire d'Urasovii, la terre sainte, le comté de Linhix."/>
+    <string id="CityIntroductionMGR01" text="Bayankulun, qui signifie vallée fluviale de prairie, riche en eau et en herbe, paradis des nomades. À l'origine, les Cosaques y ont construit une ville en terre battue comme comptoir commercial avec leur suzeraineté, la dynastie Yan. Mais maintenant, le drapeau blanc du Khan mongol se dresse dans la ville. Le peuple mongol est un conquérant impitoyable et puissant. Ils croient que Changshengtian accordera les richesses du monde aux guerriers les plus courageux. La cavalerie de fer du Khan a conquis les prairies. tout et a transformé les cosaques en serfs dans le corral."/>
+    <string id="CityIntroductionMGR02" text="Le Keshkxilin dit par les Mongols signifie &quot;Le plateau du bonheur et du sacré&quot;. Les ancêtres des Mongols vivaient de l'eau et de l'herbe sur ce plateau. À cette époque, la capitale était un lieu mobile, l'emplacement n'était pas fixe, et ils étaient nomades sur les prairies. Plus tard, les marchands de la dynastie Yan, partis vers l'ouest pour ouvrir des routes commerciales, se sont souvent reposés ici, et ont établi des stations de défense et de ravitaillement de la ville. Depuis lors, ce lieu élevé situé dans la partie centrale et septentrionale de la prairie est progressivement devenu la plus grande ville et le centre commercial et religieux du plateau de Mobei. Après que le roi de la prairie ait unifié toutes les forces de la prairie, il a vaincu la garnison de la dynastie Yan ici et en a fait la capitale."/>
+    <string id="CityIntroductionMGR04" text="Ulaanbali, situé sur la rive ouest du lac Saijia, est la terre la plus fertile de Mongolie et la plus grande zone de pâturage pour les Mongols. La légion d'Urasovi, convoitée depuis longtemps, a envoyé une légion pour occuper cette prairie. Afin de chasser la légion d'Urasovi, le roi des prairies a lancé une bataille féroce ici, teintant la prairie et les murs de la ville en rouge, de sorte qu'elle a été appelée &quot;Rouge&quot;. Depuis lors, le peuple mongol dit souvent : &quot;L'endroit où le roi des prairies brandit le fouet est l'endroit où le peuple mongol broute&quot;."/>
+    <string id="CityIntroductionMGR05" text="Batel Hada, la plus ancienne ville de la steppe. Elle est située sur la plate-forme élevée de la rive droite du lac Saiyijia, à l'intersection de trois routes commerciales dans la prairie, et fait face à la dynastie Yan de l'autre côté du lac. Il appartient maintenant à Mungo Khan, qui le contemple souvent depuis le pavillon et le grenier du palais Batel Hada. Derrière les montagnes, au loin, se trouve le riche territoire de la dynastie Yan, et il rêve de pouvoir un jour y paître."/>
+    <!-- 新介绍结束 -->
+
+   <!-- ↓Don't translate these things↓ -->
+   <!-- ↓These are the original or Naitve things↓ -->
+	<string id="Settlements.Settlement.text.castle_village_A1_1" text="Tubiris est situé dans la baie de Sharas, également appelée Shariz par les Aserai. Les villageois naviguent vers les hauts-fonds entre les îles pour trouver et pêcher du thon, des sardines et des requins."/>
+    <string id="Settlements.Settlement.text.castle_village_A2_1" text="Le Sahel se trouve à la limite du territoire d'Aserai, sur les basses montagnes d'Assab. Les montagnes retiennent les nuages de pluie de la mer de Yeshm, et les moussons soufflant du sud-est ont permis aux fermes locales de stockage d'eau de cultiver des châtaignes et du blé."/>
+    <string id="Settlements.Settlement.text.castle_village_A2_2" text="Asmet est situé à l'angle des montagnes d'Assab et borde les profondeurs du désert au sud. Les villageois utilisent l'eau pour intercepter les torrents de la montagne lors des rares pluies d'orage. Plantez des palmiers dattiers et d'autres cultures."/>
+    <string id="Settlements.Settlement.text.castle_village_A3_1" text="Les villageois d'Ain Barik prospèrent autour d'un puits dans une vallée ouverte qui coupe les falaises de Jaljara à l'ouest du mont Tamar. Elle est divisée. Les terres environnantes, bien que sèches, produisent encore suffisamment de pâturages pour élever des chevaux au printemps."/>
+    <string id="Settlements.Settlement.text.castle_village_A3_2" text="Deir Hawa est situé sur la rive sud de la mer venteuse de Yeshm, comme l'appellent les Aserai. Les villageois s'approvisionnent en eau grâce au ruissellement de surface des montagnes et le lin est cultivé dans les basses terres."/>
+    <string id="Settlements.Settlement.text.castle_village_A4_1" text="Medeni est situé dans la plaine entre la mer de Yeshm et les falaises de Djerjarai. Pendant la saison des pluies, l'eau de surface des falaises est utilisée pour irriguer les jardins de palmiers dattiers sur le rivage."/>
+    <string id="Settlements.Settlement.text.castle_village_A4_2" text="Jidnar est situé sur la plaine d'inondation de la rivière Damar, qui traverse les falaises de Jerrjarai et est l'endroit le plus densément peuplé d'Aserai. Les agriculteurs locaux comptent sur le limon provenant des inondations périodiques annuelles de la rivière pour cultiver des céréales."/>
+    <string id="Settlements.Settlement.text.castle_village_A5_1" text="Jamayeh est situé sur la rive sud de ce que les Aserai appellent &quot;Bahir Yeshm&quot;, la &quot;mer d'émeraude&quot;. Bien que la saison des pluies soit courte dans la région, le climat est très favorable aux oliviers."/>
+    <string id="Settlements.Settlement.text.castle_village_A6_1" text="Hibal Zumr est situé sur les rives de la &quot;Nehr Kellers&quot;, qui est la rivière Lime. L'eau est fertile et le sol peut être cultivé . Mais non loin au sud, se trouve la terre saline et alcaline stérile, et on ne peut y faire pousser que quelques cultures particulièrement bien soutenues."/>
+    <string id="Settlements.Settlement.text.castle_village_A7_1" text="Ugba est situé au bord de la mer de Polas. Les villageois s'approvisionnent en eau de pluie et en eau de surface dans les montagnes pour irriguer leurs champs et leurs palmiers dattiers."/>
+    <string id="Settlements.Settlement.text.castle_village_A7_2" text="Ben Ghez est situé à l'entrée du grand oued qui sépare les falaises de Jaljaray du mont Tamar. Les villageois creusent des puits pour obtenir les eaux souterraines de l'oued, utilisées pour irriguer les oliveraies."/>
+    <string id="Settlements.Settlement.text.castle_village_A8_1" text="Tamnu se trouve au bord d'une grande lagune divisée par une flèche dans la mer de Pallas. Les villageois raclent l'argile des bas-fonds et la vendent aux potiers locaux."/>
+	<string id="Settlements.Settlement.text.castle_village_A9_1" text="Le village-oasis de Barihala est situé au bord d'un oued dans la Djaljarai Cliff Mesa. La région est surtout connue pour ses chevaux élevés avec de l'herbe de printemps grasse et éphémère."/>
+    <string id="Settlements.Settlement.text.castle_village_B1_1" text="Abu Kommel est situé sur le cours supérieur escarpé de la rivière Trang qui traverse le plateau d'Ukalion. Les tribus locales cultivent des raisins sur le flanc de la colline, qu'elles utilisent pour produire un vin blanc populaire auprès de l'Empire et de la noblesse valandienne."/>
+    <string id="Settlements.Settlement.text.castle_village_B2_1" text="Lanoke Heng est situé sur une crête de haute montagne dans le massif de l'Ukalion. Les villageois sont des éleveurs de porcs qualifiés et il y a deux chemins après avoir descendu la montagne. L'un vers l'ouest en direction de la Vallandia, l'autre vers l'est en direction de l'Empire."/>
+    <string id="Settlements.Settlement.text.castle_village_B2_2" text="Le Cantrek est situé dans la gorge rocheuse de Barasog qui mène du territoire de l'Empire au plateau d'Ucalion. Le sol n'est pas très fertile, mais les hautes brousses sont propices à l'élevage de porcs."/>
+    <string id="Settlements.Settlement.text.castle_village_B3_1" text="Druidmore se trouve à Morcon, une vallée de rift qui divise le plateau d'Ukalion de la péninsule d'Ebo. Les mineurs sont sur le flanc d'une montagne locale. Du minerai d'argent a été trouvé dans la fissure."/>
+    <string id="Settlements.Settlement.text.castle_village_B4_1" text="Pendrak est situé sur une pente raide au nord d'Ukalion, face à la baie de Valcheg. Il y a eu des escarmouches occasionnelles de la part des équipes de raiders de Dania et Sturgia. Dès que les villageois qui élevaient des porcs ont entendu les cornes d'alarme, ils ont conduit les troupeaux dans leurs cachettes dans les montagnes."/>
+    <string id="Settlements.Settlement.text.castle_village_B5_1" text="Le Remtoir est situé sous une fissure dans les falaises orientales du plateau d'Ukalion, près de la source de la rivière Miron, que les Battaniens appellent &quot;Mir&quot;. C'est l'endroit le plus fertile d'Albatanie, et la récolte de blé est bonne."/>
+    <string id="Settlements.Settlement.text.castle_village_B5_2" text="Clegg Baan se trouve sous une falaise dans le massif de l'Ukalion. Les villageois collectent l'argile de la rivière Mill toute proche et la vendent aux potiers Batani dans les villes d'Asie."/>
+    <string id="Settlements.Settlement.text.castle_village_B6_1" text="Flintog est situé au sommet d'une montagne dans la partie orientale du massif de l'Ukalion. Le sol est pauvre, mais les arbres poussent en abondance, ce qui en fait un Battanian La principale source de bois."/>
+    <string id="Settlements.Settlement.text.castle_village_B6_2" text="Glyntoll surplombe la rivière Fair, au débit rapide, où l'eau du lac Taiwal se jette dans la baie de Valcheg. Les chevaux élevés dans les prairies locales sont préparés Favori des bandits et des commerçants du nord de la Sturgian."/>
+    <string id="Settlements.Settlement.text.castle_village_B7_1" text="Aster se trouve dans une vallée peu profonde entre les collines et Granis, dans le nord-est de l'Ukalion. Les habitants sont plus préoccupés par le commerce que par la guerre, et les anciens de la tribu encouragent la plantation de mûriers pour maintenir une petite industrie de tissage de la soie."/>
+    <string id="Settlements.Settlement.text.castle_village_B8_1" text="Uselem est situé sur une crête à la frontière orientale de l'Albatanie, surplombant un affluent de la rivière Mill. Les habitants sont des exploitants forestiers qui récoltent des chênes, des ifs et des pins, et vendent du bois aux constructeurs et aux constructeurs de bateaux."/>
+	<string id="Settlements.Settlement.text.castle_village_EN1_1" text="Varagos se trouve sur les rives de la rivière Arris, où les petites rivières des hauts plateaux se jettent dans le profond lac Ophrtis. Le sol n'est pas très fertile, mais suffisant pour nourrir les moutons."/>
+    <string id="Settlements.Settlement.text.castle_village_EN2_1" text="Rocana est situé sur la rive orientale du lac Laconis. Cette terre boueuse et de faible altitude est idéale pour la culture du lin."/>
+    <string id="Settlements.Settlement.text.castle_village_EN3_1" text="Lessos est situé sur un haut plateau dans les montagnes de Delua. Le bétail Highland prospère sur les pâturages d'altitude ici."/>
+    <string id="Settlements.Settlement.text.castle_village_EN4_1" text="Gaos est situé dans les collines à l'est de l'empire, dans la large vallée de Mizeyard. Les nomades occupaient autrefois cet endroit, et le village tire son nom de leur langue, le nom pour &quot;vache&quot;."/>
+    <string id="Settlements.Settlement.text.castle_village_EN5_1" text="Atelion est situé dans la vallée de Nevis, où un courant lent et glacé se jette dans le lac Laconis. Cette terre plate et humide est propice à la culture du lin."/>
+    <string id="Settlements.Settlement.text.castle_village_EN6_1" text="Ataconia se trouve sur un plateau en face des montagnes Delua. Les habitants savent repérer les gisements d'argent exposés par le ruissellement des montagnes."/>
+    <string id="Settlements.Settlement.text.castle_village_EN7_1" text="Ebinosa est située à l'extrême nord de l'Empire, juste sur la rive sud du lac des Glaciers, sur la ligne de transport d'Iltam, du lac Laconis et du lac Tanasis ; il y a un flux constant de bateaux entre les deux. La région est relativement peu peuplée, mais il y a de grands troupeaux de bétail qui paissent dans les prairies luxuriantes."/>
+    <string id="Settlements.Settlement.text.castle_village_EN8_1" text="Syratos est assis sur une falaise sur la rive nord du lac Thanasis. Les hivers froids peuvent briser la roche, ce qui permet au fer enfoui profondément dans les veines d'être exposé, et les villageois exploitent la montagne."/>
+    <string id="Settlements.Settlement.text.castle_village_EN9_1" text="Mekarovia surplombe les chutes de Galkas, une série de courants rapides qui finissent par rejoindre la rivière Miron et le lac Laconis. Le village est assis sur une falaise pour protéger cette frontière des bandits et des gangs. La chute d'eau en cascade gifle la falaise et expose beaucoup de minerai, et les villageois en vivent."/>
+    <string id="Settlements.Settlement.text.castle_village_ES1_1" text="Oderusa est située à l'extrême frontière orientale de l'Empire, de l'autre côté de la rivière Tiagus se trouve le territoire de ce qui est aujourd'hui le khanat Khuset. Malgré le climat aride, les arbres tels que les chênes poussent toujours dans les coins de la gorge de Tiagos et d'autres vallées, fournissant des matières premières pour l'industrie du bois à petite échelle."/>
+    <string id="Settlements.Settlement.text.castle_village_ES2_1" text="Correnia est l'un des villages les plus reculés de l'Empire, où les gens parlent encore le karadish. Il est situé dans les plaines au sud-est du lac Tanasis Up, près des collines Akkan. Après cette montagne, on ne parle que le daradish et les langues des peuples de la steppe. Les villageois locaux cultivent des céréales et sont toujours à l'affût des raiders."/>
+    <string id="Settlements.Settlement.text.castle_village_ES2_2" text="Mutakia est située à la frontière de la rive sud du lac Tanasis, de l'autre côté de la rivière Tiagus. Cette colonie impériale, construite en temps de paix, est un centre de plantation de mûriers nécessaires à l'industrie du tissage de la soie."/>
+    <string id="Settlements.Settlement.text.castle_village_ES3_1" text="Melion se trouve à Mizeyard, une vallée étroite près du centre du plateau accidenté de la partie orientale de l'Empire. Les villageois locaux cultivent des mûriers et récoltent les feuilles pour nourrir les vers à soie. Le fil de soie qui en résulte est apprécié aussi bien par les nobles impériaux élégants en habits de cour que par les bergers sauvages et les frontaliers, qui portent des vêtements en soie sous leur armure comme une couche supplémentaire de protection contre les flèches."/>
+    <string id="Settlements.Settlement.text.castle_village_ES3_2" text="Sagorina se trouve au fond d'une étroite vallée de Mizeyard, un plateau accidenté à l'est de Calradia. L'extraction d'argent dans les montagnes voisines explique l'Empire Pourquoi cet endroit a été conquis et défendu pendant des siècles."/>
+    <string id="Settlements.Settlement.text.castle_village_ES4_1" text="Ravenia est un village de pêcheurs sur la côte nord-est de la mer de Perth. Un château voisin garde la porte du territoire d'Aserai, qui est relié par des lacs. Le réseau de transport avec la lagune est appelé Calesa."/>
+    <string id="Settlements.Settlement.text.castle_village_ES4_2" text="Ethemisa est située sur les rives de la Rivière de l'Amertume, connue par les Aserai sous le nom de Nehel Kellers, et les habitants de l'Empire l'appellent Castle Lessa. Ici, le fleuve vient de s'écouler des collines du bord de mer et n'a pas encore atteint les plaines salines du sud-est. La récolte de blé dans les terres voisines est bonne."/>
+    <string id="Settlements.Settlement.text.castle_village_ES5_1" text="Morenia surplombe la rivière Settles et se trouve à l'entrée basse de la vallée de Lycaria. Les villageois ramassent l'argile près de la rivière pour alimenter les fours de l'Empire au sud."/>
+    <string id="Settlements.Settlement.text.castle_village_ES6_1" text="La colonie est située sur le côté ouest du rocher Oni, un énorme affleurement rocheux au milieu de la vallée de Lycaria. Certains disent que le rocher a reçu son nom des vautours qui se rassemblaient ici pour se régaler de cadavres, alors que ceux qui mouraient travaillaient encore dans les mines d'argent locales."/>
+    <string id="Settlements.Settlement.text.castle_village_ES7_1" text="Yoglius est situé sur la rive ouest plate du lac Tanasis. Les terres étaient à l'origine habitées par des tribus nomades et ont été récemment cultivées. Les colons impériaux ont payé de gros efforts pour y cultiver le mûrier et la sériciculture, et obtenir des produits très rentables."/>
+    <string id="Settlements.Settlement.text.castle_village_ES8_1" text="Canopsis est construit autour des eaux d'amont de la rivière Setis sur le plateau de Mizeyard. Le blé pousse à merveille sur cette plaine ensoleillée."/>
+    <string id="Settlements.Settlement.text.castle_village_EW1_1" text="Le cap situé entre le golfe de Salas et la mer intérieure de Plas s'appelle Garonto. Les prairies côtières sont luxuriantes, ces herbes plus hautes sont salées par la mer. Elles sont bien tolérées et peuvent être utilisées pour de bons chevaux."/>
+    <string id="Settlements.Settlement.text.castle_village_EW2_1" text="Torios est situé dans la vallée de la rivière Arris, dans l'arrière-pays de Calradia. L'irrigation de la rivière et le climat relativement chaud de l'intérieur des terres permettent à la région d'être bien irriguée. Les champs de blé productifs de Bergon nourrissaient de nombreuses personnes au milieu de l'empire."/>
+    <string id="Settlements.Settlement.text.castle_village_EW2_2" text="Bergon est situé dans la vallée de la rivière Arris, dans l'arrière-pays de Calradia. L'irrigation de la rivière et le climat relativement chaud de l'intérieur des terres permettent à la région de partager Les champs de blé à haut rendement de Rios nourrissaient de nombreuses personnes au milieu de l'empire."/>
+    <string id="Settlements.Settlement.text.castle_village_EW3_1" text="Onika se trouve sur la rive nord de la mer de Pallas. Les collines d'ici abritent les célèbres oliveraies en terrasses du sud de l'Empire, qui produisent une huile d'olive légère et aromatique."/>
+    <string id="Settlements.Settlement.text.castle_village_EW4_1" text="Three Keto est situé par une petite baie qui rejoint le Golfe de Salas. Elle est soufflée par le vent chaud du sud et humidifiée par les sources de la montagne. Il est utilisé par les propriétaires terriens de l'empire. pour la plantation expérimentale de palmiers dattiers."/>
+    <string id="Settlements.Settlement.text.castle_village_EW5_1" text="Viron est situé dans les collines du massif de l'Ukalion, près des sources de la rivière Galius. Les collines à côté du village sont pleines de feux de bergers les nuits d'été. Leurs animaux sont emmenés paître dans les pâturages des hautes terres."/>
+    <string id="Settlements.Settlement.text.castle_village_EW5_2" text="Gorelin est situé sur les collines chaudes et couvertes de chêne d'Epir, près de la frontière de la Vallandia et de Batania. L'élevage de moutons y est un moyen de subsistance, tout comme le vol de moutons."/>
+    <string id="Settlements.Settlement.text.castle_village_EW6_1" text="Hetogaia est situé près du mont Eritreus, une montagne de basalte géante qui s'élève du sol. Les villageois cultivent des olives sur les pentes."/>
+    <string id="Settlements.Settlement.text.castle_village_EW7_1" text="Elvania est située au bord du golfe d'Ortesia, où passe la route maritime entre l'océan occidental et la mer de Peras. Les oliviers qui poussent sur les collines voisines profitent du soleil chaud du sud."/>
+    <string id="Settlements.Settlement.text.castle_village_EW8_1" text="Gercegos est situé dans la vallée de la rivière Miron qui sépare les Crags de Curción et les montagnes de Deruia. Les villageois ouvrent une bouche de montagne qui surplombe le village. minerai, qui produit de l'argent et d'autres métaux précieux."/>
+	<string id="Settlements.Settlement.text.castle_village_K1_1" text="Le village d'Usaik est situé sous les collines d'Akkan, sur la rive est du lac Tanasis, appelé la mer Danaz par les Qusetts. Il n'y a pas si longtemps, les villageois menaient une vie nomade, et la laine de leurs moutons est longue et bonne."/>
+    <string id="Settlements.Settlement.text.castle_village_K1_2" text="Le village d'Esme et ses villages environnants sont situés sur le plateau de Devsag, sur le côté terrestre des collines d'Akkan. C'est la principale zone de pâturage pour le Kuset et ses alliés."/>
+    <string id="Settlements.Settlement.text.castle_village_K2_1" text="Archesel est situé à l'extrémité sud des collines d'Akkan. Le sol est tellement fracturé et altéré que des couches de minerai de fer sont exposées dans les ravins."/>
+    <string id="Settlements.Settlement.text.castle_village_K3_1" text="Le village de Hakun est situé sur les falaises des collines d'Akkan. Les gens d'ici ont longtemps exploité l'argent dans les montagnes. Ils sont heureux de soutenir cette industrie."/>
+    <string id="Settlements.Settlement.text.castle_village_K4_1" text="Le village de Tepes surplombe un affluent de la rivière Karakazi, qui se jette du nord dans Danaz, connu de l'Empire sous le nom de Tanasis La mer. La région est riche en bois, et les gens descendent la rivière pour le vendre aux villes situées au bord du lac."/>
+    <string id="Settlements.Settlement.text.castle_village_K5_1" text="Himli est situé dans une cuvette du plateau du Devsag. Bien que la terre soit sèche presque toute l'année, il y a toujours des neiges hivernales et un printemps boueux. L'argile de haute qualité est recueillie dans les flaques d'eau laissées par la neige et la pluie."/>
+    <string id="Settlements.Settlement.text.castle_village_K6_1" text="Dinar est situé à l'extrême nord de l'alliance tribale Khuset, le long de la rivière Karakazi. Bien que la région soit enneigée presque toute l'année, l'herbe de printemps Un nombre considérable de moutons sont encore entretenus, et l'épaisse laine qu'ils produisent aide à protéger la population des vents locaux rigoureux."/>
+    <string id="Settlements.Settlement.text.castle_village_K6_2" text="Kalahari est situé à l'extrême nord de l'Alliance tribale de Qusset, non loin de la mer glacée de Biarri. Bien que la région soit enneigée presque toute l'année, l'herbe du printemps Un nombre considérable de moutons sont encore entretenus, et l'épaisse laine qu'ils produisent aide à se protéger contre le vent mordant de la mer."/>
+    <string id="Settlements.Settlement.text.castle_village_K7_1" text="Simila est situé sur le côté est du plateau de Devsag, d'où il se jette dans la Grande Mer d'Herbe. Vache."/>
+    <string id="Settlements.Settlement.text.castle_village_K8_1" text="Ezenur est situé sur les rives de la rivière Tiagus, dans le dialecte local de Tejas. Les villageois exploitent le minerai de fer sur des affleurements le long de la rivière. L'écoulement de l'eau est rougeâtre en raison du fer présent dans le sol."/>
+    <string id="Settlements.Settlement.text.castle_village_K9_1" text="Kesar est situé dans la partie nord-est du territoire de Kuset, dans la vallée de la rivière Karakazi. La région est recouverte de neige presque toute l'année, mais les villageois continuent d'élever du bétail avec le vent froid qui souffle du nord vers l'aval."/>
+    <string id="Settlements.Settlement.text.castle_village_K9_2" text="Payamu est situé dans le nord froid du territoire de Kuset, le long de la rivière Karakazi. Bien que la région soit recouverte de neige presque toute l'année, les villageois vivent sur ces terres. Le blé et l'orge ont été semés juste après le dégel, de sorte que la récolte d'automne n'a pas été mauvaise."/>
+    <string id="Settlements.Settlement.text.castle_village_S1_1" text="Ustok est situé sur la péninsule venteuse de Kachar, entre la baie de Valcheg et la mer de Biari. Le robuste bétail nordique élevé par les locaux trouvera de l'herbe à manger entre les fentes, et ajoutera quelques algues dans les moments difficiles."/>
+    <string id="Settlements.Settlement.text.castle_village_S2_1" text="Mazardan se trouve près des eaux d'amont de la rivière Galkas, à l'ouest du lac Laconis. Les villageois de cette terre humide seront dans des vallées boueuses à planter du lin."/>
+    <string id="Settlements.Settlement.text.castle_village_S3_1" text="Nevyansk est situé sur une colline plate surplombant la baie de Valcheg. Le climat est froid, mais les eaux de surface qui dévalent les collines apportent un sol fertile, les villageois y feront pousser des cultures rustiques comme le seigle et l'orge."/>
+    <string id="Settlements.Settlement.text.castle_village_S3_2" text="De Ning est situé sur une prairie herbeuse surplombant la partie étroite de la baie de Valcheg. Des chevaux paissent sur les hauteurs, jetant de temps en temps un coup d'œil aux chaloupes et aux petits bateaux de pêche qui passent en contrebas."/>
+    <string id="Settlements.Settlement.text.castle_village_S4_1" text="Kranirog est situé dans une vallée forestière ouverte surplombant la rivière Garza. Les villageois d'ici sont de bons chasseurs, ils chassent les peaux de vison, de renard et de lapin pour répondre à la demande du sud de l'île."/>
+    <string id="Settlements.Settlement.text.castle_village_S4_2" text="Ismircog est situé sur les basses terres herbeuses entre les rivières Garza et Vastra, deux petits affluents de la rivière Miron. Les habitants, pour la plupart, élevaient et volaient du bétail, et pillaient depuis longtemps les villages de la frontière impériale à l'est et les Battaniens à l'ouest."/>
+    <string id="Settlements.Settlement.text.castle_village_S5_1" text="Auf est une colonie sturgienne récente située dans les Ikara Wastes - une forêt au nord-ouest du lac Laconis. Les villageois bravent le froid et les loups, habitants de la forêt à la recherche de fourrure, lunatiques et chasseurs de primes du Nord."/>
+    <string id="Settlements.Settlement.text.castle_village_S5_2" text="Fihe est situé dans les déchets d'Ikara, à la lisière nord de la forêt, au nord-ouest du lac Laconis. C'est un bastion pour les commerçants qui s'aventurent dans les profondeurs de la forêt, pour ceux qui ont besoin de se protéger du froid et des loups, pour les habitants de la forêt à la recherche de fourrure, et pour les chasseurs de primes du Nord."/>
+    <string id="Settlements.Settlement.text.castle_village_S6_1" text="Takor est un village de bovins situé dans ce que les Altaniens appellent la rivière Minard, ou &quot;montagne de la guerre&quot;. Au col de la montagne. Leur empire et leurs voisins de Sturgia l'appelaient 'Minadore'. C'était l'un des principaux passages entre le nord désolé et l'empire relativement stable de l'empire, tant pour le commerce que pour le pillage."/>
+    <string id="Settlements.Settlement.text.castle_village_S7_1" text="Ulyx Kara est situé sur la ligne de transport d'Iletan, un réseau de lacs glaciaires, Laconis et Tanasis. Des bateaux longs peuvent être remorqués et navigués entre eux. Les villageois pêchent des bars à épines et des écrevisses dans les bas-fonds, les font sécher et les vendent aux voyageurs."/>
+    <string id="Settlements.Settlement.text.castle_village_S8_1" text="Vlakiv est situé dans la vallée forestière froide et sombre au pied du mont Illetan. Dans cette région, le bétail rustique creuse dans la neige épaisse pour trouver de l'herbe en hiver. Si le bétail est bien nourri, cela durera jusqu'au printemps."/>
+	<string id="Settlements.Settlement.text.castle_village_V1_1" text="Yusank se trouve sur une petite crique qui rejoint la baie de Salas. Cette terre chaude du sud est parfaite pour les oliviers."/>
+    <string id="Settlements.Settlement.text.castle_village_V2_1" text="Ungar se trouve dans une forêt chaude près des méandres de la rivière Trang. Cette terre riche en blé était autrefois le cœur de l'empire, mais maintenant Varandi Le centre du royaume d'Asie."/>
+    <string id="Settlements.Settlement.text.castle_village_V2_2" text="Fitton se trouve sur un coin des méandres de la rivière Trang, non loin du col qui mène aux collines de Biscayne. Les villageois de la région chaude et sèche cultivent des olives sur le flanc d'une colline."/>
+    <string id="Settlements.Settlement.text.castle_village_V3_1" text="Derabon est situé à l'extrémité du cap Farr, juste au sud de l'embouchure de la rivière Trang. Les villageois s'aventurent loin pour trouver des morues englouties par le froid du nord."/>
+    <string id="Settlements.Settlement.text.castle_village_V4_1" text="Oman Fade est situé au bord d'une petite rivière impétueuse qui descend des montagnes Leonor et rejoint le lac Oaks. Les montagnes ont beaucoup de pluie, le blé et l'orge poussent de manière satisfaisante."/>
+    <string id="Settlements.Settlement.text.castle_village_V5_1" text="Tierby est situé près des eaux froides et brumeuses de la péninsule d'Ebo. Les zones de basse altitude au nord d'Ebo sont propices à la culture du lin."/>
+    <string id="Settlements.Settlement.text.castle_village_V5_2" text="Silandak se trouve au pied des montagnes de la péninsule d'Ebo, bloquant légèrement le vent mordant du nord-ouest. Les immigrants de toute la Vallandia viennent ici pour trouver la mine d'argent près du ruisseau."/>
+    <string id="Settlements.Settlement.text.castle_village_V6_1" text="Kalius est situé sur la plaine côtière brumeuse au sud de la baie de Valcheg. En Albanie, on cultive le lin dans les plaines."/>
+    <string id="Settlements.Settlement.text.castle_village_V6_2" text="Driat est situé entre la baie de Valcheg et la crête de la péninsule d'Ebo. Les villageois locaux chassent le castor et le vison dans les montagnes et parfois dans les eaux de la baie. Phoques."/>
+    <string id="Settlements.Settlement.text.castle_village_V7_1" text="Tallyville est situé au milieu de la vallée de Trang, au cœur de Calradia. Les villageois locaux cultivent des olives sur les flancs des collines."/>
+    <string id="Settlements.Settlement.text.castle_village_V8_1" text="Vereksan est situé au bord des eaux du lac Oaks, un petit lac intérieur profond. Les villageois locaux cultivent le blé sur les prairies plates autour du lac."/>
+    <string id="Settlements.Settlement.text.village_A1_1" text="Tasheba est situé sur la côte ouest de la mer de Yeshm. Les pêcheurs pénètrent dans des eaux protégées et calmes la plupart de l'année pour pêcher le thon et la sardine."/>
+    <string id="Settlements.Settlement.text.village_A1_2" text="Bag est situé légèrement à l'intérieur des terres de la mer de Yeshm, au pied d'un énorme affleurement granitique, le mont Tamar. La brise de la mer apporte ici les hautes terres. Juste assez de pluie pour planter quelques oliviers."/>
+    <string id="Settlements.Settlement.text.village_A1_3" text="Farnab est assis sur un promontoire bas entre le golfe appelé Sharez par les Aserai et la mer intérieure de Yeshm. La brise de la mer apporte juste assez de pluie pour planter quelques oliviers."/>
+    <string id="Settlements.Settlement.text.village_A1_4" text="Hiblet est situé au pied d'un énorme affleurement granitique appelé Mont Tamar. L'eau de pluie stockée dans les crevasses est détournée vers le jardin de palmiers dattiers du village."/>
+    <string id="Settlements.Settlement.text.village_A2_1" text="La Mesa est située sur la plaine ouverte de la côte est de la mer de Yeshm, avec des forêts d'acacias clairsemées à proximité. Certains des meilleurs chevaux d'Aserai sont en pâture dans la région."/>
+    <string id="Settlements.Settlement.text.village_A2_2" text="Abu Shi est situé sur les rives de la rivière Keles qui se jette dans les terres arides du sud. La terre autour d'ici était autrefois un ancien lit de rivière, maintenant stérile et alcaline, mais des palmiers dattiers y poussent encore."/>
+    <string id="Settlements.Settlement.text.village_A2_3" text="Huja est situé à l'extrême est d'Aserai, sur les rives de la rivière Tiagus. Cette terre est essentiellement une steppe désertique et est stérile pendant la majeure partie de l'année. Il n'y a que quelques buissons, mais au printemps, il y a des fleurs et des herbes convenant aux chevaux."/>
+    <string id="Settlements.Settlement.text.village_A3_1" text="Abuba est située au bord du désert profond, au pied du versant terrestre des falaises de Jaljaray. Les eaux de ruissellement provenant des montagnes s'accumulent sous terre, formant une Les sources qui entretiennent l'oasis, le blé prospère dans les champs et les filières."/>
+    <string id="Settlements.Settlement.text.village_A3_2" text="Hunab est situé dans une vallée sèche, au-dessous de la plate-forme altérée des falaises de Jaljaray. Les villageois locaux utilisent l'herbe courte mais luxuriante qui recouvre la colline au printemps pour élever leurs chevaux."/>
+    <string id="Settlements.Settlement.text.village_A3_3" text="Bill Saif se trouve entre les grands et petits puits et lacs des falaises de Jaljarai. Les villageois creusaient dans la zone d'eau souterraine peu profonde pour recueillir l'argile et la vendre aux potiers du désert de Nahasa."/>
+	<string id="Settlements.Settlement.text.village_A4_1" text="Gabrab se trouve au bord d'une baie ouverte sur la côte sud de la mer de Perth. Le littoral de faible altitude est idéal pour les marais salants."/>
+    <string id="Settlements.Settlement.text.village_A4_2" text="Musum près de la rive orientale de la mer de Yeshm, où les déserts d'Aserai sont remplacés par des steppes désertiques parsemées d'acacias et de buissons Les villageois locaux creusaient des puits pour aller chercher l'eau afin d'irriguer les palmiers dattiers."/>
+    <string id="Settlements.Settlement.text.village_A4_3" text="Kuga se trouve au pied d'une petite colline à l'est de la mer de Yeshm, où le désert d'Aserai fait place à un désert avec des acacias et des buissons de prairie. Les villageois locaux creusent des puits pour arroser les palmiers dattiers."/>
+    <string id="Settlements.Settlement.text.village_A4_4" text="Dorja est un village de pêcheurs sur la côte de Yeshm. Les villageois partent en mer dans des barques pour attraper des perches, qui deviennent parfois plus longues qu'un homme. Dans les baies et les marais de la région, les gens gardent également un œil sur les crocodiles d'eau salée, qui font concurrence aux villageois pour les proies."/>
+    <string id="Settlements.Settlement.text.village_A5_1" text="Mahloul est situé dans la steppe désertique au sud de la mer de Yeshm, dans un canyon ouvert entre les falaises de Jaljarai et le mont Assab. La nappe phréatique est juste suffisante. Elle est utilisée pour les cultures de subsistance, et les villageois font également paître les riches prairies du mont Assab après la saison des pluies de printemps et gagnent un peu d'argent en élevant des chevaux."/>
+    <string id="Settlements.Settlement.text.village_A5_2" text="Livas est situé dans une large vallée sur le côté sud de la mer de Yeshm. Les terres agricoles y sont limitées, et la ville est surtout connue pour ses chevaux nourris à l'herbe printanière du désert, qui est éphémère et dodue. ."/>
+    <string id="Settlements.Settlement.text.village_A5_3" text="Valletas se trouve près de Bahr Yeshm, qui signifie &quot;mer d'émeraude&quot;. Les basses terres de cette région sont idéales pour la culture du lin."/>
+    <string id="Settlements.Settlement.text.village_A6_1" text="La rivière Damar serpente jusqu'à la mer de Yeshm, et Mijait est située à l'embouchure de la rivière. Le limon transporté par la rivière se dépose ici, faisant de la Mijait l'une des zones les plus fertiles de la terre d'Aserai."/>
+    <string id="Settlements.Settlement.text.village_A6_2" text="Hamshawar est situé à l'embouchure de la rivière Damal inférieure, qui se jette finalement dans la mer de Yeshm. Le limon transporté par la rivière se dépose ici, ce qui en fait l'une des régions les plus fertiles de la terre d'Aserai."/>
+    <string id="Settlements.Settlement.text.village_A6_3" text="Jhassim est situé sur la rive sud de la mer intérieure, connue par les Asaris sous le nom de &quot;Bahel Yeshm&quot;. Les eaux chaudes de la région sont riches en thon, en bonite, en sardines, etc."/>
+    <string id="Settlements.Settlement.text.village_A6_4" text="Nahran est situé dans la plaine alluviale formée par les falaises de Djaljarai et divisée par la rivière Damar. Le sol local est détruit chaque année par le limon apporté par les torrents. La fertilité étant restaurée, les rendements en blé sont élevés."/>
+    <string id="Settlements.Settlement.text.village_A7_1" text="Vadal est situé dans la vallée sèche du versant rocheux des falaises du Djerjarai, non loin de plaines de gravier et de dunes stériles. Printemps et hiver À cette époque, les nuages de la mer de Yeshm laissent tomber les dernières eaux ici, nourrissant juste assez d'herbe pour l'industrie locale du cheval."/>
+    <string id="Settlements.Settlement.text.village_A7_2" text="Beit Khatif est situé dans une plaine alluviale formée par les falaises de Djaljarai et divisée par la rivière Damal. Les sols rocheux de la région limitent l'efficacité de l'irrigation. L'herbe de printemps de la montagne permet aux chevaux de prospérer."/>
+    <string id="Settlements.Settlement.text.village_A7_3" text="Mabwaz surplombe la rivière Damal qui serpente à travers la mesa de la falaise de Djerjarai. Les villageois cultivent le blé et d'autres cultures sur le limon de la plaine inondable. ."/>
+    <string id="Settlements.Settlement.text.village_A7_4" text="Zalem est situé à la Porte brûlée, où la rivière Damar prend sa source dans le désert de Nahasa et traverse les falaises de Jaljarai. La rivière transporte le Le limon permet une bonne récolte locale de blé."/>
+    <string id="Settlements.Settlement.text.village_A8_1" text="Azbet Nahul est situé dans une ville qui surplombe une ville appelée Bahir Yeshm, ou la &quot;mer d'émeraude&quot; comme l'appellent les Asaris. Elle est située à l'angle d'une montagne rocheuse. L'eau souterraine accumulée entre les crevasses de la roche peut être récupérée dans un puits et utilisée pour irriguer les champs de blé du village."/>
+    <string id="Settlements.Settlement.text.village_A8_2" text="Abgan est situé au bord d'un petit lagon sur la rive sud de Bahir Yeshm, la &quot;mer d'émeraude&quot;. Les villageois locaux y pêchent le thon, la sardine, la bonite et le requin."/>
+    <string id="Settlements.Settlement.text.village_B1_1" text="Dalmengues est situé sur les rives du lac Tevar, un lac sombre au milieu du massif de l'Ukalion. La terre ici est plate, fertile et riche en pluie. Elles conviennent à la culture du blé et de l'orge."/>
+    <string id="Settlements.Settlement.text.village_B1_2" text="Eberes se trouve sur une crête de selle avec le lac Tevar d'un côté et un col menant à la vallée de Kaval de l'autre. Les villageois locaux plantent des raisins pour produire des vins blancs doux de la région d'Albatania."/>
+    <string id="Settlements.Settlement.text.village_B1_3" text="Berglomeai est situé dans un coin des falaises du côté sud du massif de l'Ucalion. À part les gisements sur la montagne et le minerai de fer dans le marais, il n'y a rien de plus attrayant ici."/>
+    <string id="Settlements.Settlement.text.village_B1_4" text="Ath Karvar se trouve près de la vallée de Karvar - le début d'une vallée escarpée menant au territoire impérial. Grande qualité d'argile."/>
+    <string id="Settlements.Settlement.text.village_B2_1" text="Diantogmel est situé sur les rives de Lin Taiwal, ou le &quot;lac sombre&quot;. Il existe plus d'une douzaine de légendes locales expliquant l'origine du nom de l'endroit - qui signifie &quot;bataille des stoats&quot; - mais aucune version ne correspond aux détails. Les villageois locaux cultivent des raisins pour faire du vin."/>
+    <string id="Settlements.Settlement.text.village_B2_2" text="Glenlisrigg - une vallée glissante - est située sur les hautes terres au nord d'Ukalion. Les villageois locaux sont principalement des exploitants forestiers, qui servent les villes fortifiées voisines de Dungranis et Ka Banthes à fournir du bois."/>
+    <string id="Settlements.Settlement.text.village_B2_3" text="Morichig est situé dans une cuvette au milieu du massif de l'Ukalion. Cette région est connue pour sa production de blé et d'orge."/>
+    <string id="Settlements.Settlement.text.village_B2_4" text="Imlage est situé sur les collines vallonnées au milieu du massif de l'Ukalion. Ce village est spécialisé dans les raisins blancs utilisés pour la fabrication des vins doux d'Albatanie."/>
+    <string id="Settlements.Settlement.text.village_B2_5" text="Lin Doon est situé sur les collines vertes au nord-ouest de Lin Taiwar - le lac sombre. Les terres agricoles environnantes sont cultivées en blé et en orge."/>
+	<string id="Settlements.Settlement.text.village_B3_1" text="Borg Bess est situé dans une vallée de forêt basse à l'est du massif de l'Ukalion. Les villageois piègent les castors dans les bois sombres et marécageux, les renards et autres animaux à fourrure."/>
+    <string id="Settlements.Settlement.text.village_B3_2" text="Gnart Gnar est un village situé près du site légendaire du duel à Batania, où Gnar aurait laissé sa tête. Connus pour leurs excellentes compétences de ranger, les villageois locaux ont aidé la forteresse de Ka Banthes sur les falaises voisines à défendre le cœur de Batania contre les Sturgiens et autres maraudeurs."/>
+    <string id="Settlements.Settlement.text.village_B3_3" text="To Leard, la colline de la pleine lune, est située sous une petite colline boisée dans le nord de l'Albatanie. Les villageois locaux coupent les forêts de chênes, d'ifs et de hêtres. Pendant des centaines d'années, les Altaniens ont pris soin de ces arbres, veillant à ce qu'il y ait toujours assez de bois pour être récolté et vendu."/>
+    <string id="Settlements.Settlement.text.village_B3_4" text="Tor Melina est situé dans un bassin marécageux dans les collines boisées sombres au nord-ouest du massif de l'Ucalion. Les villageois extraient l'argile du sol humide, qu'ils vendent aux potiers des villes voisines."/>
+    <string id="Settlements.Settlement.text.village_B4_1" text="Bryn Glass se trouve sur une falaise à l'est du massif de l'Ukalion. Les villageois extraient le minerai de fer des montagnes et le vendent au grand forgeron de Shaunong."/>
+    <string id="Settlements.Settlement.text.village_B4_2" text="Anduin est situé sur un gouffre dans la montagne surplombant Lin Taiwal, le lac sombre. Les villageois de la région plantent des arbres, récoltent le hêtre, le chêne et l'if, puis les vendent aux villes."/>
+    <string id="Settlements.Settlement.text.village_B4_3" text="Mag Alba est assis sur une prairie qui surplombe Lin Taiwal, le lac sombre. Les villageois cultivent le lin dans la vallée boueuse."/>
+    <string id="Settlements.Settlement.text.village_B4_4" text="Swingling surplombe la cascade rocheuse qui bloque les eaux sombres du lac Tevar pour former le lac au milieu de l'Ukalion. Les chevaux chevauchent les rapides et les chutes d'eau et se nourrissent de l'herbe qui les surplombe."/>
+    <string id="Settlements.Settlement.text.village_B4_5" text="Shordas est situé dans les basses terres à la frontière orientale de Battania, au pied des falaises d'Ukalion. La forteresse voisine d'Uselem protège la ferme exposée pour la protéger des raids des Sturgiens à l'est."/>
+    <string id="Settlements.Settlement.text.village_B5_1" text="Doune est situé en dessous de la gorge supérieure de la rivière Trang. Lorsque l'eau est plate, les villageois raclent le limon des bassins et des mares de boue de la rivière et suivent le chemin sinueux qui transporte le limon jusqu'à Pen Cannock sur les falaises au-dessus d'eux."/>
+    <string id="Settlements.Settlement.text.village_B5_2" text="Les Gaineses sont situés à la limite orientale du massif de l'Ukalion, dans une vallée aux forêts sombres, sous les collines de Leonor. Les villageois locaux ramassent la terre dans les zones humides, vendue au potier de Pen Cannock."/>
+    <string id="Settlements.Settlement.text.village_B5_3" text="Vernon Étille est situé sur un affleurement dominant les sources de l'Étille, un affluent de la rivière Trang. Les villageois locaux cultivent des raisins et font une préparation Un vin très numéroté d'Albatane, respecté par les Impériaux et les Valandiens."/>
+    <string id="Settlements.Settlement.text.village_B5_4" text="Inves est situé à l'endroit où les rivières Trang et Etil dévalent du massif de l'Ucalion et rejoignent les deux rivières dans les plaines de la Vallandia centrale. Les collines environnantes sont propices à la culture du blé."/>
+    <string id="Settlements.Settlement.text.village_EN1_1" text="Maratea se trouve sur une étroite bande de terre entre la rivière Miron et le plus haut sommet des monts Delua, le mont Arakatos. Les villageois locaux sont des mineurs qualifiés. La ville de Maratea, en Italie, exploite le minerai de fer des falaises voisines."/>
+    <string id="Settlements.Settlement.text.village_EN1_2" text="Statymos est situé dans une vallée étroite sous les crêtes imposantes des montagnes de Dria. Les ruisseaux des hautes terres irriguent le sol fertile des pentes, faisant de la région un des greniers du nord de l'empire."/>
+    <string id="Settlements.Settlement.text.village_EN1_3" text="Situé à l'ouest du lac Laconis, Jumose est un village de pêcheurs isolé au bord de la baie de Diatema. Les villageois locaux passent du temps dans les eaux profondes de la baie. Pêche au brochet."/>
+    <string id="Settlements.Settlement.text.village_EN1_4" text="Diopalis est situé dans une vallée des montagnes de Delua. Malgré les hivers froids, le sol fertile de la région en fait un lieu important pour le grenier de l'Empire du Nord."/>
+    <string id="Settlements.Settlement.text.village_EN2_1" text="Arothea se trouve à l'ouest du lac Laconis, près de l'entrée de la baie de Diatama. Les locaux comptent sur le lac pour les barracudas et les esturgeons. Les poissons vivent très prospèrement."/>
+    <string id="Settlements.Settlement.text.village_EN2_2" text="Yelakos est situé dans les prairies des contreforts nord des monts Delua. Les vents de brise en provenance du lac maintiennent un climat doux et propice à l'élevage des chevaux."/>
+    <string id="Settlements.Settlement.text.village_EN2_3" text="Masangara se trouve sur les rives de la rivière Nevis, une rivière glacée qui se jette lentement dans le lac Laconis. Autrefois une forêt marécageuse, les gens drainent maintenant l'eau et la transforment en pâturages pour le bétail."/>
+    <string id="Settlements.Settlement.text.village_EN3_1" text="Ophtis 'Earth Eye', un lac profond dans les montagnes du sud des Monts Delua, avec Ernoisa sur la rive. Du nord, il y a une pluie abondante qui humidifie le blé ici. La légende veut que ce soit un lieu sacré pour les Gupalas, qui considèrent ce lac comme une porte vers un autre monde."/>
+    <string id="Settlements.Settlement.text.village_EN3_2" text="Aiolia est située dans la vallée fertile d'Aris, dans l'arrière-pays de l'empire. Le dialecte local est mélangé au vocabulaire de la langue Pala. Avant l'arrivée du peuple impérial, les habitants du continent central parlaient la langue Pala."/>
+    <string id="Settlements.Settlement.text.village_EN3_3" text="Crios est situé sur une crête calcaire à l'est des montagnes de Deruia. Les sols des hautes terres conviennent à l'herbe à cheval de haute qualité."/>
+	<string id="Settlements.Settlement.text.village_EN4_1" text="Pertamis est situé dans une vallée des montagnes de Deruia. Les gens d'ici élèvent du bétail depuis l'époque pré-Kalad, les commerçants de passage dans la région. Un accès facile au lait et au beurre pour les voyageurs."/>
+    <string id="Settlements.Settlement.text.village_EN4_2" text="Alatis est situé sur l'extrémité sud plate du lac Laconis, dans une plaine triangulaire formée par la rivière Nevis. Le lac local, peu profond et boueux, est riche en flets et en écrevisses, et en truites dans le haut Nevis."/>
+    <string id="Settlements.Settlement.text.village_EN4_3" text="Nortanisa est un village de pêcheurs situé sur la rive sud du lac Laconis. Les villageois placent des filets de pêche et des cages sur les hauts-fonds du lac pour attraper des carpes et des vivaneaux. Ils pêchent également des poissons, des bars et des écrevisses."/>
+    <string id="Settlements.Settlement.text.village_EN4_4" text="Hetania est situé au pied d'une bouche dans la partie nord-est des montagnes Deruia. Comme de nombreux villages des environs, les agriculteurs forestiers locaux parlent encore la langue Pala. Le pala était la langue parlée par les tribus d'ici avant l'invasion impériale."/>
+    <string id="Settlements.Settlement.text.village_EN5_1" text="Villaros se trouve sur les pentes douces du versant oriental des montagnes de Deruia, à l'est de l'Empire. Bien que les pentes soient principalement couvertes de forêts de hêtres et de chênes, elles produisent ici de bonnes récoltes. L'herbe à cheval, et c'est un lieu d'élevage pour les chevaux de l'armée impériale depuis les temps anciens."/>
+    <string id="Settlements.Settlement.text.village_EN5_2" text="Ortra est une colonie relativement jeune nommée d'après un général impérial qui regardait l'est ici à l'aube et voyait le Mize Après la beauté de Yard, le village de montagne dans la partie orientale de l'empire a été nommé dans le futur. C'est la ferme d'élevage de chevaux de l'empire. Le fourrage est amené des prairies de l'est pour fournir des chevaux à la cavalerie impériale."/>
+    <string id="Settlements.Settlement.text.village_EN5_3" text="Themis est située dans les montagnes de l'arrière-pays de l'Empire, sous les falaises calcaires de Mizeyard. Les herbes qui poussent sur les collines locales sont idéales pour l'élevage des moutons."/>
+    <string id="Settlements.Settlement.text.village_EN5_4" text="Samata est situé sur une pente dans les hautes terres ensoleillées de Mizeyard. Les pentes ont été transformées en terrasses pour la culture des mûriers. Les feuilles sont récoltées, mises dans une cuve pour nourrir les vers à soie."/>
+    <string id="Settlements.Settlement.text.village_EN6_1" text="Awaxington est situé à l'extrémité orientale désolée de Mizeyard, dans les montagnes de l'empire central. Les villageois ont débarrassé la région des broussailles et des épines, y compris de l'absinthe piquante (le village a été nommé autrefois d'après cette absinthe), il est pratique de faire de la place pour planter des mûriers, puis de recueillir les feuilles de mûrier pour élever des vers à soie."/>
+    <string id="Settlements.Settlement.text.village_EN6_2" text="Borre Agora est située dans le nord glacial de l'Empire, entourée d'un réseau de lacs glacés sur la ligne de transport Illatan. Le fort impérial voisin domine la voie navigable, surveillant les pirates de Sturgia et Qusset. Les basses terres d'ici sont bonnes pour le lin."/>
+    <string id="Settlements.Settlement.text.village_ES1_1" text="Kaira est située dans un réseau de rivières, de lacs et de lagunes connu sous le nom de Calesa. Un peu plus à l'est se trouve un sol alcalin plutôt stérile, mais ici, les plaines alluviales formées par les rivières Kaleza et Tiacus peuvent faire pousser du blé."/>
+    <string id="Settlements.Settlement.text.village_ES1_2" text="Policia se trouve à la frontière d'Aserai par un réseau de rivières et de lacs appelé Kalesa. Les villageois exploitent le sel d'une lagune située à l'ouest. Avant d'être divisée par la flèche, cette lagune était une baie de la mer de Perth. D'autres habitants de Calradia ont fait un détour lorsqu'ils ont traversé cette plaine, car l'air y est boueux et malodorant, mais les locaux ont gardé les yeux sur Assai. Les Lai sont fiers de leurs responsabilités."/>
+    <string id="Settlements.Settlement.text.village_ES1_3" text="Tigerathos est situé sur le côté nord de la rivière Kaleza, qui délimite les frontières de l'Aserai et se fond ensuite dans un réseau de lacs, de ruisseaux et de lagunes. Les villageois locaux élèvent des moutons qui se nourrissent de l'herbe du marécage."/>
+    <string id="Settlements.Settlement.text.village_ES1_4" text="Ereboros est situé à côté d'une lagune qui faisait partie de la mer de Perth avant d'être fermée par une flèche récemment formée. Les villageois de la crique déterrent l'argile au fond et la vendent aux fours à poterie de Danutiska et des villes voisines."/>
+    <string id="Settlements.Settlement.text.village_ES2_1" text="Le village d'Artfenia est proche de l'embouchure de la rivière Setis. La rivière se divise ensuite en trois branches en aval pour former la vallée des trois rivières. A la rivière Setis, elle se jette dans la Pola Près de l'estuaire de Sihai, les villageois ont ouvert le champ de sel."/>
+    <string id="Settlements.Settlement.text.village_ES2_2" text="Gorcorius se trouve sur la rivière Goliath, l'affluent le plus méridional de la rivière qui traverse la vallée des trois rivières. L'abondante terre noire fait de cette région le grenier de l'empire."/>
+    <string id="Settlements.Settlement.text.village_ES2_3" text="Avalypus est situé près de la rivière Calesa supérieure, sur les collines chaudes de l'Empire du Sud, au bord de la mer. Le riche sol noir fait de cette région un grenier de l'Empire."/>
+    <string id="Settlements.Settlement.text.village_ES2_4" text="Alysion est situé sur la rive nord de la mer de Pellas. L'industrie locale de la pêche étant assez pauvre, les villageois ont construit des marais salants dans les bas-fonds."/>
+	<string id="Settlements.Settlement.text.village_ES3_1" text="Canolos est situé sur l'extrémité sud plate de la plaine lycarienne. Avant l'invasion impériale, la région était une bonne zone d'élevage de chevaux. Les cavaliers de Lycari Ya fournissaient les destriers qui poursuivaient les ennemis de Kalad jusqu'à ce que ce dernier soit finalement vaincu et absorbé par la cavalerie impériale."/>
+    <string id="Settlements.Settlement.text.village_ES3_2" text="Tervia est situé au milieu de la vallée de Lycaria, où les plaines montent lentement jusqu'à la base des montagnes de pierre d'Oni. Les villageois font paître leurs moutons sur le flanc de la colline, et les vautours planent au-dessus de la plaine brumeuse en contrebas, d'où la montagne tire son nom."/>
+    <string id="Settlements.Settlement.text.village_ES3_3" text="Zestia est située à la jonction de la plaine lycarienne et des collines balnéaires d'Iltar. Les moutons mangent sur des pentes douces surplombant l'herbe brumeuse des plaines."/>
+    <string id="Settlements.Settlement.text.village_ES4_1" text="Sagora se trouve sur une crête basse au milieu de la plaine lycarienne. Cette région est l'une des plus rocheuses et des moins fertiles de la plaine, mais les buissons de la vallée peuvent encore être mangés par les moutons."/>
+    <string id="Settlements.Settlement.text.village_ES4_2" text="Popsia est situé dans un canyon étroit entre la montagne Oni Stone et le lac Ophrtis. Les arbres poussent haut dans l'ombre entre les montagnes et les villageois vont couper les pins et vendre le bois."/>
+    <string id="Settlements.Settlement.text.village_ES4_3" text="Canterion est situé à l'est de la plaine lycarienne, où les pentes en pente douce reçoivent plus de précipitations que le reste de la plaine. Bien avant l'invasion impériale, les riches pâturages locaux en font une excellente zone d'élevage de chevaux."/>
+    <string id="Settlements.Settlement.text.village_ES5_1" text="Rantas se trouve dans les vastes plaines au sud du lac Tanasis. On y trouve de beaux moutons, mais cette région sera envahie par les fugitifs impériaux, les cavaliers affranchis et les nomades des steppes. Les villageois locaux ont appris à garder un œil sur les moutons."/>
+    <string id="Settlements.Settlement.text.village_ES5_2" text="Lartus est situé à l'extrémité sud du lac Tanasis. Il y a une mine de sel près du village, et des sources de sel s'élèvent occasionnellement au-dessus de l'eau, ce qui amène les gens à croire qu'il s'agit de la légendaire porte vers la mer souterraine où se rassemblent les fantômes."/>
+    <string id="Settlements.Settlement.text.village_ES5_3" text="Parasenos se trouve à côté d'un col bas qui relie les plaines de Tani à la rivière Kaleza. Les villageois font paître leurs moutons dans les prés que le maquis transforme en prairies."/>
+    <string id="Settlements.Settlement.text.village_ES6_1" text="Thaldenis est situé sous une falaise de gypse surplombant la rivière Setis. La terre fine de la montagne est lessivée par le courant pour former de l'argile, ce qui permet à la partie sud de l'empire Quelque chose que les yeux du potier éclairent."/>
+    <string id="Settlements.Settlement.text.village_ES6_2" text="Spotia se trouve sur la rivière Settles qui coule doucement. Les collines ondulantes qui s'y trouvent constituent l'un des greniers de l'empire."/>
+    <string id="Settlements.Settlement.text.village_ES6_3" text="Amikon se trouve sur une crête accidentée entre les montagnes de pierre d'Oran et la vallée d'Aris. Les habitants sont des bergers qui font du cumin connu pour sa salsa."/>
+    <string id="Settlements.Settlement.text.village_ES7_1" text="La colonie est située à l'extrémité sud du lac Thanaissis. Elle est de faible altitude et constitue l'une des principales zones de production de céréales de la région frontalière orientale."/>
+    <string id="Settlements.Settlement.text.village_ES7_2" text="Vargonis est un village de pêcheurs sur les rives du lac Tanasis. On y trouve parfois des barracudas géants, mais plus souvent des bars et des vivaneaux."/>
+    <string id="Settlements.Settlement.text.village_ES7_3" text="Unalica se trouve sur la rive ouest du lac Tanasis. Cette dépression est un endroit idéal pour la culture du lin."/>
+    <string id="Settlements.Settlement.text.village_EW1_1" text="Primessos est situé dans la haute vallée boisée de la rivière Garvis. Le climat local est propice à l'élevage de porcs qui se nourrissent des glands du chêne austral."/>
+    <string id="Settlements.Settlement.text.village_EW1_2" text="Montos se trouve au pied des falaises de la Curción, près de la frontière avec l'Albatanie. Les agriculteurs forestiers locaux surveillent leurs voisins, toujours à l'affût de ces Maraudeurs qui tentent de traverser le Miron d'est en ouest."/>
+    <string id="Settlements.Settlement.text.village_EW1_3" text="Nideon est situé au pied des montagnes plutoniques de l'Eritreus, dans les méandres de la rivière Zeos. Il est cultivé dans les marais qui bordent la rivière. Le lin pousse dans les champs."/>
+    <string id="Settlements.Settlement.text.village_EW2_1" text="Talcutis se trouve sur la côte de Pellas. Le sable et la brume matinale apportée par les îles du large permettent d'établir des vignobles surplombant le sable."/>
+    <string id="Settlements.Settlement.text.village_EW2_2" text="Neokrys est un nouveau village situé sur une pente douce dans la vallée de Themea, récemment établi par une forêt. Les propriétaires terriens locaux ont construit Une ferme d'élevage a été établie pour fournir des chevaux à la cavalerie impériale."/>
+    <string id="Settlements.Settlement.text.village_EW2_3" text="Alsassos est situé dans une large vallée au nord de la mer de Pellas - à l'ouest de Thémée. Malgré le climat relativement sec, les agriculteurs comptent sur les puits artésiens pour la bonne récolte du blé."/>
+    <string id="Settlements.Settlement.text.village_EW2_4" text="Zeokolus est situé au pied des collines d'Iltar, le long du littoral de l'Empire du Sud. Malgré le climat relativement sec, les agriculteurs comptent sur l'eau des puits artésiens pour obtenir une bonne récolte de blé."/>
+    <string id="Settlements.Settlement.text.village_EW3_1" text="Gamaldan est situé à la tête d'une petite crique qui est séparée par la plus grande baie de Chalas. Les vins de cette région sont doux et il a un degré élevé et est aimé par les gens de tout l'empire."/>
+    <string id="Settlements.Settlement.text.village_EW3_2" text="Egosca est situé dans une large vallée au sud de Calradia - le début de Themea. Bien que la zone tire son nom des chèvres qui y erraient autrefois, les propriétaires ont réhabilité des chevaux bien plus lucratifs sur ce pâturage."/>
+    <string id="Settlements.Settlement.text.village_EW3_3" text="Deladios se trouve sur les rives du Petit Aminis, un affluent de la rivière Aminis qui descend des hautes terres. Les villageois locaux utilisent le ruissellement des montagnes vers Deladios pour irriguer les champs de blé fertiles."/>
+    <string id="Settlements.Settlement.text.village_EW4_1" text="Alpotis se trouve sur une haute falaise qui surplombe le confluent des rivières Aminis, Garvis et Zeos. Des deux côtés de la montagne, c'est un champ en terrasse avec des citernes pour recueillir l'eau douce transportée par les nuages de pluie depuis l'océan."/>
+    <string id="Settlements.Settlement.text.village_EW4_2" text="L'étroit détroit par lequel la mer intérieure de Peras rencontre la mer occidentale porte le nom de la Lycie. Il est situé d'un côté de la mer de Peras, près du large La plage est utilisée pour la construction de marais salants."/>
+    <string id="Settlements.Settlement.text.village_EW4_3" text="Le village est situé en dessous de la chute d'eau où la rivière Aminis se jette dans la mer de Perth. Les villageois ramassent les blocs de sel de la mer sous les falaises du rivage."/>
+	<string id="Settlements.Settlement.text.village_EW4_4" text="Galengoria est située à côté d'un riche filon d'argent qui surplombe la rivière Garvis. L'Empire a utilisé les mines d'argent produites ici pendant des siècles. Des dinars sont frappés."/>
+    <string id="Settlements.Settlement.text.village_EW5_1" text="Elipa est située dans la haute vallée de l'Aris. Ce haut plateau ensoleillé et riche en eau est l'un des principaux greniers de l'Empire."/>
+    <string id="Settlements.Settlement.text.village_EW5_2" text="Fassos est situé dans les collines crayeuses ondulées des hauts plateaux, entre Thélème et les vallées d'Arris. L'herbe riche qui s'y trouve en fait la meilleure race de chevaux de l'Empire. Un des lieux."/>
+    <string id="Settlements.Settlement.text.village_EW6_1" text="Calfignon est situé sur les hauts plateaux boisés entre les géants basaltiques - le Mont Eritreus et le Mont Deruia. Villageois sur les hauts plateaux élevant du bétail sur les pâturages."/>
+    <string id="Settlements.Settlement.text.village_EW6_2" text="Vatea se trouve sur les hautes pentes des monts Dria, face à la vallée qui fait face à l'énorme montagne de basalte, le mont Érythrée. Les villageois ont creusé de profonds puits sur les berges abruptes pour extraire le minerai de fer."/>
+    <string id="Settlements.Settlement.text.village_EW6_3" text="Therthenon est situé dans la haute vallée de l'Aminis, sous la montagne basaltique qui s'élève du sol, le mont Eritreus. Cette région est l'un des greniers de l'empire."/>
+    <string id="Settlements.Settlement.text.village_EW6_4" text="Le Brennon est situé au bord de la rivière Armenis, sous le mont Eritreus, un géant de basalte qui émerge du sol. Cette zone est impériale Un des greniers."/>
+    <string id="Settlements.Settlement.text.village_K1_1" text="Fisner est situé sur la rivière Zhahan, un affluent de la rivière Karakazi. Bien que la vallée soit recouverte de neige toute l'année, l'herbe du printemps nourrit encore une quantité considérable de moutons. La laine épaisse produite par les moutons aide les gens à résister au vent froid et mordant local."/>
+    <string id="Settlements.Settlement.text.village_K1_2" text="Ulan est situé dans la vallée de la rivière Karakazi. Les villageois locaux sont des nomades qui ont été contraints de se sédentariser par le Khan. Ils ont appris à cultiver le lin sur ce sol boueux de faible altitude."/>
+    <string id="Settlements.Settlement.text.village_K1_3" text="Kuruluk est situé sur la rivière Zhahan, un affluent de la rivière Karakazi. Bien que cette vallée soit couverte de neige toute l'année, les poneys de prairie dépendent toujours de la nourriture. Les herbes printanières et le creusement de la neige pour se nourrir en hiver sont tenaces, et leur épaisse fourrure les aide à résister aux vents hurlants."/>
+    <string id="Settlements.Settlement.text.village_K1_4" text="Asalig se trouve au pied du mont Balth, au sommet du plateau du Devsag. Les villageois gardent leurs chevaux sur les pentes relativement basses et sont toujours à l'affût. Des léopards des neiges - c'est ainsi que la montagne a reçu son nom."/>
+    <string id="Settlements.Settlement.text.village_K2_1" text="Kara Karat est situé dans une cuvette sur la bordure douce du plateau oriental du Devseg. Il n'y a pas si longtemps, la terre était dominée par des peuples nomades, et aujourd'hui elle est encore connue pour l'élevage de bons chevaux."/>
+    <string id="Settlements.Settlement.text.village_K2_2" text="Thesmiller est située sur la rivière Orzo qui prend sa source à l'extrémité sud du plateau Devsag. Les habitants sont des bergers, et grâce aux attaques des bandits à cheval par les khans des dynasties passées Après le nettoyage, ils ont pu vivre en paix sous la puissante domination de Qusett."/>
+    <string id="Settlements.Settlement.text.village_K2_3" text="Gledon et ses villages affiliés s'étendent jusqu'à l'extrémité sud du plateau du Devsag, près du confluent des rivières Orzo et Tejahe. Bien que le terrain soit accidenté, la région est célèbre pour l'argile de haute qualité produite dans le ruisseau de montagne."/>
+    <string id="Settlements.Settlement.text.village_K2_4" text="Kiraz est situé dans une cuvette à l'extrémité sud du plateau du Devseg. Il n'y a pas si longtemps, la terre était dominée par les nomades, et aujourd'hui encore, les habitants vivent de l'élevage de moutons."/>
+    <string id="Settlements.Settlement.text.village_K3_1" text="Shapesht est situé au confluent des rivières Zahan et Karakazi. Les villageois gagnent leur vie en exploitant les mines de sel situées à proximité."/>
+    <string id="Settlements.Settlement.text.village_K3_2" text="Haneshi est situé sur une embouchure des collines de l'Akkan du nord. Les stries rouges sur le sol et les rochers indiquent que la région est riche en minerai de fer, et les villageois sont miniers."/>
+    <string id="Settlements.Settlement.text.village_K3_3" text="Le village de pêcheurs de Majin est situé à l'extrémité nord du lac Tanaissis, qui est appelé Danazhai par les Kusaites. Des filets de pêche pour attraper toutes sortes de poissons qui se déplacent vers et depuis le lac."/>
+    <string id="Settlements.Settlement.text.village_K4_1" text="Omrotok est situé au pied du Mont Sulun, sur le côté est du plateau du Devseg. Les villageois se rendent dans les bois voisins pour récolter les quelques Devseg. bois."/>
+    <string id="Settlements.Settlement.text.village_K4_2" text="Lanzamu est situé dans les plaines du sud-est du plateau du Devsag. Les villageois qui vivaient comme des nomades il n'y a pas si longtemps étaient doués pour l'élevage de chevaux."/>
+    <string id="Settlements.Settlement.text.village_K4_3" text="Mi Wanzhan est situé au pied du mont Sulun, sur le côté est du plateau du Devsag. Il n'y a pas si longtemps, des villageois nomades élevaient des moutons dans les contreforts."/>
+    <string id="Settlements.Settlement.text.village_K4_4" text="Ulunjan est situé au pied des montagnes Akkan, près de l'extrémité occidentale du plateau Devsag. Les villageois locaux élèvent du bétail pour se protéger du froid de l'hiver et de la chaleur."/>
+    <string id="Settlements.Settlement.text.village_K5_1" text="Kamsha est situé sur la rive du lac Tanasis, qui est appelé la mer Danaz par les Kusaites. La pêche locale n'est pas très développée, mais les villageois la ramassent au bord du lac. L'argile, vendue aux potiers de Chaikan et d'autres villes."/>
+    <string id="Settlements.Settlement.text.village_K5_2" text="Ohutan est un village situé au milieu d'une région de culture du blé, entre le lac Tanasis et Akko appelé la mer du Danaz par les Qusaits. Une plaine longue et étroite entre les collines."/>
+    <string id="Settlements.Settlement.text.village_K5_3" text="Ispantar est situé sur une bouche rocheuse des collines d'Akkan, surplombant Tanaisi, que les Qusaitiens appellent le Sihu de la mer du Danaz. La principale source de revenus des villageois locaux est l'élevage de moutons."/>
+    <string id="Settlements.Settlement.text.village_K5_4" text="Pabastan se trouve sur une plaine longue et étroite entre les collines d'Akkan et le lac Tanasis, appelé la mer Danaz par les Qusaits. C'est un endroit idéal pour la culture du blé."/>
+    <string id="Settlements.Settlement.text.village_K6_1" text="Karahan est situé au pied du Koshi Rohini, les contreforts des montagnes de l'aube. Les villageois locaux achètent des chevaux aux tribus migrantes et en gardent quelques-uns eux-mêmes. De nombreux chevaux de l'armée de Seth venaient d'ici."/>
+    <string id="Settlements.Settlement.text.village_K6_2" text="Nuchuk est situé sous un affleurement rocheux nommé Keshi Rohini dans le Darcy, les montagnes de l'aube. La plupart des villageois locaux sont des nomades nouvellement installés qui élèvent des moutons comme leurs ancêtres."/>
+    <string id="Settlements.Settlement.text.village_K6_3" text="Danara est situé à côté du lac salé désaltérant appelé Chaga Naur dans les Qusetts. Les villageois locaux extraient le sel de l'eau amère du lac."/>
+	<string id="Settlements.Settlement.text.village_K6_4" text="Koshi Ajik est situé dans un étroit canyon aride, au pied de la montagne dite des Amoureux, qui a donné son nom à l'endroit. Les chevaux sont achetés aux nomades et vendus aux nobles Qusett de la ville."/>
+    <string id="Settlements.Settlement.text.village_S1_1" text="Rodobas, ou la &quot; Maison des Obas &quot;, doit son nom à un chef sturgien de la montagne, mort depuis longtemps. Le village est situé sur une crête surplombant le désert d'Ikara, il est utilisé comme base pour les chasseurs qui chassent les fourrures dans la sombre forêt en contrebas."/>
+    <string id="Settlements.Settlement.text.village_S1_2" text="Forint est situé près d'un champ de seigle et d'orge, près de la rivière Garza, à la lisière du désert d'Ikara. Le village compte sur la vente de son grain aux chasseurs de la forêt. Le district a prospéré."/>
+    <string id="Settlements.Settlement.text.village_S1_3" text="Cargrave était autrefois connu sous le nom de Carl Graves - le fort périphérique de Graves, chef de Battania, mais il y a deux générations, l'endroit a été conquis par les Gia. Il est situé sur la côte de la baie de Valcheg, où les eaux sont relativement calmes, et de nombreuses espèces de poissons y nagent pendant leur période de reproduction, ce dont les pêcheurs locaux font bon usage."/>
+    <string id="Settlements.Settlement.text.village_S2_1" text="Safna se trouve sur une crête élevée surplombant les rapides qui relient le lac Laconis à l'étroite baie de Mazopol. Les villageois se prélassent sur les falaises maritimes en faisant paître les vaches dans l'herbe."/>
+    <string id="Settlements.Settlement.text.village_S2_2" text="Malabrot se trouve sur une haute crête rocheuse entre la baie de Mazopol et la mer de Biarri. Si cette terre au froid glacial n'est pas riche en montagnes et en minerai de fer, on estime que personne ne s'y installera."/>
+    <string id="Settlements.Settlement.text.village_S2_3" text="Dvorusta est un village de pêcheurs qui surplombe les rapides qui relient la baie de Valcheg au lac Laconis. Les villageois se promènent le long des falaises à l'aube ; ils descendent pour attraper les saumons qui sautent par-dessus les rochers, ainsi que les harengs et les morues dans la mer."/>
+    <string id="Settlements.Settlement.text.village_S3_1" text="Jono Bass, ou &quot;Forêt noire&quot;, est situé sur un champ creusé par une forêt surplombant la rivière Miron qui se jette dans le lac Laconis. Une grande chute d'eau. Les villageois cultivent du seigle et de l'orge dans les champs brumeux près de la chute d'eau."/>
+    <string id="Settlements.Settlement.text.village_S3_2" text="Skolin se trouve sur un promontoire qui sépare la baie de Jatom du lac Laconis. Les villageois pêchent le flet d'eau douce dans les eaux étroites de la baie, et des animaux aquatiques plus grands comme le barracuda sont également pêchés dans la zone principale du lac."/>
+    <string id="Settlements.Settlement.text.village_S4_1" text="Bocho Wagoka est situé sur une petite élévation sur la rive nord escarpée du lac Laconis. Le village vit de la pêche, capturant des bars et des daurades dans les eaux du lac. Des poissons, des saumons, et occasionnellement des esturgeons géants et des barracudas."/>
+    <string id="Settlements.Settlement.text.village_S4_2" text="Grafström est situé au pied du mont Iletan, un sommet escarpé et périlleux de l'est de la Calradia, nommé d'après un des peuples de la steppe. Les dieux. On trouve dans cette région sauvage de nombreux animaux à fourrure, tels que des visons, des renards, des lapins, etc."/>
+    <string id="Settlements.Settlement.text.village_S4_3" text="Omkani est situé entre les rives du lac Laconis et les montagnes enneigées de Cherteg. Les villageois de cette région élèvent des porcs et utilisent du sel et de l'ail. La graisse de porc marinée et vendue dans tout le Northland."/>
+    <string id="Settlements.Settlement.text.village_S4_4" text="Yangutum est situé dans un coin des monts Cherteg, sur la rive nord du lac Laconis. Les villageois locaux ont découvert du minerai de fer sur les pentes de la colline."/>
+    <string id="Settlements.Settlement.text.village_S5_1" text="Vicebrot est un village d'éleveurs de moutons situé sur les pentes douces du mont Illetan, juste sous le réseau de lacs glaciaires connu sous le nom de Ligne de transport d'Illetan. Bien que la région soit froide et reculée, son importance en tant que nœud commercial entre Laconis et le lac Tanasis, entre l'Empire et la Steppe, lui permet d'avoir une population relativement dense."/>
+    <string id="Settlements.Settlement.text.village_S5_2" text="Bukitz est situé sur le versant oriental du mont Iletan, à la frontière de Qusset. Les villageois d'ici élèvent une race de bétail des hautes terres qui résiste au vent des montagnes. Un vent froid et mordant s'annonce."/>
+    <string id="Settlements.Settlement.text.village_S5_3" text="Alof se trouve au bord d'un réseau de lacs glaciaires appelé la ligne de transport Illatan. Les villageois cultivent le seigle et l'orge sur les hauteurs qui surplombent le lac, le sol noir fertile compensant le long hiver local et la courte saison de croissance."/>
+    <string id="Settlements.Settlement.text.village_S6_1" text="Les villageois de Kvor vont faire paître quelques petits bovins bien nourris au pied du Cherteg. Parmi ces gens, il y a des réfugiés de toute la Calradia et des descendants de désabusés, ils vivent reclus dans la froide forêt boréale."/>
+    <string id="Settlements.Settlement.text.village_S6_2" text="Ladakhmed est situé dans une cuvette des monts Cherteg. Les villageois locaux cultivent le lin sur le sol boueux de la vallée."/>
+    <string id="Settlements.Settlement.text.village_S6_3" text="Alebate est niché au cœur des forêts du nord-est de Sturgia. Cette terre lointaine a longtemps été le lieu où les gens du Nord fuyaient l'oppression, les dettes et les querelles. Un refuge pour les gens, l'accent local est très influencé par les peuples de la forêt, les Vani."/>
+    <string id="Settlements.Settlement.text.village_S7_1" text="Korchas se trouve à l'endroit le plus étroit de la baie de Valcheg. Les villageois se dirigent vers l'ouest pour pêcher le cabillaud, le saumon et d'autres poissons d'eau froide qui s'aventurent dans la baie."/>
+    <string id="Settlements.Settlement.text.village_S7_2" text="Kaboul est situé sur le plateau de la péninsule de Kachar, quelque peu abrité par une haute crête au nord. Les villageois locaux cultivent l'orge et les céréales."/>
+    <string id="Settlements.Settlement.text.village_S7_3" text="Jemiyan est un village de pêcheurs sur la côte nord de la péninsule de Kachar. Les villageois traversent les tempêtes qui balaient la mer de Biarri pour récolter des morues et des ombres pleines de poissons, parfois même de petites baleines sont capturées."/>
+    <string id="Settlements.Settlement.text.village_V1_1" text="Callioc est situé dans la plaine entre les collines d'Epir et les collines de Biscayne, dans le centre de la Vallandia, où le lin est cultivé dans les marais."/>
+	<string id="Settlements.Settlement.text.village_V1_2" text="Etilfield est situé près d'une embouchure basse à la frontière de l'Albatanie, où l'Ettilire coule d'une source sur les falaises du massif de l'Ucalion. Les villageois locaux cultivent du blé et le vendent aux troupes stationnées à proximité."/>
+    <string id="Settlements.Settlement.text.village_V1_3" text="Lord Down tire son nom du sol rouge riche en fer des collines de Lyonor. Les mines de la région fournissent du minerai de fer à de nombreuses forges du royaume de Vallandia. pierre."/>
+    <string id="Settlements.Settlement.text.village_V2_1" text="Maleven se trouve sur les pentes forestières abruptes des montagnes Leonor, surplombant le lac Oaks. Les villageois récoltent de grands arbres et les vendent aux villes côtières ."/>
+    <string id="Settlements.Settlement.text.village_V2_2" text="Une petite rivière prend sa source dans les montagnes de la péninsule d'Ebo et finit par rejoindre le lac Ox, où se trouve Oritang. La vitesse du courant atteint un coin voisin. L'endroit a été ralenti pour que les villageois puissent déterrer de la berge de la rivière l'argile dont les potiers ont besoin."/>
+    <string id="Settlements.Settlement.text.village_V2_3" text="Fregion se trouve dans les plaines au nord de Palavender, d'où les courants chauds du sud de la Vallandia cèdent la place aux courants froids du nord. Les villageois locaux cultivent le lin dans les marais et les prairies."/>
+    <string id="Settlements.Settlement.text.village_V2_4" text="Marin est situé sur les pentes douces à l'ouest de Lake Oaks. Les courants du sud maintiennent les matins brumeux exceptionnellement frais et les après-midi chauds permettent aux raisins locaux de prospérer."/>
+    <string id="Settlements.Settlement.text.village_V3_1" text="Wallumby surplombe l'embouchure de la rivière Trang. Le lin est cultivé sur les marécages au bord de la rivière."/>
+    <string id="Settlements.Settlement.text.village_V3_2" text="Roland est situé dans la vallée forestière du centre de Trang. Les villageois nourrissent leurs cochons avec les glands de la forêt de chênes."/>
+    <string id="Settlements.Settlement.text.village_V3_3" text="Larnaq est situé sur les douces collines de la basse vallée de Trang. Les villageois cultivent du seigle, de l'orge et du blé pour les vendre aux habitants des villes proches de Paravind, qui ont faim."/>
+    <string id="Settlements.Settlement.text.village_V3_4" text="Les collines vertes et herbeuses au nord de la rivière Trang sont divisées par une gorge abrupte, à l'embouchure de laquelle se trouve Palisson. Le sol est pauvre, mais les villageois ont réussi à élever du bétail, notamment des porcs."/>
+    <string id="Settlements.Settlement.text.village_V5_1" text="Philbeck est assis sur un grand rocher surplombant la côte accidentée de Biscayne dans le centre de Vallandia. Le climat est chaud toute l'année et les coteaux de Biscayne Les raisins poussent de manière satisfaisante."/>
+    <string id="Settlements.Settlement.text.village_V5_2" text="Merrock est un petit village de pêcheurs qui surplombe une crique sur la côte de Biscayne. Les villageois naviguent vers l'ouest à la recherche de mulet et de bar près de la côte, et cherchent du thon et des sardines près des îles au sud."/>
+    <string id="Settlements.Settlement.text.village_V5_3" text="Nogren est situé sur une pente dans les collines de Biscayne, dans le centre de la Vallandia. Les villageois locaux s'occupent de leurs moutons sur des pâturages situés entre des bois côtiers et des falaises alpines. ."/>
+    <string id="Settlements.Settlement.text.village_V6_1" text="Arromanque est situé dans la vallée du Nar, qui traverse les montagnes de Biscayne et d'Epile. Cette terre chaude du sud de la Vallandia est idéale pour la culture de l'olivier."/>
+    <string id="Settlements.Settlement.text.village_V6_2" text="La Motte est située dans la vallée de Nar, qui passe par les montagnes Biscayne et Epile. Cette terre chaude du sud de la Vallandia est idéale pour la culture des olives."/>
+    <string id="Settlements.Settlement.text.village_V6_3" text="Alostang se trouve sur un rocher qui surplombe l'océan, au pied du Mont Biscayne. Cette terre chaude du sud de la Vallandia est idéale pour la culture des olives."/>
+    <string id="Settlements.Settlement.text.village_V6_4" text="Shonall se trouve en surplomb de la route d'accès qui traverse les montagnes de Biscayne. Les villageois, comme beaucoup d'autres au milieu du royaume de Vallandia, sont spécialisés dans l'élevage de porcs."/>
+    <string id="Settlements.Settlement.text.village_V7_1" text="Savant est niché dans les prairies chaudes au nord de la baie de Salas. Cette terre est considérée par les Valandiens comme une ferme équestre de qualité."/>
+    <string id="Settlements.Settlement.text.village_V7_2" text="Le village de Village est situé près d'un ruisseau descendant des collines d'Epile dans la baie de Chalas, une terre chaude idéale pour les oliviers."/>
+    <string id="Settlements.Settlement.text.village_V8_1" text="On raconte que le guerrier Orsa débarqua à Orsje et planta sa lance sur la plage. Aujourd'hui, elle est célèbre pour les courageux pêcheurs qui entreprennent un voyage risqué à la recherche des essaims de morues engloutis par le courant froid du nord."/>
+    <string id="Settlements.Settlement.text.village_V8_2" text="Kananke est situé dans les bois humides au nord de Lanenor, où les cèdres deviennent des arbres imposants dans le brouillard marin. Les villageois utilisent des pièges pour attraper des castors, des visons et des lapins pour leur fourrure."/>
+    <string id="Settlements.Settlement.text.village_V8_3" text="Le Mannthal se trouve dans les montagnes de la péninsule d'Eber, avec des épicéas et des sapins imposants sur les pentes abruptes. Les villageois utilisent des pièges pour attraper les bêtes à fourrure, comme les visons, les lapins et les renards. Cette terre aride a récemment attiré de nombreux nouveaux colons, venus pour la liberté relative de la forêt, et la règle des nobles valandiens est beaucoup plus souple que dans le sud."/>
+    <string id="Settlements.Settlement.text.village_V9_1" text="Arantas est situé au milieu de la péninsule montagneuse d'Igbo. Le sol est pauvre et le climat est froid, mais les riches ressources en minerai de fer soutiennent l'économie locale."/>
+    <string id="Settlements.Settlement.text.village_V9_2" text="Alyswest était autrefois un marécage stérile, mais les colons valandiens ont drainé l'eau et planté du blé et du blé noir."/>
+	<string id="0cZmKO76" text="La ville aujourd'hui connue sous le nom de Salas remonte à l'époque où les premiers Caladiens se sont installés sur les rives du continent. À l'apogée de l'empire, sa capitale a été déplacée à Balavinos, au nord, et Salas est devenue un port important pour les affaires maritimes et le commerce. De temps en temps, les nobles de l'empire construisaient leurs propres villas fraîches sur les plages chaudes près des fjords environnants. Croisière sur le périmètre de l'île en canot pneumatique. Avec l'arrivée des Valandiens, Salas est tombé entre les mains de l'impitoyable famille De Cortan, dont les richesses inouïes ont nourri les ambitions de cette dernière."/>
+    <string id="1ImuW3My" text="Guyaz était autrefois une république commerciale qui dominait le commerce entre la mer de l'Ouest et la mer de Peras, et les habitants parlent une langue kan aujourd'hui presque éteinte - et un dialecte de Nahasa Similar. Mais l'hégémonie de l'empire a progressivement réduit son commerce et les dirigeants locaux ont été remplacés par les marchands de Nahasa. Par le passé, elle a été soumise à l'empire par intermittence, mais aujourd'hui, elle est le territoire important de Banu Hulyan-Asai, le clan dirigeant d'origine Rasultan."/>
+    <string id="1SnAH5K8" text="Située dans les montagnes de la péninsule d'Ebo, Lovaratis n'a jamais été une ville impériale. Les colons nordiques ont cru les rumeurs selon lesquelles ils pouvaient extraire de l'argent et chasser des bêtes sauvages. Ces rumeurs ont provoqué un afflux massif dans la région, où les Nords étaient bien plus nombreux que les Caladiens, même à la veille de l'invasion valandienne. Les Valandiens ont également compris le potentiel, car malgré le climat hivernal, cette terre reste la partie la plus densément peuplée du royaume. Les vastes terres agricoles de la vallée font vivre les colons du sud qui espèrent y trouver un pot d'or."/>
+    <string id="4ENGzVaC" text="La légende de Sarpeia d'O'Nila est l'une des épopées de la frontière orientale. Comme beaucoup d'autres, elle semble avoir été écrite pour la conquête d'un empire vertueux. Sarpeia Fille d'un sénateur qui fut enlevé par un chef Pala et ramené dans sa forteresse ici. Des années plus tard, lorsque les troupes impériales sont venues dans la ville pour la sauver, elle les a suppliés de la voir comme un bébé L'armée s'est retirée pour le bien de son fils. Car son horrible mari menaçait de jeter l'enfant par-dessus les murs de la ville et ne voulait pas le donner à la parenté de la mère de l'enfant. L'histoire raconte que la légion s'est retirée, mais que le garçon l'a rejointe après avoir grandi comme un guerrier. Il a tué l'empire et tué son père biologique. Aujourd'hui, c'est le centre de l'industrie du cheval dans les plaines de l'Est."/>
+    <string id="4OAz8urz" text="Pen Cannock, perché au sommet de la montagne, observe la rivière Trang qui se précipite du plateau d'Ucalion vers les basses terres de Vallandia. Selon la légende, la déesse de l'eau vivait dans les sombres bassins sous les rochers, où voyageurs et intrus sont tentés de faire un pas vers la mort. Il n'y a que de rares cas où la déesse tombe amoureuse d'un héros, lui accordant victoire et bénédictions. Bien sûr, ces pêcheurs Les rumeurs qui courent ici ne sont que le fruit de la révérence envers le cours supérieur de la rivière Trang, car un faux pas sur les pierres glissantes peut entraîner une chute dans l'eau qui coule rapidement."/>
+    <string id="4UNOQQRa" text="Aqqarat - la &quot;forteresse blanche&quot; comme l'appellent les Qusetts - a été créée par le redoutable Padisha Ahoshtar dans sa quête contre Devsag. Construite lors de la deuxième expédition. Le feu sacré au-dessus du fort, qui n'a pas été éteint depuis des décennies, symbolise sa suzeraineté sur les tribus locales. Mais le règne de Padisah s'est aussi progressivement mis sur la défensive comme un empire, et s'est finalement replié vers l'est. Maintenant, ici, la queue de cheval de Khan vole au vent."/>
+    <string id="5SpYVtie" text="Situé à l'ombre du rocher basaltique du mont Érythrée, Lothai était autrefois une forteresse du peuple Pala, également connu sous le nom de Lotash. Après Lagta, le Lotash est rapidement tombé aux mains de l'Empire. Le chef local Pala a massacré des dizaines de citoyens impériaux sous sa protection après avoir appris ce qui s'était passé dans le pays voisin. Le général aux cheveux longs Sarapius, personnage excentrique, dirigea la force de représailles pour capturer le Lotash et le raser. Nous avons pris Ragta avec mépris, et le sang n'a pas coulé ; nous avons pris Lotash avec honneur, et nous l'avons laissé saigner. Ces deux choses seront une tache sur notre réputation&quot;, a-t-il déclaré après coup. Le gagnant prendra le butin, mais il y aura toujours un stigmate."/>
+    <string id="79R6gi4l" text="Garlen regarde la côte érodée de Biscayne. Un aperçu des pêcheurs intrépides de Biscayne qui naviguent au large de la mer de l'Ouest, et des moutons dociles qui paissent sur des montagnes enveloppées de brume. Galen. L'actuel roi de Vallandia est le descendant de la famille qui s'est installée dans la région lorsque Osric le Mur de Fer l'a envahie."/>
+    <string id="8UJ3cPrZ" text="Mizeya tient son nom de Mizeyad, la terre des montagnes fertiles du centre-est de l'empire. Cette région était autrefois le lieu de nostalgie de l'ancien Li Tu, qui dirigeait le peuple Pala. Il a rejoint l'Empire dans une paix relative en échange d'une protection contre les raiders des steppes. Cependant, lorsqu'il a été écrasé par ses adversaires au Sénat, il a tenté d'organiser les tribus, en suivant l'exemple de l'ancien système Calad, pour construire une république rivale, dite &quot;barbare&quot;. Bien sûr, cette action a été rapidement étouffée, mais les gens d'ici - bien que maintenant complètement karadisés - ont toujours un penchant naturel pour l'ancienne république et les républicains."/>
+    <string id="aOn6pa0D" text="Sagot est un nom très commun pour les collines, caps, îles et autres lieux fortifiés de l'ouest de Calradia. Sargot est un nom en Massa. Camp fortifié de Middle Finger, cette tribu s'est alliée aux Valandiens lors de leur invasion. Bien que les Massa soient partis, ils gémissent souvent partout où ils vont, même longtemps après leur départ. Les gens se souviennent. Ce Sargot a été construit sur une ville impériale en ruine, et a ensuite été réinstallé par les Valandiens, de sorte que l'histoire du peuplement de l'ère pré-Zargot a finalement été complètement écrasée."/>
+    <string id="aTMypBiY" text="Varnovapol est située au pied des monts Cherteg, sur la rive du scintillant lac Laconis. C'est la ville la plus conquise de Calradia, et elle est célèbre pour cela. C'était à l'origine une colonie de l'Empire, où les récalcitrants étaient souvent exilés. Les Nords s'en sont emparés pour étendre leur influence dans le commerce de la fourrure en Sturgia. Après cela, Archer de la Steppe Orientale Les Forces Spéciales ont capturé l'endroit et en ont brièvement fait la capitale d'un petit khanat. Finalement, la ville est tombée entre les mains de la féroce famille Omidov."/>
+    <string id="bnl7Va4c" text="Housen Fullegger est situé à l'extrémité sud-est de Calradia, où des rivières et des lagunes saumâtres relient l'Empire aux terres d'Aserai. Fullegger, alias Farkos, est un chef mercenaire au visage noir, originaire de l'extrême sud. Il a construit un fort ici, et a utilisé l'emplacement stratégique du fort pour faire fortune, en prenant des pots-de-vin à la fois de l'Empire et d'Aserai, et était prêt à échanger Sideline. Après avoir joué au jeu de l'alignement pendant près de 20 ans, il est rentré chez lui à bord d'un navire chargé d'or, mais de nombreux clans d'Aserai prétendent encore fièrement descendre de lui.'' Fullerger's Ghost Ideas &quot;C'est également devenu une intrigue durable pour de nombreux conteurs du marché."/>
+    <string id="bPDqyqkb" text="Makaibu est situé à l'extrémité nord du lac Tanasis, que les peuples de la steppe appellent Danaz. La ville garde la grande chute d'eau formée lorsque la rivière Karakazi rejoint le lac. La ville a longtemps été gouvernée par de petits Khans et Shahs. Ils envoyaient des traqueurs pour faire traverser les eaux turbulentes aux navires marchands et faisaient payer des péages. Cependant, comme ils refusaient de payer le tribut, le dernier souverain de la ville fut dirigé par Ulhun Khan lui-même. Depuis lors, la ville est sous le contrôle de la famille régnante de Qusett."/>
+    <string id="Dxnj5JQE" text="Otungaard est située au milieu du plateau aride du Devseg, qui est sec toute l'année mais très propice aux pâturages au printemps. La ville a été fondée par des marchands parlant le darcy et venant des villages nomades environnants. Ils achetaient des chevaux, des moutons et du bétail et, accompagnés de gardes contre les raiders des steppes, les conduisaient en masse pour les vendre sur le marché impérial à l'ouest, afin d'obtenir beaucoup de richesses. Cependant, que ce soit le mur de la ville ou l'aucun des mercenaires ne pouvait résister à l'armée d'Ulhun Khan, qui a attribué la ville à la tribu Khujit en reconnaissance de leur bravoure."/>
+    <string id="Eb7Lgq10" text="Le port d'Osti, à l'origine un petit port impérial, est maintenant devenu un havre pour les habitants de la mer du Nord. Nombre d'entre eux étaient d'habiles pirates qui ont depuis été employés par intermittence par diverses factions de l'Imperium pour combattre leurs adversaires pendant la guerre civile de Ses propres parents racontent l'histoire de la richesse qu'ils obtiendront une fois qu'ils auront envahi cet endroit."/>
+    <string id="EJZLzhJk" text="Saneopa se trouve sur un col bas dans la vallée de Nevis menant au lac Ophotis au nord. Les Pala de cette région, comme les Altaniens, considèrent le lac comme un lieu sacré, et le lac Ophotis comme la porte de l'autre monde. Saneopa, bruyante et prospère, est un important centre commercial à l'intérieur de Calradia, mais elle est aussi sombre et silencieuse. L'eau du lac offre un contraste saisissant."/>
+    <string id="F5HlQdgf" text="Tyar est situé dans les contreforts occidentaux d'Iltan, à la frontière orientale de Sturgia. La région a longtemps été éloignée des luttes de pouvoir des autres Sturgiens. Les habitants sont pour la plupart des sans-abri. Les habitants sont des commerçants, des éleveurs de chevaux et des chasseurs de fourrure. Les nobles locaux épousent occasionnellement des princesses des tribus nomades de l'est pour cimenter les accords commerciaux, et leurs ancêtres portent les noms de plusieurs grands khans."/>
+    <string id="GChIoZdd" text="L'Askair occupe le milieu de la rivière Damar, là où l'eau se fraie un chemin à travers les falaises de Djaljarai. La région a été densément peuplée pendant des milliers d'années, mais le fleuve ne s'arrête jamais, et il sort de son lit tous les quelques centaines d'années, effaçant l'empreinte précédente. La dernière métropole régionale ici a été construite il y a des centaines d'années, lors de la plus grande pénétration de l'Empire dans Nahasa. Un camp que la tribu Aserai a occupé après la retraite de la Légion."/>
+	<string id="IIMWPVhU" text="La ville intérieure de Hubia aurait été construite sur les ruines d'un somptueux pavillon de chasse du roi déchu et brutal Turan, qui avait réduit en esclavage la famille du patriarche Aserai et avait été tué par celui-ci par vengeance. Ce souvenir peut expliquer la vision du monde de l'impitoyable Banu Gilard, qui contrôle désormais la ville et déteste toute frivolité. Mais ici, le vent de la nuit sent encore le parfum séduisant du jasmin. C'est ici que le héros Nimr a péri. Il fut surpris dans le boudoir d'une fille de Gilard et mis à mort dans une cage suspendue au marché."/>
+    <string id="J4bgNT0r" text="On raconte que la légendaire reine Ashura a sévèrement puni les dieux qui harcelaient son peuple et les a emprisonnés dans la grotte au-dessus de Gahira, et qu'elle a gravé dans la roche la légendaire étoile à huit branches, scellant ces dieux ici. Elle condamne ces dieux à descendre profondément sous terre pour transporter l'eau afin de nourrir la source, de sorte qu'elle crache constamment de l'eau vive par les crevasses de la roche. Depuis des siècles, l'eau de la source irrigue les jardins de palmiers de Gasila Date et les villages environnants."/>
+    <string id="JhBSnWAe" text="Ortysia, nommée d'après les cailles qui vivaient dans les marécages de la côte environnante, fut la première colonie karadish dans la mer de Perth. Au cours des premiers siècles, les indigènes étaient gouvernés par la cité-état cannae de Guyaz, mais l'expansion de l'empire n'a pas tardé à faire de la colonie une partie de la République. De nombreux marins venaient des îles de la baie de Shalas, infestées de pirates, et pendant des siècles, ces marins ont été reconnaissants envers l'imposant phare, dont les rayons pénétraient les brumes qui enveloppaient la mer de West Perth et annonçaient l'arrivée des navires dans des eaux sûres patrouillées par la patrouille maritime impériale."/>
+    <string id="Jm2uZiwV" text="Marunas, &quot;le cheval galopant des hauts-fonds&quot;, pourtant pas du tout près de la rivière. Mais les bardes de Battania aiment les lieux qui ne correspondent pas à leur nom, car un tel endroit est propice à la compilation d'un lore. Cette fois, le héros sur la scène est Ochlegan, à qui il est prophétisé de vaincre les sept fils de Granis en sept duels dans sept gués, où il rencontrera le dernier ennemi. Il égorge son cheval bien-aimé, traverse le ruisseau sanglant, vainc son ultime ennemi et accomplit la prophétie."/>
+    <string id="jXBnf2hQ" text="On dit que, des siècles avant l'arrivée des Impériaux, Razih était la base des explorateurs kan pour coloniser la côte de Pelaas. Leurs décorations d'arc Les statues sont tissées de vignes, symbolisant la richesse, le vin, l'amour et la guerre. Aujourd'hui, l'accent Kan a été complètement remplacé par le dialecte Nahasa, et leur religion a été complètement oubliée, mais leur logo a été préservé, toujours Histoires d'aventuriers courageux qui ont tout risqué pour la gloire."/>
+    <string id="kghCLS9q" text="Zeonika est située sur la côte des collines d'Illatar, une terre riche en vin, en céréales et en chevaux. Elle tire son nom de Dame Zeonne, l'une des rares femmes à avoir régné sur l'Empire - toujours nominalement en tant que régente de son fils, et non impératrice de l'Empire. L'endroit est également connu pour le vent de Zeonne, une mousson estivale du nord qui souffle sur Nahasa La chaleur du désert est portée par la mer de Perth au sud de l'empire. Le temps est doux le reste de la saison, et ce climat a donné naissance à d'innombrables poèmes qui font allusion à la fugacité de la passion."/>
+    <string id="LqPJY4s9" text="La ville d'Argolon est située à l'embouchure du fleuve froid et lent Nevis dans le lac Laconis. Cette terre appartenait autrefois aux Laconiens, qui considéraient l'Empire comme leur protecteur, protégé contre le peuple Pala, plus belliqueux. Ils accueillirent l'arrivée des Impériaux, se marièrent avec les colons de l'Empire, leurs chefs devinrent les anciens de l'Empire, et leurs anciennes langues et coutumes disparurent."/>
+    <string id="n9WMUuSp" text="Epicrotea, qui signifie &quot;invincible&quot; et qui doit son nom au général à la longue chevelure Sarapius, qui a vaincu une armée de Battan, gardait le territoire de l'Empire à l'ouest du lac Laconis. La tour qui se trouve ici domine le Miron et est souvent le premier arrêt des habitants du nord pour découvrir les redoutables armées du sud."/>
+    <string id="NFIYqaab" text="Iyakis se trouve dans une faille des falaises de Jairjara, où les pluies torrentielles occasionnelles du désert ont permis aux gens de l'économiser pour l'irrigation. Des générations de générations Par le passé, cet endroit n'était qu'un avant-poste autonome de l'empire appelé Yachios, dirigé par la famille Karasius. Cependant, il y a cinquante ans, ils ont vu les signes de l'établissement de l'hégémonie de l'empire vers le sud, ils ont donc commencé à coopérer avec les Nahasa Les tribus se sont mariées. Aujourd'hui, on les appelle les Karaz, et ils ont, comme les autres familles nobles de l'Aserai, un siège au conseil du sultan."/>
+    <string id="nhmBQIC4" text="Ox Hall est l'une des rares villes créées après que le royaume de Vallandia ait saisi les terres de l'Empire. La vallée était autrefois un vol batave. La terre, centrée sur le lac Modris - un lac dans le cratère d'une caldeira volcanique et dit être l'empreinte d'un géant. Il a été conquis par Orc, un seigneur de guerre de Vallandia, et le lac Ox tout proche porte son nom. Les tribus battaniennes de la région ont été repoussées vers l'intérieur des terres avec leurs légendes."/>
+    <string id="Nx0qK2g6" text="Palavinos est une deuxième colonie importante fondée par Galadius le Grand et remplace rapidement Salas comme capitale des Caladiens. Finalement, l'Empire Le centre de gravité de son règne se déplaça vers l'est, mais Balavinos resta la puissance économique de l'ouest. Lorsque le &quot;mur de fer&quot; valandien Osric l'a envahi, il a réalisé que Balavinos était le siège du pouvoir, plus qu'une source de pillage, et a négocié avec les anciens locaux pour que la ville se rende. Le lieu est passé aux mains de la branche d'Osric, la Maison de Day Thiel, et est maintenant connu sous le nom de Palavender."/>
+    <string id="pbHXtJ82" text="Omore est situé sur la rive orientale du lac Laconis. Bien avant que Sturgia ne devienne un duché, c'était un lieu sacré pour les tribus de la forêt, dont les chênes des bois vénéraient les dieux et les ancêtres. Aujourd'hui, c'est une place de marché pour les chasseurs de fourrure et les bûcherons, qui parcourent les terres désolées d'Ikara à l'est. Le silence immaculé de la forêt est également remplacé par le bruit du colportage, du sciage et des bateaux sur le lac. Rompu par le bruit du déchargement."/>
+    <string id="PPadNxa6" text="Les marchands de Noord ont établi Sybil dans une vallée des monts Cherteg, où ils espéraient faire le commerce des fourrures avec les peuples forestiers locaux parlant le vulcain. Lorsque les tribus stygiennes ont été converties en duchés et que le chef de tribu a été choisi comme Boye, ils ont commencé à considérer l'imposition et la corvée comme leur dû, de sorte que pour les Stygiens qui n'aimaient pas les réglementations, la terre est devenue extrêmement attrayante. Aujourd'hui, les ambitieux Isharovs règnent sur la région, mais ils doivent soigneusement peser leur désir de richesse ou leurs soldats seront confrontés à la mauvaise volonté et aux sujets qui se soulèvent."/>
+    <string id="QD3oaaNK" text="Ka Banthes se trouve au sommet des falaises d'Aita Druin. Si l'on regarde vers le nord par une journée claire et ensoleillée, on peut voir les eaux scintillantes de la baie de Valcheg au-dessus de la région qui appartenait autrefois à Batania et qui est maintenant occupée par les Valandiens et les Sturgiens. On dit que ceux qui ont la foi verront un jour d'ici le navire du défunt Haut Roi Meng. En équipe, il reviendra dans le monde et sauvera son peuple du feu et de l'eau. Mais maintenant, il est plus probable de voir des aventuriers du Nord et des mercenaires ici, leur but est d'aider les étrangers à continuer à manger le Pakistan La terre de Denia."/>
+    <string id="R6YJsK89" text="Jeccolan est situé sur le côté sud chaud de la côte de Biscayne, et les collines ondulées sont célèbres pour leurs oliveraies. C'était autrefois une destination de vacances favorite de l'aristocratie impériale, qui vivait parmi les forêts de chênes. La chasse aux ours sauvages pour le plaisir. Cependant, les agriculteurs autonomes de la région sont connus pour leurs hérésies. La Confrérie de Greenwood n'est que la dernière d'une série de rébellions qui ont éclaté ici, les nobles payant parfois même pour les aider contre leurs rivaux La famille Valandian."/>
+    <string id="rGXdJybe" text="La ville de Poros est située sur la côte nord de la mer péruvienne. Les collines chaudes et vallonnées qui s'y trouvent sont idéales pour la domestication des moutons et des chevaux. Les éleveurs ont la réputation d'être fiers et violents, et les nobles locaux de la Maison des Nipades respectent soigneusement leur autonomie. Le hennissement du bétail et les rixes sanglantes formaient ici une belle scène. On dit que les Léonipades n'interviennent jamais dans de telles disputes, à moins que les deux parties au combat ne les invitent à trancher. Mais une fois qu'ils le font, tous obéissent."/>
+    <string id="RL2vacqv" text="Fikaon est située au début de la vallée de Cetis, un important centre de production de céréales au milieu de l'Empire. Fikaon était la plus grande ville de Pala, et son dirigeant a unifié les différentes tribus qui ont résisté à l'invasion de la région par l'Empire. Cependant, lorsque la victoire de l'Empire fut inévitable, elles choisirent de faire la paix. Aujourd'hui, la population locale est complètement karadisée, et on dit que les gens d'ici sont sérieux, respectables, et des hommes d'affaires cérébraux, fiables, mais sans aucun sens de l'humour."/>
+	<string id="rX8oGVvV" text="Le chef Pala d'Amitatis a une très mauvaise réputation. C'est un tyran. En quête d'immortalité, il n'hésite pas à massacrer des innocents juste pour plaire aux dieux des enfers. Il ne doit pas éviter un conflit avec l'armée impériale. Pendant le siège, un tremblement de terre a fait voler en éclats les murs de la ville, permettant aux soldats impériaux de pénétrer dans la cité. Dans les incendies et les pillages qui s'ensuivent, plus de gens meurent que le tyran lui-même. mais c'est la guerre. Certains accusent la colère du ciel d'être à l'origine de ce résultat, et c'est la propagande dominante pour expliquer l'ancrage solide de l'Empire dans la région."/>
+    <string id="SUnaVliN" text="Chaikan est situé à côté des prairies de roseaux sur la rive du lac Tanasis. À l'époque où l'Orient était encore un protectorat impérial, des bateaux chargés de peaux, de laine et de sel passaient devant ce paisible lac et revenaient avec la soie et l'argent de l'empire. Les Khusets sont arrivés, la guerre aussi, et le commerce fluvial a cessé, mais Chaikan est resté une importante station de transfert commercial et une base militaire, et est devenu le fief Uerhun de la tribu Naet. Le khan de Qusait se tenait dans le grenier du palais, et ses yeux traversaient le lac jusqu'aux collines au loin, où peut-être un jour il pourra faire paître ses chevaux."/>
+    <string id="T2E4xKVn" text="Revell est une ville importante de la péninsule rocheuse de Kachar et le rival traditionnel de Balgard. Selon la légende, le mari de la princesse Akina de Balgard a été tué par la foudre, mais elle a accepté la proposition du roi ennemi de l'épouser pour régler le différend. La nuit de noces, cependant, elle bloqua la porte de la salle et y fit entrer le roi et une centaine de ses gens avec les guerriers Brûlés vifs. Le différend fut par la suite réglé par une série de traités et de mariages, et se termina de manière heureuse, mais les Revells gardèrent toujours rancune à la dynastie des Gundarov de Balgard."/>
+    <string id="TI3fS2xN" text="Chaque royaume a une ville où ses habitants seront ridiculisés pour leur pédantisme et leur manque de sophistication. Pour l'Empire, cette ville est Jarmalius. La ville est l'une des premières colonies impériales établies à l'intérieur de la mer de Perth comme base pour le contrôle des tribus de Sipara. Balavinos accepte volontiers le butin et les esclaves d'ici, et ricane dans son dos. La situation a changé après le coup d'État militaire du général Karthos de Garmalius, lorsqu'un sénateur l'a supplié nerveusement de répéter un décret, incapable de comprendre son lourd accent, il a dégainé son épée et a dit : &quot;Comprenez-vous cela ?&quot;."/>
+    <string id="UHvEEEBb" text="Silonia est située sur la rive orientale du lac Tanasis. La ville était autrefois paisible et prospère, et était même synonyme de luxe et de dépravation. Le site était à l'origine un centre impérial de production de soie. Le centre était également le centre de distribution des marchandises apportées par la &quot;Vitanesia&quot; - l'industrie et le protectorat de l'empire de l'autre côté des Grands Lacs. Cependant, les Qusetts sont arrivés et ont pris la Transanesia des mains de l'Empire. Les anciens de Sylonia furent également contraints de réapprendre l'art de la guerre, dépoussiérant l'épaisse poussière de leurs armures dorées, aiguisant leurs épées ornées de bijoux, et menant leurs partisans contre les guerriers d'Ulhun."/>
+    <string id="uO4dxCl8" text="Le port de Sanara est la porte d'entrée des céréales du Damar inférieur vers le monde entier à nourrir. Périodiquement, l'Empire a toujours marché vers le sud le long de la côte de Plath avec l'intention de capturer cet objectif stratégique. . Bien que la Légion ait été forcée de se retirer il y a de nombreuses années, Sanara est toujours l'une des plus grandes villes métropolitaines de tout le continent Calradia. Les marchands du monde entier se rassemblent ici pour se faire concurrence sur les prix."/>
+    <string id="WGtzBswe" text="Lycaron, une forteresse naturelle située sur une pente douce faisant saillie de la puissante montagne de pierre d'Orni. Durant les dernières années de la conquête de l'Empire, la tribu Pala négocia avec l'Empire et réalisa une union pacifique, leur patrie fut à nouveau prise par le chef rebelle Getu. Le siège qui s'ensuivit ne fut que le premier des sièges répétés de Lycaron au cours des siècles suivants. Comme la ville est entourée de riches filons d'argent, tout prétendant au trône qui veut s'emparer du pouvoir dans une guerre civile lorgne ici. Il y a même des rumeurs selon lesquelles les vautours qui vivent au sommet de la montagne de pierre ont mangé tous les habitants de Calradia."/>
+    <string id="wKMo2CUP" text="Diatma, la ville de l'Inquisition, fondée par un général impérial sur les ruines du temple de Deruia qui surplombe le lac Laconis. Les Deruians - le peuple Pala de l'extrême nord - ont livré leur dernière bataille ici, ont soulevé une rébellion contre l'Empire, puis ont été anéantis. Selon la légende, ils étaient entourés par les bas-fonds du lac et se sont battus vaillamment jusqu'au dernier homme. Le lac écarlate les a engloutis les uns après les autres."/>
+    <string id="X3MsaG39" text="Xiao Nong, triste Xiao Nong, son histoire est comme l'eau sombre du lac Taiwar, qui fait pleurer les gens. En regardant la tour, Algana aux beaux cheveux est là, pleurant son bien-aimé Gora Wan. Même l'âme de l'au-delà a été émue par ce chagrin sans limite, permettant à son reflet d'apparaître sur le lac jour et nuit pour réconforter son cœur brisé. Quelques jours après cet Ici, cette terre est souvent attaquée par les raiders de Sturgia, et non loin de l'endroit où le Roi Ariel a disparu, Karadog a profité de cette occasion pour se lever."/>
+    <string id="xkkI7ejQ" text="La ville frontière de Danustika domine le Kaleza - un réseau de transport de lacs et de lagunes. Elle a longtemps gardé la frontière contre l'Aserai et l'Extrême-Orient Dasi Les différentes Shahs et Padisshah attaques des êtres humains. De nombreux légionnaires impériaux stationnés ici n'ont pas pu attendre pour écrire sur les murs en maudissant l'été torride de la ville, l'eau salée et le vol de Kaleza. moustiques. Mais les habitants sont fiers de leur responsabilité de protéger la frontière et le pays, et se moquent des soldats malades qui les entourent."/>
+    <string id="Xom9DeXZ" text="Valgard a été fondée par des colons nordiques au bord de la baie glacée de Mazopol. Selon la légende, les premiers Nords venus ici ont exigé avec arrogance le Vulcain voisin. Rendez hommage à la tribu des Sturgiens, qui s'allia aux nouveaux arrivants pour les repousser vers leurs drakkars. Cependant, les vainqueurs se sont disputés la distribution inégale du butin jusqu'à ce qu'un astucieux tributaire nordique, Dahl, débarque ici et distribue équitablement aux locaux les armes et armures de son peuple mort. Les habitants reconnurent la domination de Gondar sur la région, et ses descendants continuèrent à se marier avec les Sturgiens, devenant ainsi ce qui est aujourd'hui Sturgeon. Les princes de Gia."/>
+    <string id="YERtiSUn" text="Dunglaris, qui signifie &quot;le rocher de Granis&quot;, se dresse au sommet d'une montagne et surplombe le lac sombre de l'arrière-pays albanais, le lac Taiwal. Son nom vient d'une ancienne reine, qui, selon la légende, a été mariée à cinq grands rois de Batania, et même au-dessus d'eux. Cet endroit est un lieu saint secret de Batania, symbolisant la royauté de Batania, et bien que tous les hauts rois de Batania ne règnent pas ici, ils aspirent tous à le contrôler."/>
+    <string id="ygJkPxyc" text="La ville d'Odokh est située au pied des Koshi Rohini - les montagnes de l'aube. C'est l'une des villes les plus reculées du plateau de Devseg, et elle doit son nom au roi Ahhak - le palais d'un tyran mythique est célèbre dans le monde entier, et les épaules du roi sont enveloppées de vipères. Aujourd'hui encore, des rumeurs affirment que les montagnes de l'Aube sont un lieu de magie noire et d'arts occultes, et que les étrangers ne sont pas autorisés à y pénétrer. La ville se trouve au Koweït Après avoir été habillés, les costumes étaient confiés aux Heerbite, qui se mariaient avec les montagnards, respectaient les coutumes locales, participaient à leurs cérémonies religieuses - et, bien sûr, gardaient leurs secrets."/>
+    <string id="YNm9vaHw" text="Baltahan, qui signifie forteresse de la hache, a été construit par les Eltans, les cousins des Qusaites qui vivaient dans les montagnes. Il y a des centaines d'années, leurs chefs ont été exilés dans cette plaine et ont établi Le fort a été construit pour garder la ligne de transport Illetan - un réseau de transport de lacs et de rivières qui séparait le royaume de Sturgia du royaume des Qusait. Le rude hiver a maintenu l'Empire hors de portée, mais aucun Li Feng n'a pu arrêter la cavalerie de fer de Wuerhan Khan. La ville s'est rendue au Khanat il y a 40 ans."/>
+    <string id="ytBRXqt8" text="Vorstrom a été fondé par le mercenaire Karad Arcacus, l'un des nombreux commandants ayant fait défection de l'Empire lors de son expansion. D'autres espèrent recréer l'Empire. Il a choisi de régner en tant que dieu-roi, contrairement à sa tradition républicaine. Sa lignée s'est perpétuée pendant des générations, jusqu'à ce que les soldats de l'Empire renversent le régime et arrachent et brisent toutes les statues déifiées d'Arcacus et de ses successeurs . Jusqu'à présent, les anciens impériaux de l'ouest et du nord ont accusé les familles de la région de monarchistes potentiels."/>
+    <string id="YYYxOiCq" text="Amprella est située à l'extrême nord de l'Empire. Des gardes se tiennent sur de hautes tours, toujours à l'affût des signaux émis par les forteresses des frontières du nord, de l'est ou de l'ouest pour avertir les raiders. Les casernes sont garnies d'archers à cheval composés de &quot;freemen&quot; en liberté, qui attendent l'ordre d'attaquer la cavalerie des steppes. La cavalerie blindée se rassemblait aux portes de la ville et rivalisait avec les princes de Sturgia pour l'Irak. Contrôle commercial de la ligne Letan - un réseau de lacs environnants."/>
+    <string id="ZAGUIKOn" text="L'Empire est un Ragta obtenu par l'intrigue et n'est donc pas honorable. Un marchand impérial en exil assassine le chef Pala qui l'a engagé, occupe la forteresse et invite des colons impériaux, puis dédie la ville à l'Empire. Bien que le Sénat condamne ses actions, il accepte tout de même le cadeau. Maintenant que la région a été complètement Karadisée, les Battaniens du Nord s'en souviennent encore comme du Cœur. Chaque fois que les envoyés impériaux commençaient à se vanter du caractère sacro-saint des traités et des accords, les Battaniens hochaient la tête et disaient invariablement : &quot;Lageta&quot;."/>
+    <string id="Settlements.Settlement.text.castle_village_EN7_2" text="Pons est l'une des colonies les plus septentrionales de l'Empire. Le site doit son nom à son emplacement au carrefour de la ligne de transport Illetan, une série de lacs glaciaires. Le réseau permet aux navires de passer entre les lacs Laconis et Tanais. La région est relativement peu peuplée, mais les prairies luxuriantes abritent de grands troupeaux de bétail."/>
+    <string id="Settlements.Settlement.text.castle_village_EN8_2" text="Thememos est situé dans les collines boisées à l'extrémité nord du lac Tanasis. De nombreux villageois sont des exploitants forestiers qui récoltent et vendent des chênes, des hêtres et des pins. Vers la ville au bord du lac."/>
+    <string id="Settlements.Settlement.text.castle_village_EN9_2" text="Agarmon se trouve à côté de la confluence de deux petites rivières rapides du nord, la Galchas et la Miron. Les résidents se sont mariés avec les Sturgiens voisins depuis des générations, et les échanges étaient plutôt amicaux, mais le déclenchement de la guerre a rendu les relations entre les deux parties tendues."/>
+   <!-- ↑Don't translate these things↑ -->
+   <!-- ↑These are the original or Naitve things↑ -->
+  </strings>
+</base>

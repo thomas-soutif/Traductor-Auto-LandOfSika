@@ -1,0 +1,469 @@
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English"/>
+  </tags>
+  <strings>
+    <!-- ProgrammeTranslate_CN文件夹内皆是程序上的string翻译-->
+    <!-- TheLandOfSika_All_CNs是TheLandOfSika这个模块的翻译文件-->
+    <string id="strTheLandOfSika" text="Terre de Sika"/>
+
+    <string id="strTheLandOfSika001" text="Camping Menu：{newline}You order your army camp here. Now you can inspect and manage your army, feding your pet or changing your tatics."/>
+    <string id="strTheLandOfSika002" text="Pet Management"/>
+    <string id="strTheLandOfSika010" text="Sortie"/>
+    <string id="strTheLandOfSika004" text="Terre de Sika"/>
+    <string id="strTheLandOfSika005" text="Terre de Sika"/>
+
+    <string id="strSikaPetState000" text="Statut d'animal de compagnie : Parfait"/>
+    <string id="strSikaPetState001" text="Statut d'animal de compagnie : Contenu"/>
+    <string id="strSikaPetState002" text="Statut d'animal de compagnie : Normal"/>
+    <string id="strSikaPetState003" text="Statut de l'animal : Déprimé"/>
+    <string id="strSikaPetState004" text="Statut de l'animal : mourant"/>
+    <string id="strSikaPetState005" text="Statut de dressage de l'animal : Parfait"/>
+    <string id="strSikaPetState006" text="Prime pour animaux"/>
+
+  <!-- 文件CommonBehavior.cs开始 -->
+    <!--<string id="strSikaSettlementProgress001" text="Your settlement's current project: " />
+    <string id="strSikaSettlementProgress002" text="Your settlement's building has completed!" />
+    <string id="strSikaSettlementProgress003" text="农田" />
+    <string id="strSikaSettlementProgress004" text="伐木场" />
+    <string id="strSikaSettlementProgress005" text="采石场" />
+    <string id="strSikaSettlementProgress006" text="军营" />
+    <string id="strSikaSettlementProgress007" text="市场" />
+    <string id="strSikaSettlementProgress008" text="医馆" />
+    <string id="strSikaSettlementProgress009" text="Nothing" />-->
+
+    <string id="strSikaSettlementProgress010" text="Vous vous installez en produisant des ressources, des aliments :"/>
+    <string id="strSikaSettlementProgress011" text="des bois :"/>
+    <string id="strSikaSettlementProgress012" text="des pierres :"/>
+    <string id="strSikaSettlementProgress013" text=". Et les taxes :"/>
+    <string id="strSikaSettlementProgress014" text="De l'or. Votre marché gagne :"/>
+    <string id="strSikaSettlementProgress015" text="L'or."/>
+
+   <!-- CommonBehavior左下角信息开始 -->
+
+    <string id="strSikaInformationMessage001" text="En raison du rendu du moteur de MB 2, lorsque vous entrez dans le jeu ou dans le champ de bataille et que vous chargez le modèle ou la carte pour la première fois, l'image se bloque. Veuillez patienter quelques minutes, ou attendre que les personnages de l'image soient complètement affichés avant de pouvoir opérer (le temps spécifique varie selon la configuration de l'ordinateur)."/>
+    <string id="strSikaInformationMessage002" text="Le pays de Sika ne vous recommande pas d'installer d'autres mods ou d'utiliser des modificateurs, et il n'est pas nécessaire d'ajouter des pré-mods. L'installation d'autres mods ou l'utilisation de modificateurs peut provoquer des conflits ou le crash de mauvais fichiers. Pour le crash causé par ce genre de situation, veuillez fermer les autres mods et modificateurs et rouvrir le nouveau jeu pour jouer. Merci de votre soutien."/>
+    <string id="strSikaInformationMessage003" text="Vous jouez sur le terrain de Sika version 1.4.3, veuillez faire attention à vérifier les informations de mise à jour."/>
+
+    <string id="strSikaInformationMessage060" text="Toujours en développement !"/>
+
+    <string id="strSikaInformationMessage061" text="État actuel de la torche"/>
+    <string id="strSikaInformationMessage062" text="État actuel du drapeau"/>
+    <string id="strSikaInformationMessage063" text="État actuel de la flèche de feu"/>
+    <string id="strSikaInformationMessage064" text="Off"/>
+    <string id="strSikaInformationMessage065" text="Sur"/>
+   <!-- CommonBehavior左下角信息结束 -->
+
+   <!-- CommonBehavior左侧菜单开始 -->
+    <string id="strTheLandOfSikaMenu1001" text="Inspecter les troupes"/>
+    <string id="strTheLandOfSikaMenu1002" text="Formation des troupes"/>
+    <string id="strTheLandOfSikaMenu1003" text="Ressources et outils"/>
+    <string id="strTheLandOfSikaMenu1004" text="Paramètres du jeu"/>
+    <string id="strTheLandOfSikaMenu1005" text="Options de jeu"/>
+    <string id="strTheLandOfSikaMenu1006" text="Allumer/éteindre la torche"/>
+    <string id="strTheLandOfSikaMenu1007" text="Drapeau on/off"/>
+    <string id="strTheLandOfSikaMenu1008" text="FireArrow on/off"/>
+    <string id="strTheLandOfSikaMenu1009" text="Retour au camp"/>
+   <!-- CommonBehavior左侧菜单结束 -->
+  <!-- 文件CommonBehavior.cs结束 -->
+
+  <!-- 文件CollectResourcesMissionLogic.cs开始 -->
+   <!-- CollectResourcesMissionLogic左下角信息开始 -->
+    <string id="strSikaInformationMessage021" text="Vous acquérez 2 aliments !"/>
+    <string id="strSikaInformationMessage022" text="Vous acquérez 5 aliments !"/>
+   <!-- CollectResourcesMissionLogic左下角信息结束 -->
+  <!-- 文件CollectResourcesMissionLogic.cs结束 -->
+
+  <!-- 文件SpecialLootLogic.cs开始 -->
+   <!-- SpecialLootLogic.cs左下角信息开始 -->
+    <string id="strSikaInformationMessage1001" text="You get a"/>
+    <string id="strSikaInformationMessage1002" text="le gâchis sepcial :"/>
+    <string id="strSikaInformationMessage1003" text="Normal"/>
+    <string id="strSikaInformationMessage1004" text="Nice"/>
+    <string id="strSikaInformationMessage1005" text="Rare"/>
+    <string id="strSikaInformationMessage1006" text="Délicat"/>
+    <string id="strSikaInformationMessage1007" text="Superbe"/>
+   <!-- SpecialLootLogic.cs左下角信息结束 -->
+  <!-- 文件SpecialLootLogic.cs结束 -->
+
+  <!-- 文件SpecialClanBehavior.cs开始 -->
+
+   <!-- SpecialClanBehavior.cs对话开始 -->
+    <string id="strSpecialClanTalk1101" text="La vague noire dominera tout dans ce monde, jusqu'au moment final !"/>
+    <string id="strSpecialClanTalk1102" text="Je vais vous détruire !"/>
+
+    <string id="strSpecialClanTalk1103" text="Humain, humain. Délicieux ! Délicieux !"/>
+    <string id="strSpecialClanTalk1104" text="Monstres, je vais tous vous éliminer !"/>
+
+    <string id="strSpecialClanTalk1105" text="Vos péchés seront avalés par le sang !"/>
+    <string id="strSpecialClanTalk1106" text="Tu vas enterrer le sang de mes péchés !"/>
+
+    <string id="strSpecialClanTalk1107" text="Le gel sans fin va recouvrir tout le continent !"/>
+    <string id="strSpecialClanTalk1108" text="Je vais fendre le gel et accueillir le soleil !"/>
+
+    <string id="strSpecialClanTalk1109" text="La flamme du mal va tout brûler !"/>
+    <string id="strSpecialClanTalk1110" text="La flamme du mal sera éteinte !"/>
+    
+    <string id="strSpecialClanTalk1111" text="Nous sommes des envoyés du monde souterrain. Nous punirons votre âme par l'inquisition !"/>
+    <string id="strSpecialClanTalk1112" text="Personne ou dieu ne peut inquisiter mon âme !"/>
+   <!-- SpecialClanBehavior.cs对话结束 -->
+
+   <!-- SpecialClanBehavior.cs左侧菜单开始 -->
+    <string id="strTheLandOfSikaMenu1101" text="Vous avez rencontré de puissantes forces maléfiques !"/>
+    <string id="strTheLandOfSikaMenu1102" text="Attaquez !"/>
+    <string id="strTheLandOfSikaMenu1103" text="Se rendre."/>
+    <string id="strTheLandOfSikaMenu1104" text="Congé temporaire."/>
+
+    <string id="strTheLandOfSikaMenu1105" text="Rare"/>
+    <string id="strTheLandOfSikaMenu1106" text="Délicat"/>
+    <string id="strTheLandOfSikaMenu1107" text="Superbe"/>
+   <!-- SpecialClanBehavior.cs左侧菜单结束 -->
+  <!-- 文件SpecialClanBehavior.cs结束 -->
+
+  <!-- 文件SikaDiplomacyBehavior.cs开始 -->
+    <string id="strTheLandOfSikaInformationMessage1001" text="après une période de récupération, déclare la guerre aux"/>
+    <string id="strTheLandOfSikaInformationMessage1002" text="."/>
+  <!-- 文件SikaDiplomacyBehavior.cs结束 -->
+
+  <!-- 文件BattleResourcesLogic.cs开始 -->
+    <string id="strTheLandOfSikaInformationMessage1101" text="Vos troupes collectent des ressources sur le champ de bataille, des aliments :"/>
+    <string id="strTheLandOfSikaInformationMessage1102" text="des bois :"/>
+    <string id="strTheLandOfSikaInformationMessage1103" text="et des pierres :"/>
+  <!-- 文件BattleResourcesLogic.cs结束 -->
+
+  <!-- 文件SikaSettlementVM.cs开始 -->
+   <!-- SikaSettlementVM.cs弹窗开始 -->
+    <string id="strTheLandOfSikaWindow12011" text="Ne peut pas construire"/>
+    <string id="strTheLandOfSikaWindow12012" text="Cette construction ne peut pas construire"/>
+
+    <string id="strTheLandOfSikaWindow1201" text="Est en cours de construction"/>
+    <string id="strTheLandOfSikaWindow1202" text="Votre établissement est en cours de construction, veuillez attendre le nouveau projet."/>
+    <string id="strTheLandOfSikaWindow1203" text="Ne peut pas construire"/>
+
+    <string id="strTheLandOfSikaWindow1204" text="ne peut pas mettre à niveau"/>
+    <string id="strTheLandOfSikaWindow1205" text="Les terres agricoles de l'établissement ont atteint le niveau le plus élevé, elles ne peuvent pas être améliorées."/>
+    <string id="strTheLandOfSikaWindow1206" text="Arrêt de la mise à niveau"/>
+
+    <string id="strTheLandOfSikaWindow1207" text="Amélioration des terres agricoles"/>
+    <string id="strTheLandOfSikaWindow1208" text="Vous consommerez"/>
+    <string id="strTheLandOfSikaWindow1209" text="points de nourriture, de bois et de pierres pour améliorer les terres agricoles."/>
+    <string id="strTheLandOfSikaWindow1210" text="Confirmer la construction"/>
+    <string id="strTheLandOfSikaWindow1211" text="Arrêter de construire"/>
+
+    <string id="strTheLandOfSikaWindow1212" text="Manque de ressources"/>
+    <string id="strTheLandOfSikaWindow1213" text="Vous n'avez pas assez de ressources !"/>
+
+    <string id="strTheLandOfSikaWindow1214" text="Le chantier d'exploitation forestière de la colonie a atteint le niveau le plus élevé, il ne peut pas être amélioré."/>
+    <string id="strTheLandOfSikaWindow1215" text="La carrière de la colonie a atteint le niveau le plus élevé, elle ne peut pas être améliorée."/>
+    <string id="strTheLandOfSikaWindow1216" text="Le camp militaire de l'établissement a atteint le plus haut niveau, il ne peut pas être amélioré."/>
+    <string id="strTheLandOfSikaWindow1217" text="Le marché de l'établissement a atteint le niveau le plus élevé, il ne peut pas être amélioré."/>
+    <string id="strTheLandOfSikaWindow1218" text="La clinique de l'établissement a atteint le plus haut niveau, elle ne peut pas s'améliorer."/>
+    <string id="strTheLandOfSikaWindow1219" text="Le PlayerHome de l'établissement a atteint le niveau le plus élevé, il ne peut pas être mis à niveau."/>
+
+    <string id="strTheLandOfSikaWindow1220" text="Mise à niveau du parc à bois"/>
+    <string id="strTheLandOfSikaWindow1221" text="Amélioration des carrières"/>
+    <string id="strTheLandOfSikaWindow1222" text="Mise à niveau de MilitaryCamp"/>
+    <string id="strTheLandOfSikaWindow1223" text="Mise à niveau du marché"/>
+    <string id="strTheLandOfSikaWindow1224" text="Mise à niveau de la clinique"/>
+    <string id="strTheLandOfSikaWindow1225" text="Mise à niveau de PlayerHome"/>
+
+    <string id="strTheLandOfSikaWindow1226" text="points de nourriture, de bois et de pierres pour améliorer le parc à bois."/>
+    <string id="strTheLandOfSikaWindow1227" text="points de nourriture, de bois et de pierres pour améliorer Quarry."/>
+    <string id="strTheLandOfSikaWindow1228" text="points de nourriture, de bois et de pierres pour améliorer MilitaryCamp."/>
+    <string id="strTheLandOfSikaWindow1229" text="points de nourriture, de bois et de pierres pour améliorer le marché."/>
+    <string id="strTheLandOfSikaWindow1230" text="points de nourriture, de bois et de pierres pour améliorer la clinique."/>
+    <string id="strTheLandOfSikaWindow1231" text="points de nourriture, de bois et de pierres pour améliorer PlayerHome."/>
+
+    <string id="strTheLandOfSikaWindow1232" text="Ce projet ne peut pas se construire maintenant !"/>
+    <string id="strTheLandOfSikaWindow1233" text="Annuler la construction"/>
+
+   <!-- SikaSettlementVM.cs弹窗开始 -->
+
+   <!-- SikaSettlementVM.cs左下角信息开始 -->
+    <string id="strTheLandOfSikaInformationMessage1201" text="Votre établissement est en cours de construction, veuillez attendre le nouveau projet."/>
+
+    <string id="strTheLandOfSikaInformationMessage1203" text="Les terres agricoles de l'établissement ont atteint le niveau le plus élevé, elles ne peuvent pas être améliorées."/>
+    <string id="strTheLandOfSikaInformationMessage1204" text="Le chantier d'exploitation forestière de la colonie a atteint le niveau le plus élevé, il ne peut pas être amélioré."/>
+    <string id="strTheLandOfSikaInformationMessage1205" text="La carrière de la colonie a atteint le niveau le plus élevé, elle ne peut pas être améliorée."/>
+    <string id="strTheLandOfSikaInformationMessage1206" text="Le camp militaire de l'établissement a atteint le plus haut niveau, il ne peut pas être amélioré."/>
+    <string id="strTheLandOfSikaInformationMessage1207" text="Le marché de l'établissement a atteint le niveau le plus élevé, il ne peut pas être amélioré."/>
+    <string id="strTheLandOfSikaInformationMessage1208" text="La clinique de l'établissement a atteint le plus haut niveau, elle ne peut pas s'améliorer."/>
+    <string id="strTheLandOfSikaInformationMessage1209" text="Le PlayerHome de l'établissement a atteint le niveau le plus élevé, il ne peut pas être mis à niveau."/>
+
+    <string id="strTheLandOfSikaInformationMessage1210" text="Vous n'avez pas assez de ressources pour améliorer Farmland ! Il vous faut"/>
+    <string id="strTheLandOfSikaInformationMessage1211" text="Vous n'avez pas assez de ressources pour mettre à niveau LoggingYard ! Vous avez besoin de"/>
+    <string id="strTheLandOfSikaInformationMessage1212" text="Vous n'avez pas assez de ressources pour améliorer Quarry ! Il vous faut"/>
+    <string id="strTheLandOfSikaInformationMessage1213" text="Vous n'avez pas assez de ressources pour mettre à niveau MilitaryCamp ! Vous avez besoin de"/>
+    <string id="strTheLandOfSikaInformationMessage1214" text="Vous n'avez pas assez de ressources pour mettre à niveau Market ! Vous avez besoin de"/>
+    <string id="strTheLandOfSikaInformationMessage1215" text="Vous n'avez pas assez de ressources pour mettre à niveau la clinique ! Vous avez besoin de"/>
+    <string id="strTheLandOfSikaInformationMessage1216" text="Vous n'avez pas assez de ressources pour mettre à jour PlayerHome ! Vous avez besoin de"/>
+
+    <string id="strTheLandOfSikaInformationMessage1202" text="des points de nourriture, du bois et des pierres à construire."/>
+   <!-- SikaSettlementVM.cs左下角信息开始 -->
+
+   <!-- SikaSettlementVM.cs界面UI开始 -->
+    <string id="strTheLandOfSikaUI1201" text="Construction de l'établissement"/>
+    <string id="strTheLandOfSikaUI1202" text="Les aliments :"/>
+    <string id="strTheLandOfSikaUI1203" text="Bois :"/>
+    <string id="strTheLandOfSikaUI1204" text="Pierres :"/>
+    <string id="strTheLandOfSikaUI1205" text="Projet en cours :"/>
+    <string id="strTheLandOfSikaUI1206" text="Temps restant :"/>
+    <string id="strTheLandOfSikaUI1207" text="Heures"/>
+    <string id="strTheLandOfSikaUI1208" text="Niveau de règlement :"/>
+    <string id="strTheLandOfSikaUI1209" text="Niveau actuel :"/>
+    <string id="strTheLandOfSikaUI1210" text="Renommer l'établissement"/>
+
+    <string id="strTheLandOfSikaUI1211" text="Terres agricoles"/>
+    <string id="strTheLandOfSikaUI1212" text="Parc d'exploitation forestière"/>
+    <string id="strTheLandOfSikaUI1213" text="Carrière"/>
+    <string id="strTheLandOfSikaUI1214" text="Camp militaire"/>
+    <string id="strTheLandOfSikaUI1215" text="Marché"/>
+    <string id="strTheLandOfSikaUI1216" text="Clinique"/>
+    <string id="strTheLandOfSikaUI1217" text="PlayerHome"/>
+
+    <string id="strTheLandOfSikaUI1218" text="La terre agricole peut produire des aliments quotidiennement, chaque niveau de terre agricole fournira 10 aliments par jour."/>
+    <string id="strTheLandOfSikaUI1219" text="Le parc à bois peut produire des bois quotidiennement, chaque niveau de parc à bois fournira 10 bois par jour."/>
+    <string id="strTheLandOfSikaUI1220" text="La Carrière peut produire des pierres quotidiennement, chaque niveau de Carrière fournira 10 pierres par jour."/>
+    <string id="strTheLandOfSikaUI1221" text="Chaque niveau de Camp Militaire réduira de 2% le salaire des troupes auto-construites."/>
+    <string id="strTheLandOfSikaUI1222" text="Le marché fournira quotidiennement des dinars et des transactions, chaque niveau du marché fournira quotidiennement 50 dinars."/>
+    <string id="strTheLandOfSikaUI1223" text="La clinique offre une fonction de guérison dans votre établissement. Chaque niveau de clinique permet de guérir 20 points de santé."/>
+    <string id="strTheLandOfSikaUI1224" text="PlayerHome est un endroit où le joueur peut se reposer. Après que PlayerHome ait atteint le niveau 10, PlayerHome deviendra un palais doré."/>
+    <string id="strTheLandOfSikaUI1225" text="Ce projet ne peut pas utiliser pour le moment !"/>
+
+    <string id="strTheLandOfSikaUI1226" text="Mise à niveau"/>
+    <!-- SikaSettlementVM.cs界面UI开始 -->
+  <!-- 文件SikaSettlementVM.cs结束 -->
+  
+  <!-- 文件ToolCreationVM.cs开始 -->
+   <!-- ToolCreationVM.cs弹窗开始 -->
+    <string id="strTheLandOfSikaWindow1301" text="Confirmer la marque"/><!-- 1.4.3 -->
+    <string id="strTheLandOfSikaWindow1302" text="Arrêter Faire"/>
+
+    <string id="strTheLandOfSikaWindow1303" text="Manque de matériel"/>
+    <string id="strTheLandOfSikaWindow1304" text="Vous n'avez pas assez de matériel !"/>
+
+    <string id="strTheLandOfSikaWindow1305" text="Créer une hache en bois"/>
+    <string id="strTheLandOfSikaWindow1306" text="Consommez 10 bois et 5 pierres pour fabriquer une WoodenAxe !"/>
+
+    <string id="strTheLandOfSikaWindow1307" text="Créer une pioche en bois"/>
+    <string id="strTheLandOfSikaWindow1308" text="Consommez 5 bois et 10 pierres pour fabriquer une Pioche en bois !"/>
+   <!-- ToolCreationVM.cs弹窗开始 -->
+
+   <!-- ToolCreationVM.cs左下角信息开始 -->
+    <string id="strTheLandOfSikaInformationMessage1301" text="Vous n'avez pas assez de matériel !"/>
+
+    <string id="strTheLandOfSikaInformationMessage1302" text="Vous avez consommé 10 bois et 5 pierres pour une WoodenAxe. Obtenez une WoodenAxe."/>
+    <string id="strTheLandOfSikaInformationMessage1303" text="Vous avez consommé 5 bois et 10 pierres pour une Pioche en bois. Obtenez une Pioche en bois."/>
+   <!-- ToolCreationVM.cs左下角信息开始 -->
+
+   <!-- ToolCreationVM.cs界面UI开始 -->
+    <string id="strTheLandOfSikaUI1301" text="Les aliments :"/>
+    <string id="strTheLandOfSikaUI1302" text="Pierres :"/>
+    <string id="strTheLandOfSikaUI1303" text="Les aliments :"/>
+
+    <string id="strTheLandOfSikaUI1304" text="Il faut 10 bois et 5 pierres pour fabriquer une WoodenAxe."/>
+    <string id="strTheLandOfSikaUI1305" text="Il faut 5 bois et 10 pierres pour fabriquer une pioche en bois."/>
+
+    <string id="strTheLandOfSikaUI1306" text="Fabrication d'outils"/>
+    <string id="strTheLandOfSikaUI1307" text="Faire"/>
+    <string id="strTheLandOfSikaUI1308" text="WoodenAxe"/>
+    <string id="strTheLandOfSikaUI1309" text="Pioche en bois"/>
+    <!-- ToolCreationVM.cs界面UI开始 -->
+  <!-- 文件ToolCreationVM.cs结束 -->
+
+  <!-- 文件PlayerLogicBehavior.cs开始 -->
+    <string id="strPlayerLogicBehavior001" text="Vous obtenez une Pierre du Chaos, votre quantité totale actuelle de Pierre du Chaos :"/>
+
+    <string id="strVoidProblemDialog001" text="On dirait qu'on a un problème ici."/>
+    <string id="strVoidProblemDialog002" text="Oui."/>
+
+    <string id="strSikaKnightHallDialog1001" text="Bienvenue à l'église Sika, puis-je vous aider ?"/>
+    <string id="strSikaKnightHallDialog1002" text="Rien."/>
+    <string id="strSikaKnightHallDialog1003" text="J'ai entendu dire que je pouvais utiliser la Pierre du Chaos pour échanger des aides. Pouvez-vous me présenter la Pierre du Chaos ?"/>
+    <string id="strSikaKnightHallDialog1004" text="Bien sûr, la Pierre du Chaos est une pierre qui est pleine d'énergie du chaos. Nous pouvons utiliser cette énergie pour aider tout le monde, si vous avez la chance d'en trouver une, vous pouvez l'utiliser pour échanger quelques aides."/>
+    <string id="strSikaKnightHallDialog1005" text="Je vois."/>
+    <string id="strSikaKnightHallDialog1006" text="Où puis-je trouver cette Pierre du Chaos ?"/>
+    <string id="strSikaKnightHallDialog1007" text="Un état de bannissement, il y a beaucoup de pierres du Chaos à l'intérieur. Cette terre a aussi beaucoup de partis de la force noire, ils peuvent aussi avoir la Pierre du Chaos."/>
+    <string id="strSikaKnightHallDialog1008" text="Je vois."/>
+    <string id="strSikaKnightHallDialog1009" text="J'ai quelques ChaosStones à échanger."/>
+    <string id="strSikaKnightHallDialog1010" text="Bien sûr, que voulez-vous échanger ?"/>
+    <string id="strSikaKnightHallDialog1011" text="Peut-être pas cette fois."/>
+    <string id="strSikaKnightHallDialog1012" text="Je veux échanger contre un chevalier Sika."/>
+    <string id="strSikaKnightHallDialog1013" text="Bien sûr, un chevalier Sika a rejoint votre groupe."/>
+    <string id="strSikaKnightHallDialog1014" text="Un chevalier Sika a rejoint votre groupe."/>
+    <string id="strSikaKnightHallDialog1015" text="Je veux échanger contre quelques dinars"/>
+    <string id="strSikaKnightHallDialog1016" text="Bien sûr, voici 3000 dinars."/>
+    <string id="strSikaKnightHallDialog1017" text="Vous obtenez 3000 dinars."/>
+
+  <!-- 文件PlayerLogicBehavior.cs结束 -->
+
+  <!-- 文件SikaKingdomBehavior.cs开始 -->
+   <!-- SikaKingdomBehavior弹出事件信息开始 -->
+    <string id="strRandomEvents1101" text="Création du Royaume"/>
+    <string id="strRandomEvents1102" text="L'événement du Sika"/>
+    <string id="strRandomEvents1103" text="Levée du Nouveau Royaume"/>
+    <string id="strRandomEvents1104" text="Un nouveau royaume a émergé dans le pays de Sika. On dit que le royaume a été établi par deux clans. On dit que le pays de Sika va connaître un nouvel essor !"/>
+    <string id="strRandomEvents1105" text="Importance"/>
+    <string id="strRandomEvents1106" text="Confirmer l'information"/>
+   <!-- SikaKingdomBehavior弹出事件信息结束 -->
+
+   <!-- SikaKingdomBehavior名字开始 -->
+    <string id="strSikaKingdomName1001" text="Royaume"/>
+    <string id="strSikaKingdomName1002" text="Principauté"/>
+    <string id="strSikaKingdomName1003" text="Empire"/>
+    <string id="strSikaKingdomName1004" text="Dynastie"/>
+    <string id="strSikaKingdomName1005" text="Fédéral"/>
+    <string id="strSikaKingdomName1006" text="La dynastie des sorcières"/>
+    <string id="strSikaKingdomName1007" text="Le Royaume des cieux"/>
+    <string id="strSikaKingdomName1008" text="Haut-Rhin"/>
+    <string id="strSikaKingdomName1009" text="État"/>
+    <string id="strSikaKingdomName1010" text="Tribu"/>
+    <string id="strSikaKingdomName1011" text="Khanate"/>
+    <string id="strSikaKingdomName1012" text="Légion"/>
+    <string id="strSikaKingdomName1013" text="Armée rebelle"/>
+    <string id="strSikaKingdomName1014" text="Royaume de la Renaissance"/>
+    <string id="strSikaKingdomName1015" text="Union"/>
+    <string id="strSikaKingdomName1016" text="Dynastie impériale"/>
+    <string id="strSikaKingdomName1017" text="Villa"/>
+    <string id="strSikaKingdomName1018" text="Fraternité"/>
+    <string id="strSikaKingdomName1019" text="Église"/>
+    <string id="strSikaKingdomName1020" text="Royaume du Temple"/>
+    <string id="strSikaKingdomName1021" text="Chevaliers"/>
+    <string id="strSikaKingdomName1022" text="Armée du Temple"/>
+    <string id="strSikaKingdomName1023" text="Régiment nautique"/>
+    <string id="strSikaKingdomName1024" text="Église des saints"/>
+    <string id="strSikaKingdomName1025" text="Armée des envahisseurs"/>
+    <string id="strSikaKingdomName1026" text="Légion des marcheurs"/>
+    <string id="strSikaKingdomName1027" text="Légion de mercenaires"/>
+    <string id="strSikaKingdomName1028" text="Corps"/>
+    <string id="strSikaKingdomName1029" text="Gardien"/>
+    <string id="strSikaKingdomName1030" text="Armée des ombres"/>
+    <string id="strSikaKingdomName1031" text="Wanderer Army"/>
+    <string id="strSikaKingdomName1032" text="Régiment d'Assassins"/>
+    <string id="strSikaKingdomName1033" text="Armée nautique"/>
+    <string id="strSikaKingdomName1034" text="Régiment d'inquisiteurs"/>
+    <string id="strSikaKingdomName1035" text="Dark Empire"/>
+    <string id="strSikaKingdomName1036" text="Le royaume du mal"/>
+    <string id="strSikaKingdomName1037" text="Nation"/>
+    <string id="strSikaKingdomName1038" text="Domaine de la glace"/>
+    <string id="strSikaKingdomName1039" text="Shogunate"/>
+    <string id="strSikaKingdomName1040" text="Domaine impérial"/>
+   <!-- SikaKingdomBehavior名字结束 -->
+  <!-- 文件SikaKingdomBehavior.cs结束 -->
+
+  <!-- 文件SikaTownExtentionBehavior.cs开始 -->
+   <!-- SikaTownExtentionBehavior.cs左侧菜单开始 -->
+    <string id="strTheLandOfSikaMenu1201" text="Église de Sika"/>
+   <!-- SikaTownExtentionBehavior.cs左侧菜单结束 -->
+  <!-- 文件SikaTownExtentionBehavior.cs结束 -->
+
+  <!-- 文件CustomSandboxCharacterCreationContent.cs开始 -->
+   <!-- SikaTownExtentionBehavior.cs右侧菜单开始 -->
+    <string id="strTheLandOfSikaMenu1301" text="Vous vous êtes souvenu de tout. Il est temps d'abandonner tout ce qui appartient au passé et de commencer un nouveau voyage. Quelles histoires vous attendent cette fois dans le nouveau monde ? Il est temps d'explorer le pays des Sika !"/>
+    <string id="strTheLandOfSikaMenu1302" text="Passé"/>
+    <string id="strTheLandOfSikaMenu1303" text="Avant de venir sur la terre de Sika, votre famille est née..."/>
+
+    <string id="strTheLandOfSikaMenu1304" text="Famille royale"/>
+    <string id="strTheLandOfSikaMenu1305" text="Vous êtes né dans une famille royale et bénéficiez de privilèges que d'innombrables personnes ne peuvent avoir dans une vie. La classe noble a cultivé votre tempérament noble, mais vous avez également perdu les épreuves de la souffrance."/>
+    <string id="strTheLandOfSikaMenu1306" text="Partie riche"/>
+    <string id="strTheLandOfSikaMenu1307" text="Né avec une cuillère en or, vous avez été cultivé par le concept d'argent de votre famille depuis votre enfance. Vous pouvez acheter tout ce qui existe dans le monde, mais vous vous inquiétez toujours du fait que beaucoup de choses ne peuvent être obtenues avec de l'argent."/>
+    <string id="strTheLandOfSikaMenu1308" text="Agriculteur travailleur"/>
+    <string id="strTheLandOfSikaMenu1309" text="Face au Loess et dos au ciel. C'est le quotidien de votre famille. Même si vous recevez peu, vous profitez aussi de la liberté et du plaisir du terrain."/>
+    <string id="strTheLandOfSikaMenu1310" text="Artisanat"/>
+    <string id="strTheLandOfSikaMenu1311" text="La soie est une denrée très prisée. Votre famille produit de tels produits toute l'année, ce qui a été reconnu par de nombreuses personnes. Le dévouement et la patience de vos parents à l'égard de la production vous touchent profondément."/>
+    <string id="strTheLandOfSikaMenu1312" text="Pilier dans l'armée"/>
+    <string id="strTheLandOfSikaMenu1313" text="Votre famille a été enrôlée depuis des générations, et vous hériterez des réalisations militaires exceptionnelles et de la gloire, ainsi que de l'esprit d'épreuve et de protection."/>
+    <string id="strTheLandOfSikaMenu1314" text="Le vagabond social"/>
+    <string id="strTheLandOfSikaMenu1315" text="Là où il y a des gens, il y a le Jianghu, et là où il y a votre famille, il y a la justice ! Une goutte de pluie, une épée, votre famille a gardé la justice de ce monde pendant des générations. Et comment allez-vous choisir !"/>
+
+    <string id="strTheLandOfSikaMenu1316" text="Chevalier honoraire"/>
+    <string id="strTheLandOfSikaMenu1317" text="Votre famille a reçu des chevaliers depuis des générations. Les règles et les honneurs des chevaliers sont la clé pour maintenir la prospérité de votre famille."/>
+    <string id="strTheLandOfSikaMenu1318" text="Travel Merchant"/>
+    <string id="strTheLandOfSikaMenu1319" text="Votre famille a voyagé toute l'année sur votre continent et n'a pas seulement acquis beaucoup de richesses. Elle a également obtenu beaucoup d'informations et de ressources. Au cours de ces voyages, vous avez vécu toutes sortes d'expériences intéressantes et étranges."/>
+    <string id="strTheLandOfSikaMenu1320" text="Croyant religieux"/>
+    <string id="strTheLandOfSikaMenu1321" text="Votre famille a toujours été croyante, et croit aux doctrines religieuses depuis des générations. C'est le credo de votre famille de suivre les doctrines religieuses."/>
+    <string id="strTheLandOfSikaMenu1322" text="Maître forgeron"/>
+    <string id="strTheLandOfSikaMenu1323" text="Votre famille forge depuis des générations, de l'arme du Seigneur au couteau de cuisine du voisin, le tout de la main de votre père. Le marteau dans la main de votre père a connu plus que n'importe quelle arme."/>
+    <string id="strTheLandOfSikaMenu1324" text="Famille d'art"/>
+    <string id="strTheLandOfSikaMenu1325" text="Votre famille a produit de nombreux artistes, sculpteurs, peintres, écrivains et musiciens célèbres. Sous leur influence, vous avez également un talent artistique incomparable."/>
+    <string id="strTheLandOfSikaMenu1326" text="Soldats mercenaires"/>
+    <string id="strTheLandOfSikaMenu1327" text="La vie est dure. Votre famille ajoute toujours du sang au couteau. Pour gagner sa vie, votre famille ne sait pas combien de vies elle a tuées et à combien de guerres elle a participé. Mais à la fin, vous êtes toujours là."/>
+
+    <string id="strTheLandOfSikaMenu1328" text="Explorer"/>
+    <string id="strTheLandOfSikaMenu1329" text="Depuis votre enfance, vous entendez toutes sortes de légendes, issues de l'exploration de votre famille. Ils ont exploré de nombreux continents différents et ont acquis d'innombrables richesses et d'innombrables histoires."/>
+    <string id="strTheLandOfSikaMenu1330" text="Trade Master"/>
+    <string id="strTheLandOfSikaMenu1331" text="Votre famille fait commerce de toutes sortes de marchandises au port, et vous exportez de la fourrure et de la graisse du continent. Vous importez des épices et d'autres marchandises rares de continents lointains."/>
+    <string id="strTheLandOfSikaMenu1332" text="Pêcheurs de bord de mer"/>
+    <string id="strTheLandOfSikaMenu1333" text="La mer a élevé votre famille, et vos ancêtres dépendaient de la mer pour la pêche. Votre temps en mer n'est même pas plus court que votre temps sur terre. La seule chose qui vous dégoûte, c'est le poisson qui ne se renouvelle pas trois fois par jour."/>
+    <string id="strTheLandOfSikaMenu1334" text="Fur Trapper"/>
+    <string id="strTheLandOfSikaMenu1335" text="Votre famille vit de la chasse aux grands animaux. Vous avez été entraîné par votre père à comprendre les habitudes des animaux depuis votre enfance. Vous vous souvenez encore vaguement de la scène de votre première chasse à l'arc !"/>
+    <string id="strTheLandOfSikaMenu1336" text="Jungle Ranger"/>
+    <string id="strTheLandOfSikaMenu1337" text="Une centaine de pas n'arrêteront pas votre tir. Avec vos yeux profonds et votre regard ferme, vous pouvez trouver votre ennemi à des centaines de mètres. Votre famille est invincible dans la forêt. Même hors de la forêt, sa profonde expérience peut aider votre famille à faire face à toutes sortes de choses."/>
+    <string id="strTheLandOfSikaMenu1338" text="Combattant Pirate"/>
+    <string id="strTheLandOfSikaMenu1339" text="Votre famille vit sur une île éloignée du continent depuis des générations, et vous comptez sur le pillage des navires marchands et des villes et villages côtiers pour vivre. Depuis que vous êtes né, vous avez été irrigué par votre famille avec le principe de la survie du plus fort. Sur cette île isolée, il y a un manque de matériaux, et seul le pillage continu peut permettre à votre famille de survivre."/>
+
+    <string id="strTheLandOfSikaMenu1340" text="Confident missionnaire"/>
+    <string id="strTheLandOfSikaMenu1341" text="Introduction du Confident Missionnaire"/>
+    <string id="strTheLandOfSikaMenu1342" text="Garde des reliques"/>
+    <string id="strTheLandOfSikaMenu1343" text="Introduction de la garde des reliques"/>
+    <string id="strTheLandOfSikaMenu1344" text="Camel Merchant"/>
+    <string id="strTheLandOfSikaMenu1345" text="Introduction de Camel Merchan"/>
+    <string id="strTheLandOfSikaMenu1346" text="Conseiller du champ de bataille"/>
+    <string id="strTheLandOfSikaMenu1347" text="Introduction du conseiller du champ de bataille"/>
+    <string id="strTheLandOfSikaMenu1348" text="Négociant d'esclaves"/>
+    <string id="strTheLandOfSikaMenu1349" text="Introduction aux marchands d'esclaves"/>
+    <string id="strTheLandOfSikaMenu1350" text="Rebelles"/>
+    <string id="strTheLandOfSikaMenu1351" text="Introduction aux rebelles"/>
+
+    <string id="strTheLandOfSikaMenu1352" text="Croyant loyal"/>
+    <string id="strTheLandOfSikaMenu1353" text="Introduction de Loyal Believer"/>
+    <string id="strTheLandOfSikaMenu1354" text="Shamen Elder"/>
+    <string id="strTheLandOfSikaMenu1355" text="Introduction de Shamen Elder"/>
+    <string id="strTheLandOfSikaMenu1356" text="Guerrier de la forêt"/>
+    <string id="strTheLandOfSikaMenu1357" text="Introduction au guerrier de la forêt"/>
+    <string id="strTheLandOfSikaMenu1358" text="Tueur de bêtes"/>
+    <string id="strTheLandOfSikaMenu1359" text="Introduction à Beast Killer"/>
+    <string id="strTheLandOfSikaMenu1360" text="Greenwood Messenger"/>
+    <string id="strTheLandOfSikaMenu1361" text="Introduction au messager de Greenwood"/>
+    <string id="strTheLandOfSikaMenu1362" text="Minstrelsy"/>
+    <string id="strTheLandOfSikaMenu1363" text="Introduction à la ménestrelle"/>
+
+    <string id="strTheLandOfSikaMenu1364" text="Chef de tribu"/>
+    <string id="strTheLandOfSikaMenu1365" text="Introduction du chef tribal"/>
+    <string id="strTheLandOfSikaMenu1366" text="Marchand nomade"/>
+    <string id="strTheLandOfSikaMenu1367" text="Introduction du marchand nomade"/>
+    <string id="strTheLandOfSikaMenu1368" text="Guerrier à cheval"/>
+    <string id="strTheLandOfSikaMenu1369" text="Introduction au guerrier à cheval"/>
+    <string id="strTheLandOfSikaMenu1370" text="Farmer de la steppe"/>
+    <string id="strTheLandOfSikaMenu1371" text="Introduction de l'agriculteur des steppes"/>
+    <string id="strTheLandOfSikaMenu1372" text="L'homme qui murmure à l'oreille des animaux"/>
+    <string id="strTheLandOfSikaMenu1373" text="Introduction à Animal Whispere"/>
+    <string id="strTheLandOfSikaMenu1374" text="Shepherd"/>
+    <string id="strTheLandOfSikaMenu1375" text="Introduction du berger"/>
+
+   <!-- SikaTownExtentionBehavior.cs右侧菜单结束 -->
+  <!-- 文件CustomSandboxCharacterCreationContent.cs结束 -->
+
+  <!-- 文件CustomCharacterStatsModel.cs开始 -->
+    <string id="strTheLandOfSikaOhtersText1001" text="Hero Healthy"/>
+  <!-- 文件CustomCharacterStatsModel.cs结束 -->
+
+  <!-- 文件CustomMoraleModel.cs开始 -->
+    <string id="strTheLandOfSikaOhtersText1101" text="Pet Perfect state"/>
+    <string id="strTheLandOfSikaOhtersText1102" text="État des animaux satisfaits"/>
+    <string id="strTheLandOfSikaOhtersText1103" text="Pet Basic state"/>
+    <string id="strTheLandOfSikaOhtersText1104" text="Pet Low state"/>
+    <string id="strTheLandOfSikaOhtersText1105" text="État de décès de l'animal de compagnie"/>
+  <!-- 文件CustomMoraleModel.cs结束 -->
+
+  <!-- 文件CustomPartySize.cs开始 -->
+    <string id="strTheLandOfSikaOhtersText1201" text="Addition spéciale pour animaux"/>
+  <!-- 文件CustomPartySize.cs结束 -->
+
+  <!-- 文件SikaTowerBehaviour.cs开始 -->
+  <string id="strTheLandOfSikaOhtersText1301" text="Village d'Elin"/>
+  <string id="strTheLandOfSikaOhtersText1302" text="Cabine cachée"/>
+  <!-- 文件SikaTowerBehaviour.cs结束 -->
+  
+  </strings>
+</base>

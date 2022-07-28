@@ -1,0 +1,118 @@
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English"/>
+  </tags>
+  <strings>
+    <!-- ProgrammeTranslate_CN文件夹内皆是程序上的string翻译-->
+    <!-- PetSystem_All_CNs是PetSystem这个模块的翻译文件-->
+    
+    <!-- PetBehaiour所有显示界面的翻译-->
+    <string id="strPetDailyEvent001" text="Votre animal est affamé."/>
+    <string id="strPetDailyEvent002" text="Votre animal a soif."/>
+    <string id="strPetDailyEvent003" text="Votre animal est malheureux."/>
+    
+    <!-- PetSystemVM所有显示界面的翻译-->
+
+    <string id="strPetSystemName001" text="Chien"/>
+
+    <string id="strPetSystemVM000" text="Pet Management"/>
+    <string id="strPetSystemVM001" text="Alimentation"/>
+    <string id="strPetSystemVM002" text="Boire"/>
+    <string id="strPetSystemVM003" text="Animal de compagnie"/>
+    <string id="strPetSystemVM004" text="Jouer"/>
+    <string id="strPetSystemVM005" text="Train"/>
+    <string id="strPetSystemVM006" text="Statut"/>
+    <string id="strPetSystemVM007" text="Fermer"/>
+
+
+    <string id="strPetSystemVM100" text="Pet :"/>
+    <string id="strPetSystemVM101" text="Pet :"/>
+    <string id="strPetSystemVM102" text="Niveau animal :"/>
+    <string id="strPetSystemVM103" text="Santé des animaux de compagnie :"/>
+    <string id="strPetSystemVM104" text="La faim :"/>
+    <string id="strPetSystemVM105" text="La soif :"/>
+    <string id="strPetSystemVM106" text="Humeur :"/>
+    <string id="strPetSystemVM107" text="Relation :"/>
+    <string id="strPetSystemVM108" text="Expérience :"/>
+
+    <string id="strPetSystemVM200" text="Pas besoin de se nourrir"/>
+    <string id="strPetSystemVM201" text="Votre animal est bien nourri."/>
+    <string id="strPetSystemVM202" text="Arrêter l'alimentation"/>
+    <string id="strPetSystemVM203" text="Alimentation des animaux de compagnie"/>
+    <string id="strPetSystemVM204" text="Nourrissez votre animal avec des céréales, augmentez sa faim."/>
+    <string id="strPetSystemVM205" text="Feed"/>
+    <string id="strPetSystemVM206" text="Arrêter l'alimentation"/>
+    <string id="strPetSystemVM207" text="Manque : grain"/>
+    <string id="strPetSystemVM208" text="Pas assez de céréales !"/>
+    <string id="strPetSystemVM209" text="Arrêter l'alimentation"/>
+
+    <string id="strPetSystemVM210" text="Boire"/>
+    
+    <string id="strPetSystemVM211" text="Pas besoin de boire"/>
+    <string id="strPetSystemVM212" text="Vous pouvez conduire votre animal à l'eau, mais vous ne pouvez pas le forcer à boire."/>
+    <string id="strPetSystemVM213" text="Arrêtez de boire"/>
+    <string id="strPetSystemVM214" text="Achetez un baril d'eau pour votre animal, coût 100 dinars, augmentation 10 soif."/>
+    <string id="strPetSystemVM215" text="Boire"/>
+    <string id="strPetSystemVM216" text="Arrêtez de boire"/>
+    <string id="strPetSystemVM217" text="Manque : dinars"/>
+    <string id="strPetSystemVM218" text="Pas assez de dinars pour acheter de l'eau !"/>
+    <string id="strPetSystemVM219" text="Arrêtez de boire"/>
+    <string id="strPetSystemVM220" text="Pas assez de dinars pour nourrir votre animal !"/>
+    <string id="strPetSystemVM221" text="Vous dépensez 100 dinars pour un baril d'eau, augmentez votre animal de compagnie."/>
+    <string id="strPetSystemVM222" text="soif"/>
+
+    <string id="strPetSystemVM223" text="Pas besoin d'animal de compagnie"/>
+    <string id="strPetSystemVM224" text="Maintenant votre animal est très heureux, pas besoin de le caresser."/>
+    <string id="strPetSystemVM225" text="Arrêtez de caresser"/>
+    <string id="strPetSystemVM226" text="Petting"/>
+    <string id="strPetSystemVM227" text="Dépensez 10 stamina pour caresser votre animal, augmentez de 10 l'humeur !"/>
+    <string id="strPetSystemVM228" text="Petting"/>
+    <string id="strPetSystemVM229" text="Arrêtez de caresser"/>
+    <string id="strPetSystemVM230" text="Manque : endurance"/>
+    <string id="strPetSystemVM231" text="Pas assez d'endurance pour caresser votre animal."/>
+    <string id="strPetSystemVM232" text="Arrêtez de caresser"/>
+    <string id="strPetSystemVM233" text="Dépensez 10 stamina pour caresser votre animal de compagnie, augmentez"/>
+    <string id="strPetSystemVM234" text="humeur"/>
+
+    <string id="strPetSystemVM235" text="Pas besoin de jouer"/>
+    <string id="strPetSystemVM236" text="Vous avez déjà établi une relation solide avec votre animal, inutile de jouer avec lui pour l'instant."/>
+    <string id="strPetSystemVM237" text="Arrêter la lecture"/>
+    <string id="strPetSystemVM238" text="Jouer à"/>
+    <string id="strPetSystemVM239" text="Dépensez 1000 dinars pour acheter des jouets et jouer avec l'animal, augmentez de 5 relations."/>
+    <string id="strPetSystemVM240" text="Jouer à"/>
+    <string id="strPetSystemVM241" text="Arrêter la lecture"/>
+    <string id="strPetSystemVM242" text="Manque : dinars"/>
+    <string id="strPetSystemVM243" text="Pas assez de dinars pour acheter des jouets pour votre animal de compagnie !"/>
+    <string id="strPetSystemVM244" text="Arrêter la lecture"/>
+    <string id="strPetSystemVM245" text="Pet Upgraded !"/>
+    <string id="strPetSystemVM246" text="Niveau maximal atteint."/>
+    <string id="strPetSystemVM247" text="Dépensez 1 000 dinars pour acheter des jouets et jouer avec votre animal de compagnie."/>
+    <string id="strPetSystemVM248" text="relation."/>
+
+    <string id="strPetSystemVM249" text="Pas besoin de formation"/>
+    <string id="strPetSystemVM250" text="Votre animal a atteint son plein potentiel, il n'est pas nécessaire de le former davantage."/>
+    <string id="strPetSystemVM251" text="Arrêt de la formation"/>
+    <string id="strPetSystemVM252" text="Formation"/>
+    <string id="strPetSystemVM253" text="Dépensez 1000 dinars et 10 stamina pour dresser votre animal, augmentez de 5 l'expérience de votre animal."/>
+    <string id="strPetSystemVM254" text="Formation"/>
+    <string id="strPetSystemVM255" text="Arrêt de la formation"/>
+    <string id="strPetSystemVM256" text="Manque : dinars ou endurance"/>
+    <string id="strPetSystemVM257" text="Vous n'avez pas assez d'endurance ou de dinars pour dresser votre animal."/>
+    <string id="strPetSystemVM258" text="Arrêt de la formation"/>
+    <string id="strPetSystemVM259" text="Dépensez 1000 dinars et 10 d'endurance pour dresser votre animal de compagnie, augmenter"/>
+    <string id="strPetSystemVM260" text="expérience des animaux"/>
+
+    <string id="strPetSystemVM261" text="Changer le nom de l'animal"/>
+    <string id="strPetSystemVM262" text="Alimentation automatique : activée"/>
+    <string id="strPetSystemVM263" text="Alimentation automatique : désactivée"/>
+
+    <string id="strPetSystemVM264" text="Vous n'avez pas assez d'endurance pour vous occuper de votre animal."/>
+    <string id="strPetSystemVM265" text="Lorsque la faim, la soif et l'humeur sont supérieures à 80, votre animal est en parfaite condition, lorsqu'elles sont supérieures à 50, il est en condition normale, lorsqu'elles sont inférieures à 50, il est en mauvaise condition, l'animal fournira la vitesse, le moral, le taux de guérison et le bonus de repérage à votre groupe en fonction de sa condition. Lorsque la relation et l'expérience de l'animal atteignent 100, il sera mis à niveau, l'animal peut être mis à niveau jusqu'à 10 niveaux, chaque niveau supérieur à 1 augmentera la taille de votre groupe de 5 et réduira le salaire du groupe de 1%."/>
+
+    <string id="strPetSystemVM266" text="Vous nourrissez votre animal avec 1 grain, augmentez"/>
+    <string id="strPetSystemVM267" text="faim"/>
+
+    <string id="strPetSystemVM268" text="AutoFeed"/>
+
+  </strings>
+</base>

@@ -1,0 +1,173 @@
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="English"/>
+  </tags>
+  <strings>
+    <!-- ProgrammeTranslate_CN文件夹内皆是程序上的string翻译-->
+    <!-- BaseOverhaul_All_CNs是BaseOverhaul这个模块的翻译文件-->
+    
+    <!-- 文件夹BehaviorBases.cs开始 -->
+    <string id="strAddBaseDialogs001" text="Salutations, avez-vous entendu quelque chose d'intéressant ?"/>
+    <string id="strAddBaseDialogs002" text="Certaines personnes affirment avoir vu de grands et hauts bâtiments triangulaires dans le désert du sud."/>
+    <string id="strAddBaseDialogs003" text="Quelqu'un dit qu'il a vu des créatures de la légende dans la forêt du nord."/>
+    <string id="strAddBaseDialogs004" text="Il y a des événements corrompus dans la dynastie Yan récemment."/>
+    <string id="strAddBaseDialogs005" text="Avez-vous vu un loup-garou ? Je vais vous dire, une fois dans mon tour du monde, j'en ai vu un !"/>
+    <string id="strAddBaseDialogs006" text="Une fois, je voyageais au-delà de cette terre. J'ai rencontré des gens qui étaient comme des elfes sur une île dans la mer."/>
+    <string id="strAddBaseDialogs007" text="Fais attention, voyageur, il y a des gens qui te regardent dans l'obscurité !"/>
+    <string id="strAddBaseDialogs008" text="Plus d'histoires intéressantes, juste une autre journée ennuyeuse."/>
+    <string id="strAddBaseDialogs009" text="J'ai entendu dire qu'un seigneur sacrifie son âme aux démons."/>
+    <string id="strAddBaseDialogs010" text="Les partisans de la guerre veulent recommencer les guerres, c'est toujours le peuple qui souffre."/>
+    <string id="strAddBaseDialogs011" text="Si vous êtes assez chanceux, vous pourrez trouver des trésors."/>
+    <string id="strAddBaseDialogs012" text="La guerre recommence. La seule leçon que les gens ont appris de l'histoire, c'est qu'ils n'apprendront jamais rien de l'histoire."/>
+    <string id="strAddBaseDialogs013" text="Mon ancienne blessure recommence à faire mal, ma cheville est en souffrance."/>
+    <string id="strAddBaseDialogs014" text="C'est très agréable de parler avec vous, nous nous reverrons."/>
+    <string id="strAddBaseDialogs015" text="Le destin de l'homme tombe, la roue du destin tourne à nouveau."/>
+    <string id="strAddBaseDialogs016" text="J'ai entendu récemment que quelqu'un avait été attaqué par des loups à proximité, et que tous les moutons de la bergerie avaient été tués."/>
+    <string id="strAddBaseDialogs017" text="Le ciel à l'ouest est sombre, j'espère que cela n'affectera pas la marche de l'armée."/>
+    <string id="strAddBaseDialogs018" text="*Mauvais mots*, Où sont mes nouveaux gants. Mes vieux gants sont presque usés."/>
+    <string id="strAddBaseDialogs019" text="Dans quelques jours, je retournerai dans ma ville natale. Je veux savoir si certains de mes proches y vivent encore. Il est temps d'y retourner et de jeter un coup d'oeil."/>
+    <string id="strAddBaseDialogs020" text="La rumeur dit qu'il y a un fou qui erre dans la forêt noire toute proche. Beaucoup de gens croient que c'est un monstre du passé."/>
+    <string id="strAddBaseDialogs021" text="Il y a de plus en plus de bandits sur la route. Nous devons rester vigilants."/>
+    <string id="strAddBaseDialogs022" text="J'étais une aventure comme toi, jusqu'à ce que la lame de quelqu'un frappe mon crâne. Regarde la vilaine cicatrice que j'ai."/>
+    <string id="strAddBaseDialogs023" text="Le rosbif de cette taverne est délicieux, mon frère en a mangé deux livres la dernière fois."/>
+    <string id="strAddBaseDialogs024" text="Les envahisseurs nordiques ravagent le nord du golfe, les transports ont été coupés et les gens s'échappent de cette région."/>
+    <string id="strAddBaseDialogs025" text="Je veux aller au Lac des Chênes une fois. Les gens disent que le lac peut laver le cœur des gens."/>
+    <string id="strAddBaseDialogs026" text="Un autre petit clan sans nom du sud a gagné le fief. Si vous me demandez, ils sont juste une bande de mendiants, et je suis un meilleur choix pour recevoir ce fief."/>
+    <string id="strAddBaseDialogs027" text="Certains habitants de la ville ont dit que les bandits des environs étaient réapparus. Ils ont formé plusieurs petites bandes pour intercepter les patrouilles en bordure de la ville. Mais ils n'ont rien fait aux villageois."/>
+    <string id="strAddBaseDialogs028" text="Mon fils aîné a été renvoyé de l'école. Selon l'école, il a été impliqué dans une bagarre. Il est évident que la vérité est que des enfants de la famille noble l'ont brutalisé. J'ai dépensé toutes mes économies pour sa place à l'école. Peut-être que l'envoyer comme apprenti chez un artisan est mon seul choix maintenant."/>
+    <string id="strAddBaseDialogs029" text="La dernière fois que je suis allé boire un verre, j'ai rencontré un jeune homme qui était ivre mort. Je lui ai pris tout ce qui avait de la valeur. Oui, je l'ai fait. Quelqu'un le prendra tôt ou tard. Il est saoul comme ça."/>
+    <string id="strAddBaseDialogs030" text="Un de mes soldats a déserté, comme je l'avais prévu. Il se plaint toujours. Mais je pense que c'est mieux pour lui, un tel soldat ne survivra pas à une seule bataille."/>
+    <string id="strAddBaseDialogs031" text="Récemment, un nouveau type a gagné cinq champions dans l'arène. Les gens disaient qu'il venait de l'autre côté de la mer, et d'autres disaient que c'était juste un vétéran."/>
+    <string id="strAddBaseDialogs032" text="Mon adjoint qui a combattu à mes côtés pendant six ans est mort. Il a pris une flèche pour moi. En fait, mon casque intégral peut supporter ce tir... Il est juste tombé sans dire un mot. Je ne l'ai pas fait non plus."/>
+    <string id="strAddBaseDialogs033" text="La dernière fois que je suis allé chasser, j'ai rencontré des voleurs qui pillaient les villageois. Ha ! Nous avons chassé les voleurs, mais tous les villageois sont morts. Même de simples paysans peuvent encore posséder quelque chose de précieux. Pas vrai ?"/>
+    <string id="strAddBaseDialogs034" text="Avez-vous visité la taverne en ville ? Oui, celle à l'ouest de la ville. Vous n'oublierez jamais ces filles dans la rue."/>
+    <string id="strAddBaseDialogs035" text="J'ai vu une brochure dans une taverne par un voyageur. C'est plein de ..., si cette chose peut être produite en masse, ça va certainement se vendre !"/>
+    <string id="strAddBaseDialogs036" text="C'est une belle journée dehors. Les oiseaux chantent, les fleurs s'épanouissent."/>
+    <string id="strAddBaseDialogs037" text="Vous avez entendu ça ? Certaines tribus vivent dans la forêt du nord, elles ne quittent jamais cette forêt. Leur seul lien avec le monde extérieur est qu'ils commercent parfois avec le village voisin."/>
+    <string id="strAddBaseDialogs038" text="Une caravane de Prouen a été attaquée par des bandits. Leur marchandise est une fourrure de haute qualité, qui appartient aux nobles de l'empire."/>
+    <string id="strAddBaseDialogs039" text="Nous perdons du temps, dépêchez-vous, nous avons un monde entier à sauver."/>
+    <string id="strAddBaseDialogs040" text="La dernière fois que je suis allé en ville, un type avec un seau a écrasé mon cheval et a mouillé mes bottes. Selon l'ancienne loi, un tel bâtard devrait être pendu. Mais maintenant, il vit en prison de façon &quot;humide&quot;."/>
+    <string id="strAddBaseDialogs041" text="Les rumeurs disent que des villageois ont capturé et tué une sorcière, puis... une étrange peste s'est répandue dans le village."/>
+    <string id="strAddBaseDialogs042" text="La situation récente n'est pas très paisible. Plusieurs villages ont été incendiés à cause de l'invasion d'étrangers venus de l'est."/>
+
+    <string id="strAddBaseTownMenu001" text="Caserne de la ville"/>
+    <string id="strAddBaseTownMenu002" text="Vous pouvez recruter des troupes locales dans les casernes de la ville en dépensant votre influence."/>
+    <string id="strAddBaseTownMenu003" text="Développement de la ville"/>
+    <string id="strAddBaseTownMenu004" text="Développement de la ville"/>
+    <string id="strAddBaseTownMenu005" text="Recruter des troupes"/>
+    <string id="strAddBaseTownMenu006" text="Dépenser de l'influence pour recruter des troupes"/>
+    <string id="strAddBaseTownMenu007" text="Vous dépenserez 2 influences pour recruter une troupe locale."/>
+    <string id="strAddBaseTownMenu008" text="Confirmer le recrutement"/>
+    <string id="strAddBaseTownMenu009" text="Annuler le recrutement"/>
+    <string id="strAddBaseTownMenu010" text="Influence insuffisante"/>
+    <string id="strAddBaseTownMenu011" text="Vous n'avez pas assez d'influence pour recruter la troupe locale."/>
+    <string id="strAddBaseTownMenu012" text="Annuler le recrutement"/>
+    <string id="strAddBaseTownMenu013" text="Annuler le recrutement"/>
+    <string id="strAddBaseTownMenu014" text="Recruter un vétéran"/>
+    <string id="strAddBaseTownMenu015" text="Dépenser de l'influence pour recruter un vétéran"/>
+    <string id="strAddBaseTownMenu016" text="Vous dépenserez 20 points d'influence pour recruter un vétéran local."/>
+    <string id="strAddBaseTownMenu017" text="Confirmer le recrutement"/>
+    <string id="strAddBaseTownMenu018" text="Annuler le recrutement"/>
+    <string id="strAddBaseTownMenu019" text="Pas assez d'influence"/>
+    <string id="strAddBaseTownMenu020" text="Vous n'avez pas assez d'influence pour recruter un vétéran local."/>
+    <string id="strAddBaseTownMenu021" text="Annuler Rcruitage"/>
+    <string id="strAddBaseTownMenu022" text="Annuler le recrutement"/>
+    <string id="strAddBaseTownMenu023" text="Laissez"/>
+
+    <string id="strSommonNewSoilder001" text="Vous dépensez 2 influences et"/>
+    <string id="strSommonNewSoilder0002" text="a rejoint votre parti."/>
+    <string id="strSommonOldSoilder001" text="Vous dépensez 2 influences et"/>
+    <string id="strSommonOldSoilder0002" text="a rejoint votre parti."/>
+
+    <!-- 文件GameSelfSettlementData.cs开始 -->
+    <string id="strPlayerSettlementCurrentProjectName" text="Rien"/>
+
+    <!-- 文件HarmonyEntityHit.cs开始 -->
+    <string id="strOnEntityHitPostfix001" text="3 bois"/>
+    <string id="strOnEntityHitPostfix002" text="2 bois"/>
+    <string id="strOnEntityHitPostfix003" text="1 bois"/>
+    <string id="strOnEntityHitPostfix004" text="1 bois"/>
+    <string id="strOnEntityHitPostfix005" text="3 pierres"/>
+    <string id="strOnEntityHitPostfix006" text="2 pierres"/>
+    <string id="strOnEntityHitPostfix007" text="1 pierre"/>
+    <string id="strOnEntityHitPostfix008" text="1 pierre"/>
+    <string id="strOnEntityHitPostfix009" text="You acquire"/>
+    <string id="strOnEntityHitPostfix010" text="!"/>
+    <string id="strOnEntityHitPostfix011" text="Vous ne pouvez pas acquérir des ressources à mains nues !"/>
+    <string id="strOnEntityHitPostfix012" text="Tu extrais toutes les pierres ! Tu obtiens 5 pierres !"/>
+    <string id="strOnEntityHitPostfix013" text="Vous abattez l'arbre, vous obtenez 5 bois !"/>
+
+    <!-- 文件CustomDefaultFeats.cs开始 -->
+    <string id="strSikaCultureFeat001" text="Empire des esclaves : Les prisonniers de votre groupe consomment 50% de nourriture en moins, le commerce des prisonniers génère 10% d'argent en plus."/>
+    <string id="strSikaCultureFeat002" text="Vagabond du désert : Pas de pénalité de vitesse dans le désert, distance de repérage +1 dans les déserts."/>
+    <string id="strSikaCultureFeat003" text="Ploutocratie : Taille du parti +10."/>
+    <string id="strSikaCultureFeat004" text="Le cri de la liberté : moral du parti -2."/>
+    <string id="strSikaCultureFeat005" text="Le Grand Désert : Influence du clan -0,5 par jour."/>
+
+    <string id="strSikaCultureFeat006" text="Alliance tribale : Influence du clan -0.5 par jour."/>
+    <string id="strSikaCultureFeat007" text="Master Of wild : Taux de guérison +2."/>
+    <string id="strSikaCultureFeat008" text="Armée incassable : moral du groupe +3, vitesse +0.1."/>
+    <string id="strSikaCultureFeat009" text="Barbare : Taux de croissance de la prospérité de la ville -5%."/>
+    <string id="strSikaCultureFeat010" text="Charge imprudente : Distance de repérage -1."/>
+
+    <string id="strSikaCultureFeat011" text="Terre fertile : les foyers des villages augmentent le taux de +1, les villages génèrent 10% de récurits en plus."/>
+    <string id="strSikaCultureFeat012" text="Maître agricole : Bonus de production de 10% pour la nourriture dans les villages."/>
+    <string id="strSikaCultureFeat013" text="Volonté de défendre : 5 % de troupes en moins."/>
+    <string id="strSikaCultureFeat014" text="Corrompu : Revenu fiscal -5%."/>
+    <string id="strSikaCultureFeat015" text="Séparation des factions : Augmentation du coût de cohésion des armées -10%."/>
+
+    <string id="strSikaCultureFeat016" text="Esprit du Nomade : Le recrutement et l'amélioration des troupes montées sont 10% moins chers."/>
+    <string id="strSikaCultureFeat017" text="Murmures de chevaux : Vitesse du groupe +0.15."/>
+    <string id="strSikaCultureFeat018" text="Guerriers chevronnés : Expérience quotidienne des troupes +2."/>
+    <string id="strSikaCultureFeat019" text="Fortifications fragiles : Sécurité de la ville -1 par jour."/>
+    <string id="strSikaCultureFeat020" text="Agresseur : 20% plus lent sur la construction des villes, 10% moins de revenus fiscaux des villes."/>
+
+    <string id="strSikaCultureFeat021" text="Terre de Forst : moral du groupe +2, distance de repérage +1, taux de guérison +0,5 en hiver. vitesse du groupe +0,05 sur la neige."/>
+    <string id="strSikaCultureFeat022" text="Chasseurs de la taïga : Coût de recrutement et d'amélioration des archers -10%."/>
+    <string id="strSikaCultureFeat023" text="Maraudeur : Gagnez 5 % d'argent en plus grâce au butin des batailles et au pillage des villages."/>
+    <string id="strSikaCultureFeat024" text="Loose Alliance : 10% de coût d'influence supplémentaire lorsque le seigneur d'appel rejoint des armées, vitesse de l'armée -0.05 moral -1."/>
+    <string id="strSikaCultureFeat025" text="Gourmande : Salaire des troupes +5%."/>
+
+    <string id="strSikaCultureFeat026" text="Honneur de la guerre : Gagnez 5% d'influence et de notoriété en plus lors des combats."/>
+    <string id="strSikaCultureFeat027" text="Maître Marchand : Pénalité sur le prix de vente des marchandises -10%, pénalité sur le prix de vente des équipements -5%."/>
+    <string id="strSikaCultureFeat028" text="Leaders d'élite : Loyauté de la ville +0,5 par jour, croissance de la prospérité +5%, vitesse de construction des projets +5%."/>
+    <string id="strSikaCultureFeat029" text="Somptueux : Consommation de nourriture en ville +10%, coût de recrutement des troupes +5%."/>
+    <string id="strSikaCultureFeat030" text="Règle chaotique : Production quotidienne du village -5%, revenu du souverain -5%."/>
+
+    <string id="strSikaCultureFeat031" text="Refromiste : Vitesse de construction du projet de ville +10%, moral du groupe +2."/>
+    <string id="strSikaCultureFeat032" text="Société monoculturelle : +1 sécurité et 0,2 loyauté aux villes qui ont la même culture que le clan propriétaire."/>
+    <string id="strSikaCultureFeat033" text="Shogunat : vitesse du parti des seigneurs +0.1, -5% de coût de recrutement pour les seigneurs."/>
+    <string id="strSikaCultureFeat034" text="Cruauté : -1 sécurité et 0,5 loyauté envers les villes qui ont la même culture que le clan propriétaire."/>
+    <string id="strSikaCultureFeat035" text="Terres non peuplées : Pénalité de 10% sur la production de nourriture dans les villages."/>
+
+    <string id="strSikaCultureFeat036" text="Rule By faith : bientôt disponible"/>
+    <string id="strSikaCultureFeat037" text="Jungel Dweller : Vitesse +0.5 dans la jungle, coût d'amélioration de l'archer -10%."/>
+    <string id="strSikaCultureFeat038" text="Combattants primitifs : Taux de guérison des troupes +5, vitesse de l'armée +0,2."/>
+    <string id="strSikaCultureFeat039" text="Artisanat primitif : croissance de la prospérité de la ville +5%, vitesse de construction des projets +5%."/>
+    <string id="strSikaCultureFeat040" text="Passivité stratégique : à venir"/>
+
+  <!-- 文件CustomDefaultFeats.cs结束 -->
+
+  <!-- 文件HarmonyEntityHit.cs开始 -->
+   <!-- HarmonyEntityHit左下角信息开始 -->
+    <string id="strSikaInformationMessage010" text="3 bois"/>
+    <string id="strSikaInformationMessage011" text="2 bois"/>
+    <string id="strSikaInformationMessage012" text="1 bois"/>
+    <string id="strSikaInformationMessage013" text="3 pierres"/>
+    <string id="strSikaInformationMessage014" text="2 pierres"/>
+    <string id="strSikaInformationMessage015" text="1 pierre"/>
+    <string id="strSikaInformationMessage016" text="You acquire"/>
+    <string id="strSikaInformationMessage017" text="Vous ne pouvez pas acquérir des ressources à mains nues !"/>
+    <string id="strSikaInformationMessage018" text="Tu extrais toutes les pierres ! Tu obtiens 5 pierres !"/>
+    <string id="strSikaInformationMessage019" text="Vous abattez l'arbre, vous obtenez 5 bois !"/>
+   <!-- HarmonyEntityHit左下角信息结束 -->
+  <!-- 文件HarmonyEntityHit.cs结束 -->
+
+  <!-- 文件FirstSceneNotificationData.cs开始 -->
+   <!-- FirstSceneNotificationData过场动画文本开始 -->
+    <string id="strSikaInformationScene1001" text="Tu as reçu la lettre de Vilken au chevalier Sika."/>
+   <!-- FirstSceneNotificationData过场动画文本结束 -->
+  <!-- 文件FirstSceneNotificationData.cs结束 -->
+
+  </strings>
+</base>

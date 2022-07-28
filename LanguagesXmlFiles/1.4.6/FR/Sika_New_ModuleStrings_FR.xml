@@ -1,0 +1,183 @@
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="English"/>
+ </tags>
+ <strings>
+  <string id="STRFRJDY" text="Empereur"/>
+  <string id="STRFRJDYF" text="Emperesse"/>
+  <string id="STRFRPRU" text="Roi"/>
+  <string id="STRFRPRUF" text="Reine"/>
+  <string id="STRFRRBL" text="Roi"/>
+  <string id="STRFRRBLF" text="Reine"/>
+  <string id="STRFRWLT" text="Marshal"/>
+  <string id="STRFRWLTF" text="Marshal"/>
+  <string id="STRFRMGR" text="Khan"/>
+  <string id="STRFRMGRF" text="Khatun"/>
+  <string id="STRFRNKN" text="Roi"/>
+  <string id="STRFRNKNF" text="Reine"/>
+  <string id="STRFRYRN" text="Roi sorcier"/>
+  <string id="STRFRYRNF" text="Reine des sorcières"/>
+  <string id="STRFRLMC" text="Empereur"/>
+  <string id="STRFRLMCF" text="Emperesse"/>
+
+  <string id="STRFOJDY" text="Un général"/>
+  <string id="STRFOJDYF" text="Un général"/>
+  <string id="STRFOPRU" text="Un seigneur"/>
+  <string id="STRFOPRUF" text="Un seigneur"/>
+  <string id="STRFORBL" text="Un émir"/>
+  <string id="STRFORBLF" text="Un émir"/>
+  <string id="STRFOWLT" text="Un maître de guerre"/>
+  <string id="STRFOWLTF" text="Un maître de guerre"/>
+  <string id="STRFOMGR" text="Un chef"/>
+  <string id="STRFOMGRF" text="Un chef"/>
+  <string id="STRFONKN" text="Un jarl"/>
+  <string id="STRFONKNF" text="Un jarl"/>
+  <string id="STRFOYRN" text="Un ancien"/>
+  <string id="STRFOYRNF" text="Un ancien"/>
+  <string id="STRFOLMC" text="Un général"/>
+  <string id="STRFOLMCF" text="Un général"/>
+
+  <string id="STRFRNWTJDY" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
+  <string id="STRFRNWTPRU" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="STRFRNWTRBL" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="STRFRNWTWLT" text="{?RULER.GENDER}Marshal{?}Marshal{\?} {RULER.NAME}"/>
+  <string id="STRFRNWTMGR" text="{RULER.NAME} {?RULER.GENDER}Khatun{?}Khan{\?}"/>
+  <string id="STRFRNWTNKN" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="STRFRNWTYRN" text="{?RULER.GENDER}Witch Queen{?}Witch King{\?} {RULER.NAME}"/>
+  <string id="STRFRNWTLMC" text="{?RULER.GENDER}Emperess{?}Emperor{\?} {RULER.NAME}"/>
+
+  <string id="STRFNNWTJDY" text="{?RULER.GENDER}General{?}General{\?} {RULER.NAME}"/>
+  <string id="STRFNNWTPRU" text="{?RULER.GENDER}Lord{?}Lord{\?} {RULER.NAME}"/>
+  <string id="STRFNNWTRBL" text="{?RULER.GENDER}Emir{?}Emir{\?} {RULER.NAME}"/>
+  <string id="STRFNNWTWLT" text="{?RULER.GENDER}Warband Master{?}Warband Master{\?} {RULER.NAME}"/>
+  <string id="STRFNNWTMGR" text="{RULER.NAME} {?RULER.GENDER}Chieftain{?}Chieftain{\?}"/>
+  <string id="STRFNNWTNKN" text="{?RULER.GENDER}Jarl{?}Jarl{\?} {RULER.NAME}"/>
+  <string id="STRFNNWTYRN" text="{?RULER.GENDER}Elder{?}Elder{\?} {RULER.NAME}"/>
+  <string id="STRFNNWTLMC" text="{?RULER.GENDER}General{?}General{\?} {RULER.NAME}"/>
+
+  <string id="STRSTFFJDY" text="Yan"/>
+  <string id="STRSTFFPRU" text="Prouen"/>
+  <string id="STRSTFFRBL" text="Rabblam"/>
+  <string id="STRSTFFWLT" text="Wulltes"/>
+  <string id="STRSTFFMGR" text="Mogrian"/>
+  <string id="STRSTFFNKN" text="Nekenia"/>
+  <string id="STRSTFFYRN" text="Yarian"/>
+  <string id="STRSTFFLMC" text="Lomoca"/>
+
+  <string id="STRNTFCJDY" text="Yan"/>
+  <string id="STRNTFCPRU" text="Prouen"/>
+  <string id="STRNTFCRBL" text="Rabblam"/>
+  <string id="STRNTFCWLT" text="Wulltes"/>
+  <string id="STRNTFCMGR" text="Mogrian"/>
+  <string id="STRNTFCNKN" text="Nekenia"/>
+  <string id="STRNTFCYRN" text="Yarian"/>
+  <string id="STRNTFCLMC" text="Lomoca"/>
+  <string id="STRNTFCNET" text="Inconnu"/>
+
+  <string id="STRFINFCJDY" text="le Yan"/>
+  <string id="STRFINFCPRU" text="le Prouen"/>
+  <string id="STRFINFCRBL" text="le Rabblam"/>
+  <string id="STRFINFCWLT" text="les Wullte"/>
+  <string id="STRFINFCMGR" text="les Mogriens"/>
+  <string id="STRFINFCNKN" text="les Nekéniens"/>
+  <string id="STRFINFCYRN" text="les Yarians"/>
+  <string id="STRFINFCLMC" text="les Lomocas"/>
+
+  <string id="STRLTJDY" text="empereur légitime du Yan"/>
+  <string id="STRLTJDYF" text="impératrice légitime des Yan"/>
+  <string id="STRLTPRU" text="roi du Prouen"/>
+  <string id="STRLTPRUF" text="reine du Prouen"/>
+  <string id="STRLTRBL" text="sultan des Rabblams"/>
+  <string id="STRLTRBLF" text="sultane des Rabblams"/>
+  <string id="STRLTWLT" text="maréchal des logis des Wulltes"/>
+  <string id="STRLTWLTF" text="maréchal des logis des Wulltes"/>
+  <string id="STRLTMGR" text="khan des Mogriens"/>
+  <string id="STRLTMGRF" text="khatun des Mogriens"/>
+  <string id="STRLTNKN" text="roi des Nécéniens"/>
+  <string id="STRLTNKNF" text="reine des Nécéniens"/>
+  <string id="STRLTYRN" text="roi sorcier du Yarian"/>
+  <string id="STRLTYRNF" text="reine sorcière du Yarian"/>
+  <string id="STRLTLMC" text="roi des Lomoca"/>
+  <string id="STRLTLMCF" text="reine de la Lomoca"/>
+
+  <string id="STRPFNJDY" text="ZhiQiang"/>
+  <string id="STRPMNJDY" text="JiaFen"/>
+  <string id="STRPFNYRN" text="Kowa"/>
+  <string id="STRPMNYRN" text="Bouba"/>
+  <string id="STRPFNLMC" text="Hiroaki"/>
+  <string id="STRPMNLMC" text="Teruko"/>
+
+  <string id="STRFRTISJDY" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}"/>
+  <string id="STRFRTISPRU" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="STRFRTISRBL" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="STRFRTISWLT" text="{?RULER.GENDER}Marshal{?}Marshal{\?} {RULER.NAME}"/>
+  <string id="STRFRTISMGR" text="{RULER.NAME} {?RULER.GENDER}Khatun{?}Khan{\?}"/>
+  <string id="STRFRTISNKN" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+  <string id="STRFRTISYRN" text="{?RULER.GENDER}Witch Queen{?}Witch King{\?} {RULER.NAME}"/>
+  <string id="STRFRTISLMC" text="{?RULER.GENDER}Emperess{?}Emperor{\?} {RULER.NAME}"/>
+
+  <string id="STRAFFJDY" text="Yan"/>
+  <string id="STRAFFPRU" text="Prouen"/>
+  <string id="STRAFFRBL" text="Rabblam"/>
+  <string id="STRAFFWLT" text="Wulltes"/>
+  <string id="STRAFFMGR" text="Mogrian"/>
+  <string id="STRAFFNKN" text="Nekenian"/>
+  <string id="STRAFFYRN" text="Yarians"/>
+  <string id="STRAFFLMC" text="Lomocas"/>
+
+  <string id="STRFFNFCJDY" text="Dynastie Yan"/>
+  <string id="STRFFNFCPRU" text="Commonwealth de Prouen"/>
+  <string id="STRFFNFCRBL" text="Duché de Rabblam"/>
+  <string id="STRFFNFCWLT" text="Grande Légion des Wulltes"/>
+  <string id="STRFFNFCMGR" text="Khanat Mogrian"/>
+  <string id="STRFFNFCNKN" text="Royaume de Nekenia"/>
+  <string id="STRFFNFCYRN" text="Royaume sorcier de Yarians"/>
+  <string id="STRFFNFCLMC" text="Shogunat de Lomocas"/>
+
+  <string id="STRIDTC" text="Coupez"/>
+  <string id="STRIDTP" text="Pierce"/>
+  <string id="STRIDTB" text="émoussé"/>
+
+  <string id="STRTDMG" text="Dégâts de la poussée :"/>
+  <string id="STRTSPD" text="Vitesse de poussée :"/>
+  <string id="STRSDMG" text="Dégâts du swing :"/>
+  <string id="STRSSPD" text="Vitesse d'oscillation :"/>
+
+  <string id="STRGT001" text="Au pays du Sika, abattre un porte-bannière permet d'infliger plus de dégâts au moral de l'ennemi."/>
+  <string id="STRGT002" text="Dans The Land Of Sika, nous avons rétabli les dégâts d'éruption des chevaux, vous pouvez infliger plus de dégâts en utilisant votre cheval."/>
+  <string id="STRGT003" text="Dans le pays du Sika, une bataille épique signifie un butin rare."/>
+  <string id="STRGT004" text="Dans The Land Of Sika, les troupes et les héros n'ont pas tous la même santé."/>
+  <string id="STRGT005" text="Au pays du Sika, vous devez avoir une compétence supérieure en matière d'armes à une main pour utiliser un bouclier de niveau supérieur."/>
+  <string id="STRGT006" text="Dans The Land Of Sika, nous doublons le bénéfice des compétences de combat pour les rendre plus utiles."/>
+  <string id="STRGT007" text="Dans The Land Of Sika, vous avez besoin de plus d'argent pour améliorer vos troupes, et les soldats de haut niveau sont plus puissants."/>
+  <string id="STRGT008" text="Suivez The Land Of Sika sur ModDB et Nexusmods ! Nous publierons des mises à jour. De nouvelles histoires et du nouveau contenu vous attendent !"/>
+  <string id="STRGT009" text="Dans The Land Of Sika, nous avons rétabli le système de résistance des boucliers. Une résistance plus élevée signifie une réduction des dégâts lors d'un coup."/>
+  <string id="STRGT010" text="Dans The Land Of Sika, les dommages flottent dans une fourchette."/>
+  <string id="STRGT011" text="Dans The Land Of Sika, vous pouvez appuyer sur le bouton u pour accéder au menu du camp, où vous pouvez régler plusieurs facteurs."/>
+  <string id="STRGT012" text="Si vous voulez trouver un personnage dans la scène, vous pouvez maintenir la touche Alt enfoncée pour faire apparaître l'icône, puis placer l'icône d'un personnage au milieu de l'écran, et le jeu affichera son nom et sa distance."/>
+  <string id="STRGT013" text="Conseils Sika pour les troupes personnalisées : Plus l'équipement optionnel est cher, plus le salaire des troupes personnalisées est élevé."/>
+  <string id="STRGT014" text="Conseils Sika pour le système des familiers : L'amélioration des familiers permet d'augmenter le nombre maximum de troupes et de réduire les salaires des troupes."/>
+  <string id="STRGT015" text="Conseils Sika pour la gestion du règlement : Les matériaux de construction peuvent être obtenus de différentes manières. Si votre force personnelle est suffisante, vous pouvez défier le patron de la copie pour gagner rapidement des matériaux de construction."/>
+  <string id="STRGT016" text="Au Pays du Sika, une selle ou une armure de cheval a un bonus de dégâts d'impact. Par conséquent, une armure de cheval avec une défense élevée et des dégâts d'impact élevés réduira également la vitesse du cheval."/>
+
+
+  <string id="STRWDESTYGEN01" text="Hello. {?PLAYER.GENDER}madam{?}sir{\?}."/>
+  <string id="STRWDESTYGEN02" text="Comme vous pouvez le voir, je suis un vagabond."/>
+  <string id="STRWDESTYGEN03" text="Si tu veux un bras droit, ça doit être moi."/>
+  <string id="STRWDESTYGEN04" text="Mais vous devez payer pour cela..."/>
+  <string id="STRWDESTYGEN05" text="Ok, mon équipe a juste besoin d'une aide."/>
+  <string id="STRWDESTYGEN06" text="Eh bien, arrêtez de parler."/>
+  <string id="STRWDESTYGEN07" text="Qu'en pensez-vous ? Envisager ?"/>
+  <string id="STRWDESTYGEN08" text="C'est génial."/>
+
+  <string id="STRWPNUPOS" text="Utilisation de la balançoire à bras"/>
+  <string id="STRWPNUPON" text="Utilisation de l'arme de poing"/>
+  <string id="STRWPNUPOC" text="Canapé Lance"/>
+  <string id="STRWPNUPOB" text="Support de lance"/>
+  <string id="STRWPNUTHN" text="Utilisation à deux mains"/>
+  <string id="STRWPNUOHN" text="Utilisation d'une seule main"/>
+  <string id="STRWPNUSWC" text="Utilisation du commutateur"/>
+
+
+ </strings>
+</base>
