@@ -19,7 +19,7 @@ def run(file_path: str):
     if not file_path:
         raise Exception("You must pass a xml file as first argument")
     xml_manager = XmlManagerTheLandOfSika(file_path=file_path)
-    deepL_translator = DeepLTranslator()
+    deepL_translator = DeepLTranslator("FRENCH")
     # We check first if there is some dynamic variable to setup
 
     dynamic_variables = xml_manager.get_list_dynamic_variable()

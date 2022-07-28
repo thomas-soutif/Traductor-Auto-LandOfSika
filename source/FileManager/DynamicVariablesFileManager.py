@@ -15,7 +15,12 @@ class DynamicVariablesFileManager:
         Load the json data of dynamic variable file
         :return: The data , or None if nothing was found
         """
-        file = open(self.file_path, "r").read()
+        try:
+            file = open(self.file_path, "r").read()
+        except FileNotFoundError:
+            with open(self.file_path,"w") as f:
+                f.write("{}")
+                file = f.read()
         try:
             json_data = json.loads(file)
             self.json_data = json_data
