@@ -12,8 +12,11 @@ from ..Exceptions import DeepLAuthKeyNotSetException, DeepLAuthKeyWrongException
 class DeepLTranslator(APITranslator):
     translator_object = None
     target_language_full = None
-    def __init__(self,target_language_full : str):
+    source_language = None
+
+    def __init__(self, target_language_full: str, source_language: str):
         self.target_language_full = target_language_full
+        self.source_language = source_language
         self.auth()
         self.check_auth()
         self.check_if_language_managed()
@@ -30,7 +33,7 @@ class DeepLTranslator(APITranslator):
                 "The Auth key for DeepL was not found in the .env file, please set it as 'KEY_DEEPL_API' ")
         self.translator_object = deepl.Translator(os.getenv("KEY_DEEPL_API"))
 
-    def translate(self, text_to_translate: str, source_language: str, target_language: str):
+    def translate(self, text_to_translate: str):
         """
         Translate a text with DeepL to the specified target language.
         :param text_to_translate:
@@ -38,7 +41,7 @@ class DeepLTranslator(APITranslator):
         :param target_language:
         :return: The text translated
         """
-        result = self.translator_object.translate_text(text_to_translate, target_lang=target_language)
+        result = self.translator_object.translate_text(text_to_translate, target_lang=self.get_target_language_key())
         return result.text
 
     def check_auth(self):
@@ -52,14 +55,6 @@ class DeepLTranslator(APITranslator):
             raise DeepLAuthKeyWrongException("The authentification key set in the .env is wrong, please check it")
         except Exception as e:
             raise e
-
-    def translate_to_french(self, text_to_translate):
-        """
-        Translate a text with DeepL to the French language
-        :param text_to_translate:
-        :return:
-        """
-        return self.translate(text_to_translate=text_to_translate, source_language="", target_language="FR")
 
     def managed_languages(self):
         """
@@ -75,10 +70,10 @@ class DeepLTranslator(APITranslator):
         :return:
         """
         if not self.managed_languages().get(self.target_language_full, None):
-            raise DeepLLanguageTargetNotManagedException(f"The language {self.target_language_full} is not managed by the "
-                                                         f"DeepL Module. Please add it to the configuration file "
-                                                         f"'config.py' in the variable 'managed_languages_DEEPL'. The list of language managed is {list(self.managed_languages().keys())}")
-
+            raise DeepLLanguageTargetNotManagedException(
+                f"The language {self.target_language_full} is not managed by the "
+                f"DeepL Module. Please add it to the configuration file "
+                f"'config.py' in the variable 'managed_languages_DEEPL'. The list of language managed is {list(self.managed_languages().keys())}")
 
     def get_target_language_key(self):
         """
@@ -88,3 +83,6 @@ class DeepLTranslator(APITranslator):
         """
         self.check_if_language_managed()
         return self.managed_languages().get(self.target_language_full)
+
+    def get_module_api(self) -> str:
+        return "DEEPL"
