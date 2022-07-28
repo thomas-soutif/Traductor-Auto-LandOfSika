@@ -75,3 +75,6 @@ Go to the project directory, and run :
 ```python
 python translate_xml_file.py --file_path={Your XML File Path} --target_language="FRENCH" --module_api="DEEPL"
 ```
+- file_path : Should be the xml file path (with the .xml) include
+- target_language : One of the following list ` ['FRENCH', 'ENGLISH', 'SPANISH', 'RUSSIAN', 'GERMAN', 'FINNISH', 'ITALIAN', 'DUTCH', 'POLISH', 'TURKISH', 'SWEDISH', 'BULGARIAN', 'GREEK', 'CZECH']`
+- module_api : For now, only DEEPL supported
