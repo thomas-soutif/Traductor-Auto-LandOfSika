@@ -1,4 +1,7 @@
+import sys
+
 from gevent import monkey
+
 monkey.patch_all()
 import json
 import logging
@@ -15,13 +18,20 @@ from source.APITranslator.DeepL import DeepLTranslator
 
 @click.command(no_args_is_help=True)
 @click.option('--file_path', default="", help='The XML File path to translate')
-def run(file_path: str):
+@click.option('--module_api', default="DEEPL", help='The module API to use')
+@click.option('--target_language', default="ENGLISH", help='The module API to use')
+def run(file_path: str, module_api: str, target_language: str):
+    logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+    logging.getLogger("deepl").setLevel(logging.WARNING)
     if not file_path:
         raise Exception("You must pass a xml file as first argument")
     xml_manager = XmlManagerTheLandOfSika(file_path=file_path)
-    deepL_translator = DeepLTranslator("FRENCH")
-    # We check first if there is some dynamic variable to setup
 
+    if module_api == "DEEPL":
+        translator_module = DeepLTranslator(target_language_full=target_language,source_language=None)
+    else:
+        raise Exception("The module_api specify is not implemented")
+    # We check first if there is some dynamic variable to setup
     dynamic_variables = xml_manager.get_list_dynamic_variable()
     dynamic_variables_and_value_enter = {}
     if dynamic_variables:
@@ -32,7 +42,7 @@ def run(file_path: str):
 
         if dynamic_variables_of_file:
             use_config_data = False
-            print(
+            logging.info(
                 "A configuration file have been found for the dynamic variable, would you like to use it to automatically fill the translation ?(By Default No) [Yes, No]")
             value_user = input()
             if value_user.lower() == "yes":
@@ -57,13 +67,15 @@ def run(file_path: str):
         dynamic_variables_of_file.update(dynamic_variables_and_value_enter)
         file_manager.write_json_data(dynamic_variables_of_file)
 
-    print("\n Start to translate to your language")
+    logging.info("\n Start to translate to your language")
     CONCURRENCY = 10
     pool = Pool(CONCURRENCY)
-    threads = [pool.spawn(multithreading_translate_node, xml_manager, deepL_translator, node) for node in
+    threads = [pool.spawn(multithreading_translate_node, xml_manager, translator_module, node) for node in
                xml_manager.get_all_translate_nodes()]
     pool.join()
-    xml_manager.save_file(file_path.replace(".xml", "") + "COPY.xml")
+    destination_translate_xml_path = file_path.replace(".xml", "") + "-COPY.xml"
+    xml_manager.save_file(destination_translate_xml_path)
+    logging.info(f"New XML file generate to : {destination_translate_xml_path}")
 
 
 def user_input_dynamic_variable(dynamic_variables) -> dict:
@@ -76,7 +88,7 @@ def user_input_dynamic_variable(dynamic_variables) -> dict:
     return dynamic_variables_and_value_enter
 
 
-def multithreading_translate_node(xml_manager, deepL_translator, node):
+def multithreading_translate_node(xml_manager, module_traductor, node):
     if not xml_manager.check_if_is_correct_translate_node(node):
         return node
     list_dynamic_variable_node = xml_manager.get_dynamic_variable_of_node(node)
@@ -95,7 +107,7 @@ def multithreading_translate_node(xml_manager, deepL_translator, node):
         if not all_key_found:
             return node
     # translate
-    translate_text = deepL_translator.translate_to_french(xml_manager.get_text_translate_node(node))
+    translate_text = module_traductor.translate(xml_manager.get_text_translate_node(node))
     node = xml_manager.set_text_translate_node(node, translate_text)
     # not implemented yet
 
