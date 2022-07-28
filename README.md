@@ -82,3 +82,56 @@ Warning : Not all language available give a good result, especially for the lang
 You will need an api key to run the project, go to the https://www.deepl.com/en/pro-api website, and create your account for free (You will have a limit of 500 000 characters per month, not enough tro translate all the mod, but a part of it)
 
 Then, store your API KEY to the .env file as the variable `KEY_DEEPL_API`
+
+## Script I've made to translate all xml file of the mod (powershell version)
+
+- Creation of the file `example_script_to_translate_all_xml_file.ps1`
+
+``` powershell
+$source_lang = $args[0]
+$destination_lang = $args[1]
+$path = $args[2]
+
+
+Get-ChildItem -Path $path -Filter *.xml -Recurse -File| Sort-Object Length -Descending | ForEach-Object {
+    $full_path_file = $_.FullName
+    $full_path_file_new_xml_file = $full_path_file.replace($source_lang,$destination_lang)
+    #write($full_path_file_new_xml_file)
+    try{
+        $sent ='Translate the file ' + $full_path_file + " ? [y or n]"
+        $response = Read-Host $sent
+        if( $response -eq "y"){
+            New-Item -ItemType File -Path $full_path_file_new_xml_file -Force
+            python translate_xml_file.py --file_path=$full_path_file --target_language="FRENCH" --module_api="DEEPL" --file_name_destination=$full_path_file_new_xml_file
+        }else{
+            $b = Test-Path $full_path_file_new_xml_file
+            if($b){
+
+            }else{
+                New-Item -ItemType File -Path $full_path_file_new_xml_file -Force
+                Copy-Item $full_path_file -Destination $full_path_file_new_xml_file
+            }
+        }
+    }
+    catch{
+
+    }
+}
+```
+- Execute the powershell : 
+
+``` powershell
+.\example_script_to_translate_all_xml_file.ps1 "EN" "FR" .\LanguagesXmlFiles\ 
+```
+
+Explanations : This script will list all of the xml files and ask you if you want to translate it. It will create a new direcory with the new files translated
+Here, the xml files sources we try to translate are in the subfolder EN/ , and the new folder that will be create is the subfolder FR/
+
+- This is a screen shot of what you got **before** executing this script :
+![image](https://user-images.githubusercontent.com/23268707/181644506-7a4f586e-63fa-4170-b54a-9834eadd4add.png)
+
+- **After** executing this script
+
+![image](https://user-images.githubusercontent.com/23268707/181644610-b27bd795-4a3e-439f-832a-b8f6c4e76625.png)
+
+
