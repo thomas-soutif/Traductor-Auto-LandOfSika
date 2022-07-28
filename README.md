@@ -118,7 +118,7 @@ Get-ChildItem -Path $path -Filter *.xml -Recurse -File| Sort-Object Length -Desc
     }
 }
 ```
-- Execute the powershell : 
+- Execute the powershell file `example_script_to_translate_all_xml_file.ps1`
 
 ``` powershell
 .\example_script_to_translate_all_xml_file.ps1 "EN" "FR" .\LanguagesXmlFiles\ 
