@@ -13,15 +13,20 @@ from source.APITranslator.DeepL import DeepLTranslator
 @click.option('--file_path', default="", help='The XML File path to translate')
 @click.option('--module_api', default="DEEPL", help='The module API to use')
 @click.option('--target_language', default="ENGLISH", help='The module API to use')
-def run(file_path: str, module_api: str, target_language: str):
+@click.option('--file_name_destination', default="",
+              help='The full path destination of the file where write the new xml file ')
+def run(file_path: str, module_api: str, target_language: str, file_name_destination: str):
     logging.basicConfig(stream=sys.stdout, level=logging.INFO)
     logging.getLogger("deepl").setLevel(logging.WARNING)
     if not file_path:
-        raise Exception("You must pass a xml file as first argument")
+        raise Exception("You must specify the file_path argument")
+    if not file_name_destination:
+        file_name_destination = file_path.replace(".xml", "") + f"-COPY-TO-{target_language}.xml"
+        #raise Exception("You must specify the file_name_destination argument")
     xml_manager = XmlManagerTheLandOfSika(file_path=file_path)
 
     if module_api == "DEEPL":
-        translator_module = DeepLTranslator(target_language_full=target_language,source_language=None)
+        translator_module = DeepLTranslator(target_language_full=target_language, source_language=None)
     else:
         raise Exception("The module_api specify is not implemented")
     # We check first if there is some dynamic variable to setup
@@ -38,7 +43,7 @@ def run(file_path: str, module_api: str, target_language: str):
             use_config_data = False
             logging.info(
                 "A configuration file have been found for the dynamic variable, would you like to use it to automatically fill the translation ?(By Default No) [Yes, No]")
-            value_user =input()
+            value_user = input()
             if value_user.lower() == "yes":
                 use_config_data = True
             elif value_user.lower() == "no":
@@ -70,9 +75,8 @@ def run(file_path: str, module_api: str, target_language: str):
     threads = [pool.spawn(multithreading_translate_node, xml_manager, translator_module, node) for node in
                xml_manager.get_all_translate_nodes()]
     pool.join()
-    destination_translate_xml_path = file_path.replace(".xml", "") + "-COPY.xml"
-    xml_manager.save_file(destination_translate_xml_path)
-    logging.info(f"New XML file generate to : {destination_translate_xml_path}")
+    xml_manager.save_file(file_name_destination)
+    logging.info(f"New XML file generate to : {file_name_destination}")
 
 
 def user_input_dynamic_variable(dynamic_variables) -> dict:
