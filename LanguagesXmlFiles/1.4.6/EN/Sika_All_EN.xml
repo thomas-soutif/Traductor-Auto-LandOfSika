@@ -4,6 +4,6 @@
   </tags>
   <strings>
     <!-- Generic Sandbox Text -->
-    <string id="TWOCstrAnm001" text="You try to escape the darkness" />
+    <string id="TWOCstrAnm001" text="You try {PLAYER.NAME} to escape the darkness" />
   </strings>
 </base>
