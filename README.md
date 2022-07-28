@@ -78,3 +78,5 @@ python translate_xml_file.py --file_path={Your XML File Path} --target_language=
 - file_path : Should be the xml file path (with the .xml) include
 - target_language : One of the following list ` ['FRENCH', 'ENGLISH', 'SPANISH', 'RUSSIAN', 'GERMAN', 'FINNISH', 'ITALIAN', 'DUTCH', 'POLISH', 'TURKISH', 'SWEDISH', 'BULGARIAN', 'GREEK', 'CZECH']`
 - module_api : For now, only DEEPL supported
+
+Warning : Not all language available give a good result, especially for the languages that are not roman (like GREEK), I didn't test all of them yet
