@@ -2,18 +2,22 @@ import os
 
 import deepl
 
+from config import managed_languages_DEEPL
 from . import APITranslator
 from dotenv import load_dotenv
 
-from ..Exceptions import DeepLAuthKeyNotSetException, DeepLAuthKeyWrongException
+from ..Exceptions import DeepLAuthKeyNotSetException, DeepLAuthKeyWrongException, DeepLLanguageTargetNotManagedException
 
 
 class DeepLTranslator(APITranslator):
     translator_object = None
-
-    def __init__(self):
+    target_language_full = None
+    def __init__(self,target_language_full : str):
+        self.target_language_full = target_language_full
         self.auth()
         self.check_auth()
+        self.check_if_language_managed()
+        self.target_language_full = target_language_full
 
     def auth(self):
         """
@@ -56,3 +60,31 @@ class DeepLTranslator(APITranslator):
         :return:
         """
         return self.translate(text_to_translate=text_to_translate, source_language="", target_language="FR")
+
+    def managed_languages(self):
+        """
+        Return a list of the languages managed by the module for DeepL. It can be configure in the config.py file
+        :return: A dict that contains the language and his target_language named from the DeepL API point of view
+        """
+        return managed_languages_DEEPL
+
+    def check_if_language_managed(self):
+        """
+        Check if the language target name (for example French) is managed by the module
+        :param language_target_name:
+        :return:
+        """
+        if not self.managed_languages().get(self.target_language_full, None):
+            raise DeepLLanguageTargetNotManagedException(f"The language {self.target_language_full} is not managed by the "
+                                                         f"DeepL Module. Please add it to the configuration file "
+                                                         f"'config.py' in the variable 'managed_languages_DEEPL'. The list of language managed is {list(self.managed_languages().keys())}")
+
+
+    def get_target_language_key(self):
+        """
+        Get the key name of the target language key managed by the module. For example, the key of "French" is "FR"
+        :param language_target_name:
+        :return:
+        """
+        self.check_if_language_managed()
+        return self.managed_languages().get(self.target_language_full)

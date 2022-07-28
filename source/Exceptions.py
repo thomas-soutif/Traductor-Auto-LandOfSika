@@ -10,3 +10,6 @@ class DeepLAuthKeyNotSetException(Exception):
 
 class DeepLAuthKeyWrongException(Exception):
     ...
+
+class DeepLLanguageTargetNotManagedException(Exception):
+    ...
