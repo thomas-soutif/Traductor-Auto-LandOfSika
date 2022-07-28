@@ -24,7 +24,7 @@ def run(file_path: str, module_api: str, target_language: str, file_name_destina
         file_name_destination = file_path.replace(".xml", "") + f"-COPY-TO-{target_language}.xml"
         #raise Exception("You must specify the file_name_destination argument")
     xml_manager = XmlManagerTheLandOfSika(file_path=file_path)
-
+    logging.info(f"Try to translate the file {file_path} \n\n")
     if module_api == "DEEPL":
         translator_module = DeepLTranslator(target_language_full=target_language, source_language=None)
     else:
