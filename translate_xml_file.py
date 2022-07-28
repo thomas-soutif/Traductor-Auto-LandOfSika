@@ -106,6 +106,7 @@ def multithreading_translate_node(xml_manager, module_traductor, node):
                 logging.warning(
                     f"Could not translate  the text because the dynamic variable {key} was not set : {xml_manager.get_text_translate_node(node)}")
                 all_key_found = False
+                break
             node = xml_manager.set_dynamic_variable_for_node(node=node, variable=key,
                                                              value=dynamic_variables_of_file_json.get(key))
         if not all_key_found:
