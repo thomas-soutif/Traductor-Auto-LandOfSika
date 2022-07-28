@@ -69,4 +69,9 @@ On Linux :
 ```bash
 source [Path of the bin virtual env]
 ```
+## Translate your first xml file with DeepL (example for French language)
 
+Go to the project directory, and run :
+```python
+python translate_xml_file.py --file_path={Your XML File Path} --target_language="FRENCH" --module_api="DEEPL"
+```
