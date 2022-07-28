@@ -16,7 +16,7 @@ from the XML Manager class. (All of that will be explain in details later in a d
 
 Thus, it use by default the module DeepL to make the request for the translation. I will implement later a module for GoogleTranslate if needed, and as the same thing from the XML Manager, you could do your own module translation.
 
-### Dynamic variable as {PLAYER.NAME} overview
+### Dynamic variable as overview
 
 The tool is not just translating the XML File , I integrated a recognization of dynamic variable for the XmlManager Land of Sika. It will ask you to give a value for each one when you use the program, to be able to keep a meaning of the translation. For example, the line
 
