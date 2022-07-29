@@ -41,7 +41,8 @@ class DeepLTranslator(APITranslator):
         :param target_language:
         :return: The text translated
         """
-        result = self.translator_object.translate_text(text_to_translate, target_lang=self.get_target_language_key(),formality="more")
+        result = self.translator_object.translate_text(text_to_translate, target_lang=self.get_target_language_key(),
+                                                       formality="more", preserve_formatting=True)
         return result.text
 
     def check_auth(self):
