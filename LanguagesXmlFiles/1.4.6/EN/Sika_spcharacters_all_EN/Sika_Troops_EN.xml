@@ -297,6 +297,17 @@
     <string id="STT13" text="Demons Matrix" />
     <string id="STT14" text="Strong Demons" />
 
+    <string id="NTSTY04" text="Slavers Looter" />
+    <string id="NTSTY05" text="Slavers Thug" />
+    <string id="NTSTY06" text="Slavers Bandit" />
+    <string id="NTSTY07" text="Slavers Skirmisher" />
+    <string id="NTSTY08" text="Slavers Rider" />
+    <string id="NTSTY09" text="Slavers Warrior" />
+    <string id="NTSTY10" text="Slavers Shooter" />
+    <string id="NTSTY11" text="Slavers Torturer" />
+    <string id="NTSTY12" text="Slavers Stalker" />
+    <string id="NTSTY13" text="Slavers Captain" />
+
     <!-- 特殊势力小家族用兵种 -->
     <string id="NTMNR01" text="Dark Wave Knight" />
     <string id="NTMNR02" text="Devour Demons" />

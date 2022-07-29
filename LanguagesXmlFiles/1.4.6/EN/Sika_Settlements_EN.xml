@@ -398,8 +398,8 @@
     <string id="Settlements.Settlement.name.Avillage_A6_2" text="Lacion"/>
     <string id="Settlements.Settlement.name.Avillage_A6_3" text="Trakurgan"/>
     <string id="Settlements.Settlement.name.Avillage_A6_4" text="Salekay"/>
-    <string id="Settlements.Settlement.name.Avillage_A7_2" text="Buy Lach"/>
-    <string id="Settlements.Settlement.name.Avillage_A7_3" text="Get it"/>
+    <string id="Settlements.Settlement.name.Avillage_A7_2" text="Melah"/>
+    <string id="Settlements.Settlement.name.Avillage_A7_3" text="Deedla" />
     <string id="Settlements.Settlement.name.Avillage_A7_4" text="Yasingu"/>
     <string id="Settlements.Settlement.name.Avillage_A8_1" text="Avillage"/>
     <string id="Settlements.Settlement.name.Avillage_A8_2" text="Byakek"/>
@@ -498,7 +498,7 @@
     <string id="Settlements.Settlement.name.Avillage_S6_1" text="Honesia"/>
     <string id="Settlements.Settlement.name.Avillage_S6_2" text="Narva"/>
     <string id="Settlements.Settlement.name.Avillage_S6_3" text="Tekland"/>
-    <string id="Settlements.Settlement.name.Avillage_S7_1" text="Settlements"/>
+    <string id="Settlements.Settlement.name.Avillage_S7_1" text="Suitlan"/>
     <string id="Settlements.Settlement.name.Avillage_S7_2" text="Falbergs"/>
 	<string id="Settlements.Settlement.name.Avillage_V1_1" text="Coyne"/>
     <string id="Settlements.Settlement.name.Avillage_V1_2" text="With Crow"/>
@@ -570,7 +570,7 @@
 	<string id="Settlements.Settlement.text.castle_village_EN1_1" text="Varagos sits on the banks of the Arris River, where small rivers from the highlands flow into the deep Lake Ophrtis. The soil is not very fertile, But enough to feed sheep."/>
     <string id="Settlements.Settlement.text.castle_village_EN2_1" text="Rocana is located on the eastern shore of Lake Laconis. This muddy, low-lying land is ideal for growing flax."/>
     <string id="Settlements.Settlement.text.castle_village_EN3_1" text="Lessos is located on a high plateau in the Delua Mountains. Highland cattle thrive on the highland pastures here."/>
-    <string id="Settlements.Settlement.text.castle_village_EN4_1" text="Gaos is located in the hills east of the empire, in the broad valley of Mizeyard. Nomads once occupied this place, and the village takes its name from their language The name for "cow"."/>
+    <string id="Settlements.Settlement.text.castle_village_EN4_1" text="Gaos is located in the hills east of the empire, in the broad valley of Mizeyard. Nomads once occupied this place, and the village takes its name from their language The name for 'cow'."/>
     <string id="Settlements.Settlement.text.castle_village_EN5_1" text="Atelion is located in the valley of Nevis, where a slow, icy current flows into Lake Laconis. This flat, moist land is suitable for growing flax. "/>
     <string id="Settlements.Settlement.text.castle_village_EN6_1" text="Ataconia sits on a plateau in front of the Delua Mountains. Locals are good at spotting silver deposits exposed by runoff from the mountains."/>
     <string id="Settlements.Settlement.text.castle_village_EN7_1" text="Ebinosa is located in the extreme north of the Empire, just on the southern bank of the Glacier Lake on the Iltam transport line, Lake Laconis and Lake Tanasis There is a steady stream of boats in between. The area is relatively sparsely populated, but there are large herds of cattle grazing in the lush meadows."/>
