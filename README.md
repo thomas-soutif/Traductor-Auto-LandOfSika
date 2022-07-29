@@ -79,7 +79,7 @@ python translate_xml_file.py --file_path={Your XML File Path} --target_language=
 Warning : Not all language available give a good result, especially for the languages that are not roman (like GREEK), I didn't test all of them yet
 
 ### Get your DeepL API Key
-You will need an api key to run the project, go to the https://www.deepl.com/en/pro-api website, and create your account for free (You will have a limit of 500 000 characters per month, not enough tro translate all the mod, but a part of it)
+You will need an api key to run the project, go to the https://www.deepl.com/en/pro-api website, and create your account for free
 
 Then, store your API KEY to the .env file as the variable `KEY_DEEPL_API`
 
@@ -118,7 +118,7 @@ Get-ChildItem -Path $path -Filter *.xml -Recurse -File| Sort-Object Length -Desc
     }
 }
 ```
-- Execute the powershell : 
+- Execute the powershell file `example_script_to_translate_all_xml_file.ps1`
 
 ``` powershell
 .\example_script_to_translate_all_xml_file.ps1 "EN" "FR" .\LanguagesXmlFiles\ 
