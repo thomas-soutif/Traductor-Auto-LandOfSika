@@ -144,3 +144,12 @@ class XmlManagerTheLandOfSika(XmlManager):
         text = self.get_text_translate_node(node)
         text = text.replace(value, "{" + variable + "}")
         return self.set_text_translate_node(node, text)
+
+    def format_text_translate(self, text: str):
+        """
+        Replace the text with the right format for adapt to the xml format of the land of sika
+        :param text:
+        :return: The text format
+        """
+
+        return text.replace('"', "'")

@@ -22,7 +22,7 @@ def run(file_path: str, module_api: str, target_language: str, file_name_destina
         raise Exception("You must specify the file_path argument")
     if not file_name_destination:
         file_name_destination = file_path.replace(".xml", "") + f"-COPY-TO-{target_language}.xml"
-        #raise Exception("You must specify the file_name_destination argument")
+        # raise Exception("You must specify the file_name_destination argument")
     xml_manager = XmlManagerTheLandOfSika(file_path=file_path)
     logging.info(f"Try to translate the file {file_path} \n\n")
     if module_api == "DEEPL":
@@ -110,6 +110,8 @@ def multithreading_translate_node(xml_manager, module_traductor, node):
             return node
     # translate
     translate_text = module_traductor.translate(xml_manager.get_text_translate_node(node))
+    # format the text
+    translate_text = xml_manager.format_text_translate(translate_text)
     node = xml_manager.set_text_translate_node(node, translate_text)
     # not implemented yet
 
