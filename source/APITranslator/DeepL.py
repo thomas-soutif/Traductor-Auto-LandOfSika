@@ -15,12 +15,11 @@ class DeepLTranslator(APITranslator):
     source_language = None
 
     def __init__(self, target_language_full: str, source_language: str):
-        self.target_language_full = target_language_full
+        self.target_language_full = target_language_full.upper()
         self.source_language = source_language
         self.auth()
         self.check_auth()
         self.check_if_language_managed()
-        self.target_language_full = target_language_full
 
     def auth(self):
         """
@@ -41,8 +40,13 @@ class DeepLTranslator(APITranslator):
         :param target_language:
         :return: The text translated
         """
-        result = self.translator_object.translate_text(text_to_translate, target_lang=self.get_target_language_key(),
+        if self.check_if_language_can_be_formal():
+
+            result = self.translator_object.translate_text(text_to_translate, target_lang=self.get_target_language_key(),
                                                        formality="more", preserve_formatting=True)
+        else:
+            result = self.translator_object.translate_text(text_to_translate,
+                                                           target_lang=self.get_target_language_key(), preserve_formatting=True)
         return result.text
 
     def check_auth(self):
@@ -62,7 +66,11 @@ class DeepLTranslator(APITranslator):
         Return a list of the languages managed by the module for DeepL. It can be configure in the config.py file
         :return: A dict that contains the language and his target_language named from the DeepL API point of view
         """
-        return managed_languages_DEEPL
+
+        final_dict = {}
+        for lang in managed_languages_DEEPL:
+            final_dict.update({lang["name"].upper(): lang["language"]})
+        return final_dict
 
     def check_if_language_managed(self):
         """
@@ -70,11 +78,26 @@ class DeepLTranslator(APITranslator):
         :param language_target_name:
         :return:
         """
-        if not self.managed_languages().get(self.target_language_full, None):
+        if not self.managed_languages().get(self.target_language_full.upper(), "").upper():
             raise DeepLLanguageTargetNotManagedException(
                 f"The language {self.target_language_full} is not managed by the "
                 f"DeepL Module. Please add it to the configuration file "
                 f"'config.py' in the variable 'managed_languages_DEEPL'. The list of language managed is {list(self.managed_languages().keys())}")
+
+    def check_if_language_can_be_formal(self):
+        """
+        Check of the language can have translations with formal form
+        :return: True, or false
+        """
+        for lang in managed_languages_DEEPL:
+            if lang["name"].upper() == self.target_language_full.upper():
+                if lang["supports_formality"] == False:
+                    return False
+                else:
+                    return True
+
+        raise Exception("Could not find the supports_formality key in the config.py file for the "
+                        "managed_languages_DEEPL variable, abort")
 
     def get_target_language_key(self):
         """
