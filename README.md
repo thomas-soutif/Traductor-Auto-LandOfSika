@@ -72,7 +72,7 @@ Go to the project directory, and run :
 python translate_xml_file.py --file_path={Your XML File Path} --target_language="FRENCH" --module_api="DEEPL" --file_name_destination="{Your file name destination path}"
 ```
 - **file_path** : Should be the xml file path (with the .xml) include
-- **target_language** : One of the following list ` ['FRENCH', 'ENGLISH', 'SPANISH', 'RUSSIAN', 'GERMAN', 'FINNISH', 'ITALIAN', 'DUTCH', 'POLISH', 'TURKISH', 'SWEDISH', 'BULGARIAN', 'GREEK', 'CZECH']`. If nothing specify the default value use will be English
+- **target_language** : One of the following list ` ['BULGARIAN', 'CZECH', 'DANISH', 'GERMAN', 'GREEK', 'ENGLISH', 'SPANISH', 'ESTONIAN', 'FINNISH', 'FRENCH', 'HUNGARIAN', 'INDONESIAN', 'ITALIAN', 'JAPANESE', 'LITHUANIAN', 'LATVIAN', 'DUTCH', 'POLISH', 'PORTUGUESE', 'ROMANIAN', 'RUSSIAN', 'SLOVAK', 'SLOVENIAN', 'TURKISH', 'SWEDISH', 'CHINESE']`. If nothing specify the default value use will be English
 - **module_api** : For now, only DEEPL supported
 - **file_name_destination** : The path (with the .xml) where you want to store the new xml file. By default, it will use the file_path and add "-COPY-{target_language}"
 
